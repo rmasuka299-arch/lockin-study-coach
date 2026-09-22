@@ -3102,7 +3102,7 @@ def main():
         </div>
         """, unsafe_allow_html=True)
 
-    # ------------------ INSTANT REACTIVE SYNC ------------------
+    # ------------------ REACTIVE SYNC ------------------
     current_signature = f"{grade}_{subject_id}_{topic}_{tone_mode}"
     if st.session_state["current_q"] is None or st.session_state.get("last_selection_sig") != current_signature:
         st.session_state["current_q"] = generate_lockin_question(subject_id, grade, topic, tone_mode)
@@ -3114,12 +3114,12 @@ def main():
 
     # ------------------ MAIN TABS ------------------
     tab_practice, tab_notes, tab_exam, tab_flashcards, tab_planner, tab_dashboard, tab_info = st.tabs([
-        "📝 Practice Questions", 
+        "📝 Practice Questions",
         "📖 Study Notes",
-        "⏰ Timed CAPS Exam", 
-        "🃏 Flashcards Deck", 
-        "📅 Weekly Study Planner", 
-        "🏆 Badges & Analytics", 
+        "⏰ Timed CAPS Exam",
+        "🃏 Flashcards Deck",
+        "📅 Weekly Study Planner",
+        "🏆 Badges & Analytics",
         "ℹ️ CAPS Curriculum Guide"
     ])
 
@@ -3127,7 +3127,6 @@ def main():
     with tab_practice:
         st.markdown(f"### **{subj_meta['icon']} {subj_meta['name']} — Grade {grade}**")
         st.info(f"**Topic:** {q['topic']} • *Subtopic:* {q['subtopic']}")
-
         st.markdown(f"#### {q['question']}")
 
         if q.get("math_expression"):
@@ -3202,8 +3201,8 @@ def main():
 
     # ==================== TAB 2: NOTES ====================
     with tab_notes:
-        st.subheader(f"📖 {subj_meta['icon']} {subj_meta['name']} — CAPS Study & Revision Notes")
-        st.caption(f"Official CAPS summaries, definitions, formulas, and exam traps for Grade {grade}.")
+        st.subheader("📖 CAPS Study & Revision Notes")
+        st.caption("Official CAPS summaries, definitions, formulas, and exam traps.")
 
         notes_tone_choice = st.radio(
             "🗣️ Select Notes Tone Alignment:",
@@ -3214,20 +3213,12 @@ def main():
         )
         notes_tone_key = "tiktok" if "TikTok" in notes_tone_choice else ("casual" if "Casual" in notes_tone_choice else "formal")
 
-        col_ns, col_ng = st.columns([2, 1])
-        with col_ns:
-            all_subjs = list(SUBJECTS.keys())
-            def_subj_idx = all_subjs.index(subject_id) if subject_id in all_subjs else 0
-            notes_subject_id = st.selectbox(
-                "Browse Subject:",
-                options=all_subjs,
-                index=def_subj_idx,
-                format_func=lambda x: f"{SUBJECTS[x]['icon']} {SUBJECTS[x]['name']}",
-                key="notes_subj_picker"
-            )
-        with col_ng:
-            def_gr_idx = [8, 9, 10, 11, 12].index(grade) if grade in [8, 9, 10, 11, 12] else 0
-            notes_grade = st.selectbox("Grade:", options=[8, 9, 10, 11, 12], index=def_gr_idx, key="notes_grade_picker")
+        notes_subject_id = subject_id
+        notes_grade = grade
+
+        st.subheader(f"📖 {SUBJECTS[notes_subject_id]['icon']} {SUBJECTS[notes_subject_id]['name']} — CAPS Study & Revision Notes")
+        st.markdown(f"**Curriculum Scope:** {CAPS_STUDY_NOTES.get(notes_subject_id, {}).get('curriculum_overview', 'N/A')}")
+        st.divider()
 
         subj_notes = CAPS_STUDY_NOTES.get(notes_subject_id, None)
         if not subj_notes:
@@ -3238,14 +3229,9 @@ def main():
                 if notes_grade in ch.get("grades", [])
             ]
 
-            st.markdown(f"**Curriculum Scope:** {subj_notes['curriculum_overview']}")
-            st.caption(f"Showing {len(matching_chapters)} study modules for Grade {notes_grade}")
-            st.divider()
-
             if not matching_chapters:
-                st.warning(f"No notes for Grade {notes_grade}. Available grades in this subject:")
-                all_chs = subj_notes.get("chapters", [])
-                for ch in all_chs:
+                st.warning(f"No notes for Grade {notes_grade}. Available grades:")
+                for ch in subj_notes.get("chapters", []):
                     st.markdown(f"- **{ch['title']}** (Grades {', '.join(str(g) for g in ch['grades'])})")
             else:
                 for ch in matching_chapters:
@@ -3413,7 +3399,7 @@ def main():
         topic_scores = []
         if not df_attempts.empty:
             subj_df = df_attempts[
-                (df_attempts["subject"].str.lower() == subj_meta["name"].lower()) & 
+                (df_attempts["subject"].str.lower() == subj_meta["name"].lower()) &
                 (df_attempts["grade"] == grade)
             ]
         else:
@@ -3530,7 +3516,7 @@ def main():
         st.subheader("ℹ️ Official CAPS Curriculum Coverage Guide")
         st.markdown("""
         **LockIn** strictly follows the South African CAPS curriculum:
-        
+
         #### Senior Phase (Grades 8 & 9)
         - **Mathematics**: Integers, Common Fractions, Pythagoras, Geometry of Straight Lines, Algebra.
         - **Natural Sciences (NS)**: Life & Living (Digestive System, Cells), Matter & Materials (Atoms, Circuits).
@@ -3544,9 +3530,11 @@ def main():
         - **Mathematics & Maths Lit**: Functions, Calculus, Trigonometry, Municipal Tariffs, Tax.
         - **Physical Sciences**: Newton's Laws, Doppler Effect, Waves, Organic Chemistry.
         - **Life Sciences**: Genetics, Punnett Squares, DNA Replication, Evolution.
-        - **Commerce**: Accounting (Ledgers, Balance Sheets), Business Studies (SWOT, Porter's Five Forces), Economics.
-        - **Humanities**: Geography (Synoptic charts, Cyclones), History (Cold War, Resistance).
+        - **Commerce**: Accounting, Business Studies (SWOT, Porter's Five Forces), Economics.
+        - **Humanities**: Geography (Synoptic charts), History (Cold War).
         """)
+
+
 
 def adapt_chapter_to_tone(chapter_title, summary, tone, subject_name):
     is_math = "math" in subject_name.lower()
@@ -3617,6 +3605,76 @@ def adapt_chapter_to_tone(chapter_title, summary, tone, subject_name):
         "pitfall": "⚖️ Formal Mark Allocation Caution: Omitting units, failure to provide geometric statements with accredited abbreviations (e.g., [tan-chord thm]), or presenting unjustified final answers will incur immediate mark forfeiture.",
         "tip": "📜 Assessment Rubric Strategy: Review the DBE National Diagnostic Reports to identify historical national error trends and prioritize high-weighting syllabus sub-topics."
     }
+def adapt_chapter_to_tone(chapter_title, summary, tone, subject_name):
+    is_math = "math" in subject_name.lower()
+    is_science = any(k in subject_name.lower() for k in ["science", "biology", "life"])
+    is_commerce = any(k in subject_name.lower() for k in ["account", "business", "econ", "ems"])
+
+    if tone == "tiktok":
+        hook = "🔥 NO CAP FR FR: LOCK IN ON THIS CHAPTER"
+        slang_sum = f"Fam, if you get this question in Paper 1 or Paper 2, DO NOT get cooked! {summary} Basically, markers expect you to flex the exact steps. Master the formula, don't drop negative signs, and you will literally eat and leave no crumbs."
+        if is_math:
+            hook = "📱 MATHS TIKTOK CHEAT CODE: ATE AND LEFT NO CRUMBS"
+            slang_sum = f"Bro, this maths chapter is pure main character energy if you know the pattern. {summary} Stop doing mental gymnastics—isolate your variables, follow the DBE formula sheet, and collect your 5 free marks before the examiner even blinks."
+        elif is_science:
+            hook = "🧬 SCIENCE TIKTOK VIBE: RIZ MASTERY GUIDE"
+            slang_sum = f"Bestie, high-key you cannot just vibe your way through biology/physics definitions. {summary} DBE markers have a literal checklist of buzzwords. If the buzzword is missing, you are cooked fr. Memorize the diagram pathways and secure that Level 7 bag."
+        elif is_commerce:
+            hook = "💰 COMMERCE MONEY MOVES: ZERO CAP"
+            slang_sum = f"Listen up future CEO: in this chapter, {summary} It is literally a balancing act. If your debits and credits or PESTLE factors do not align, you are giving broke energy on the memo. Lock in and secure the easy marks."
+
+        return {
+            "hook": hook,
+            "badge": "🔥 TikTok Slang Mode (Gen Z)",
+            "summary": slang_sum,
+            "takeaways": [
+                "⚡ Cheat Code 1: Never skip writing down the base formula first—it is a free 1-mark safety net.",
+                "⚡ Cheat Code 2: Spot the examiner trap early so you do not take a massive L on question 2.",
+                "⚡ Cheat Code 3: Practice this with a 2-minute timer on your phone so you stay clutch under pressure."
+            ],
+            "pitfall": "💀 How Markers Try to Cook You: Rushing through signs or leaving out units (like N, m/s, or Rands) is literally giving away free marks for nothing. Do not fumble the bag!",
+            "tip": "🚀 TikTok Brainrot Hack: Turn the 3 main definitions into an audio voice note or rhythm—you will remember it instantly in the exam hall."
+        }
+
+    if tone == "casual":
+        hook = "☕ LEKKER MZANSI STUDY WALKTHROUGH"
+        casual_sum = f"Sharp sharp! Let's unpack this together without the scary textbook jargon. {summary} Once you see the pattern behind how they set matric past papers, this actually becomes one of the most scoring sections in the entire syllabus."
+        if is_math:
+            hook = "📐 LEKKER MATHS BREAKDOWN (MZANSI STYLE)"
+            casual_sum = f"Eish, learners often panic when they see this in Paper 1, but check how simple it really is: {summary} Just take it step by step, keep your working neat so the marker can award method marks, and you are good to go!"
+        elif is_science:
+            hook = "🔬 CHILL SCIENCE CHAT: EASY MARKS"
+            casual_sum = f"Listen here chief, don't let the big scientific words intimidate you. {summary} Think of the diagrams as a story (like food traveling down the gut or electrons flowing in a loop). Connect each part to its real function."
+        elif is_commerce:
+            hook = "💼 CHILL BUSINESS & NUMBERS TALK"
+            casual_sum = f"Lekker vibes! In business and accounting, everything tells a story about money or resources: {summary} Keep the core equation or framework in mind, and you will cruise through the case studies."
+
+        return {
+            "hook": hook,
+            "badge": "☕ ZA Casual Lekker Vibe",
+            "summary": casual_sum,
+            "takeaways": [
+                "💡 Tip 1: Highlight key question words like 'Describe', 'Calculate', or 'Justify'.",
+                "💡 Tip 2: Show every single working line—DBE markers love awarding CA (Consistent Accuracy) marks.",
+                "💡 Tip 3: Draw a quick rough sketch or write the formula in the margin before solving."
+            ],
+            "pitfall": "⚠️ Common Student Slip-up: Forgetting to state reasons in geometry or forgetting the final conclusion sentence in business case studies.",
+            "tip": "✨ Matric Secret: Start your revision with past exam papers from 2021-2024 to see the exact variations the examiners love repeating."
+        }
+
+    return {
+        "hook": "🎓 OFFICIAL DBE CAPS EXAMINATION & RUBRIC STANDARD",
+        "badge": "📜 Formal CAPS DBE Academic Standard",
+        "summary": f"Curriculum and Assessment Policy Statement (CAPS) Prescribed Standard: {summary} Candidates are formally assessed on cognitive levels 1 through 4 (Knowledge, Routine Procedures, Complex Procedures, and Problem Solving). Full mathematical and scientific justification is mandatory.",
+        "takeaways": [
+            "📌 Criterion 1: Verbatim adherence to official DBE definition glossaries is required for full credit.",
+            "📌 Criterion 2: In multi-step algorithmic derivations, every intermediate transformation must be documented to qualify for Method (M) and Accuracy (A) marks.",
+            "📌 Criterion 3: Final numerical values must be expressed with standard SI units and rounded to exactly two decimal places unless otherwise stipulated."
+        ],
+        "pitfall": "⚖️ Formal Mark Allocation Caution: Omitting units, failure to provide geometric statements with accredited abbreviations (e.g., [tan-chord thm]), or presenting unjustified final answers will incur immediate mark forfeiture.",
+        "tip": "📜 Assessment Rubric Strategy: Review the DBE National Diagnostic Reports to identify historical national error trends and prioritize high-weighting syllabus sub-topics."
+    }
+
 def get_diagram_for_chapter(ch_title, subject_id):
     t = ch_title.lower()
     s = subject_id.lower()
