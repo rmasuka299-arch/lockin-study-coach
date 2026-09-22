@@ -3548,11 +3548,6 @@ def main():
         - **Humanities**: Geography (Synoptic charts, Cyclones), History (Cold War, Resistance).
         """)
 
-
-if __name__ == "__main__":
-    main()
-
-
 def adapt_chapter_to_tone(chapter_title, summary, tone, subject_name):
     is_math = "math" in subject_name.lower()
     is_science = any(k in subject_name.lower() for k in ["science", "biology", "life"])
@@ -3622,7 +3617,6 @@ def adapt_chapter_to_tone(chapter_title, summary, tone, subject_name):
         "pitfall": "⚖️ Formal Mark Allocation Caution: Omitting units, failure to provide geometric statements with accredited abbreviations (e.g., [tan-chord thm]), or presenting unjustified final answers will incur immediate mark forfeiture.",
         "tip": "📜 Assessment Rubric Strategy: Review the DBE National Diagnostic Reports to identify historical national error trends and prioritize high-weighting syllabus sub-topics."
     }
-
 def get_diagram_for_chapter(ch_title, subject_id):
     t = ch_title.lower()
     s = subject_id.lower()
@@ -3651,8 +3645,10 @@ def get_diagram_for_chapter(ch_title, subject_id):
     return None
 
 if __name__ == "__main__":
-    main()  
-    
+    main()
+
+
+
 
 
 
