@@ -171,32 +171,32 @@ def compute_badges(df, curr_streak, has_level_7=False):
 
 CAPS_FLASHCARDS = {
     "mathematics": [
-        {"front": "Theorem of Pythagoras", "back": "In any right-angled triangle, the square of the hypotenuse equals the sum of the squares on the other two sides:\\n$$c^2 = a^2 + b^2$$"},
-        {"front": "Quadratic Formula", "back": "Solves $ax^2 + bx + c = 0$:\\n$$x = \\frac{-b \\pm \\sqrt{b^2 - 4ac}}{2a}$$\\nDiscriminant $\\Delta = b^2 - 4ac$ determines the nature of roots."},
-        {"front": "Gradient Formula (Analytical Geometry)", "back": "The slope of line joining $(x_1, y_1)$ and $(x_2, y_2)$:\\n$$m = \\frac{y_2 - y_1}{x_2 - x_1}$$"},
-        {"front": "Trigonometric Fundamental Identity", "back": "For any angle $\\theta$:\\n$$\\sin^2\\theta + \\cos^2\\theta = 1$$\\n$$\\tan\\theta = \\frac{\\sin\\theta}{\\cos\\theta}$$"},
-        {"front": "Derivative from First Principles", "back": "Defines the gradient of tangent to $f(x)$:\\n$$f'(x) = \\lim_{h \\to 0} \\frac{f(x+h) - f(x)}{h}$$"}
+        {"front": "Theorem of Pythagoras", "back": "In any right-angled triangle: c² = a² + b² (hypotenuse² = sum of squares of other two sides)."},
+        {"front": "Quadratic Formula", "back": "For ax² + bx + c = 0: x = (-b ± √(b² - 4ac)) / 2a. The discriminant Δ = b² - 4ac determines the nature of roots."},
+        {"front": "Gradient Formula (Analytical Geometry)", "back": "Slope of line joining (x₁, y₁) and (x₂, y₂): m = (y₂ - y₁) / (x₂ - x₁)."},
+        {"front": "Trigonometric Identity", "back": "For any angle θ: sin²θ + cos²θ = 1, and tanθ = sinθ / cosθ."},
+        {"front": "Derivative from First Principles", "back": "Gradient of tangent to f(x): f'(x) = lim(h→0) [f(x+h) - f(x)] / h."}
     ],
     "natural_sciences": [
-        {"front": "Photosynthesis Word Equation", "back": "Carbon Dioxide + Water + Sunlight $\\rightarrow$ Glucose + Oxygen\\n$$6CO_2 + 6H_2O \\xrightarrow{light} C_6H_{12}O_6 + 6O_2$$"},
-        {"front": "Ohm's Law", "back": "The potential difference across a conductor is directly proportional to the current, provided temperature remains constant:\\n$$V = I \\cdot R$$"},
-        {"front": "Digestive Enzymes & Functions", "back": "- Amylase: breaks starches into maltose (mouth/pancreas)\\n- Pepsin: breaks proteins into peptides (stomach, pH 2)\\n- Lipase: breaks lipids into glycerol & fatty acids"}
+        {"front": "Photosynthesis Word Equation", "back": "Carbon Dioxide + Water + Sunlight → Glucose + Oxygen. Balanced: 6CO₂ + 6H₂O → C₆H₁₂O₆ + 6O₂."},
+        {"front": "Ohm's Law", "back": "The potential difference across a conductor is directly proportional to the current (at constant temperature). Formula: V = I × R."},
+        {"front": "Digestive Enzymes", "back": "Amylase: starches → maltose (mouth/pancreas). Pepsin: proteins → peptides (stomach, pH 2). Lipase: lipids → glycerol + fatty acids."}
     ],
     "physical_sciences": [
-        {"front": "Newton's First Law of Motion", "back": "An object continues in its state of rest or uniform velocity unless acted upon by a net external force."},
-        {"front": "Newton's Second Law of Motion", "back": "When a net force acts on an object, the object accelerates in the direction of the force:\\n$$F_{net} = m \\cdot a$$"},
-        {"front": "Work-Energy Theorem", "back": "The net work done on an object equals the change in its kinetic energy:\\n$$W_{net} = \\Delta E_k = \\frac{1}{2}mv_f^2 - \\frac{1}{2}mv_i^2$$"},
-        {"front": "Doppler Effect (Sound)", "back": "The apparent change in frequency detected when source and listener have relative velocity:\\n$$f_L = \\left(\\frac{v \\pm v_L}{v \\mp v_s}\\right) f_s$$"}
+        {"front": "Newton's First Law", "back": "An object continues in its state of rest or uniform velocity unless acted upon by a net external force."},
+        {"front": "Newton's Second Law", "back": "Net force equals mass times acceleration: F_net = m × a."},
+        {"front": "Work-Energy Theorem", "back": "Net work done on an object equals the change in kinetic energy: W_net = ΔE_k = ½mv_f² - ½mv_i²."},
+        {"front": "Doppler Effect (Sound)", "back": "Apparent frequency change when source and listener have relative velocity: f_L = [(v ± v_L) / (v ∓ v_s)] × f_s."}
     ],
     "life_sciences": [
-        {"front": "DNA vs RNA Structure", "back": "- DNA: Double-stranded, Deoxyribose sugar, Thymine (A-T, C-G)\\n- RNA: Single-stranded, Ribose sugar, Uracil (A-U, C-G)"},
-        {"front": "Stages of Mitosis", "back": "1. Prophase (Chromatin condenses)\\n2. Metaphase (Chromosomes align along equator)\\n3. Anaphase (Sister chromatids separate)\\n4. Telophase (Nuclear envelopes reform)"},
-        {"front": "Law of Segregation (Mendel)", "back": "Each organism has two alleles for each gene, which separate during gamete formation so each gamete carries only one allele."}
+        {"front": "DNA vs RNA Structure", "back": "DNA: double-stranded, deoxyribose sugar, thymine (A-T, C-G). RNA: single-stranded, ribose sugar, uracil (A-U, C-G)."},
+        {"front": "Stages of Mitosis", "back": "1. Prophase (chromatin condenses). 2. Metaphase (chromosomes align at equator). 3. Anaphase (sister chromatids separate). 4. Telophase (nuclear envelopes reform)."},
+        {"front": "Law of Segregation (Mendel)", "back": "Each organism has two alleles for each gene. These separate during gamete formation, so each gamete carries only one allele."}
     ],
     "ems": [
-        {"front": "The Fundamental Accounting Equation", "back": "$$\\text{Assets} = \\text{Owner's Equity} + \\text{Liabilities}$$\\n$$A = O + L$$"},
+        {"front": "The Fundamental Accounting Equation", "back": "Assets = Owner's Equity + Liabilities. Written: A = O + L."},
         {"front": "Cash Receipts Journal (CRJ)", "back": "A subsidiary book used to record all incoming money (cash and direct bank deposits) received by the business."},
-        {"front": "Economic Law of Demand", "back": "As the price of a good increases, the quantity demanded decreases, assuming ceteris paribus (all other factors remain constant)."}
+        {"front": "Economic Law of Demand", "back": "As the price of a good increases, the quantity demanded decreases (ceteris paribus)."}
     ]
 }
 
@@ -1227,6 +1227,256 @@ CAPS_STUDY_NOTES = {
     }
 }
 
+
+# ---------------------------------------------------------
+# 1C. JJK RONIN CURSED NOTES (All Subjects, All Grades)
+# ---------------------------------------------------------
+JJK_NOTES = {
+    "mathematics": {
+        "subject_name": "Mathematics",
+        "opening": "Alright, ronin. Listen up. Mathematics isn't a school subject. It's the universe's innate domain. Every theorem is a binding vow the cosmos made with itself. You don't 'learn' math — you exorcise ignorance.",
+        "domain_expansion": "Domain Expansion: Infinite Precision",
+        "curse_level": "Special Grade (DBE Paper 1 & 2)",
+        "sure_hit": "Every question has a sure-hit technique. Identify the technique (formula) before you strike.",
+        "reverse_cursed_technique": "Check your working backwards. If the answer doesn't substitute correctly, your technique failed.",
+        "black_flash": "Landing a perfect solution in under 30 seconds of reading the question = Black Flash. Practice until you can land it consistently.",
+        "binding_vow": "Never skip a step. Show every line of working. Method marks are cursed energy you can't afford to waste.",
+        "cursed_tools": [
+            "Formula sheet (memorize it like a cursed technique)",
+            "Pencil and eraser (your cursed tools)",
+            "Past papers (cursed spirits to exorcise)"
+        ],
+        "final_word": "Throughout heaven and earth, only your worked solutions are real."
+    },
+    "natural_sciences": {
+        "subject_name": "Natural Sciences",
+        "opening": "Alright, ronin. Listen up. Natural Sciences is the study of cursed energy in the physical and living world. Every reaction, every cell, every circuit is a cursed technique in motion.",
+        "domain_expansion": "Domain Expansion: Living Systems",
+        "curse_level": "Grade 1 (Grades 8 & 9)",
+        "sure_hit": "The digestive system is a cursed pipeline. The electric circuit is a cursed loop. Learn the flow, and you control the domain.",
+        "reverse_cursed_technique": "Test your knowledge by explaining concepts out loud. If you can't teach it, you don't control it.",
+        "black_flash": "Drawing a perfect diagram from memory = Black Flash. Diagram marks are free cursed energy.",
+        "binding_vow": "Buzzwords are binding vows. If the DBE mark scheme requires 'peristalsis', writing 'moving food' fails the vow.",
+        "cursed_tools": [
+            "Diagrams (your map of the cursed domain)",
+            "Buzzword glossary (your cursed technique scroll)",
+            "Practical investigations (real-world cursed energy)"
+        ],
+        "final_word": "The universe's innate domain is biology. Its sure-hit is homeostasis."
+    },
+    "ems": {
+        "subject_name": "Economic & Management Sciences",
+        "opening": "Alright, ronin. Listen up. EMS is the study of cursed energy flow — money, resources, and the invisible forces that govern wealth. Every transaction is a binding vow between debit and credit.",
+        "domain_expansion": "Domain Expansion: The Accounting Equation",
+        "curse_level": "Grade 1 (Grades 8 & 9)",
+        "sure_hit": "A = O + L. This is the sure-hit. If your equation doesn't balance, your cursed technique failed.",
+        "reverse_cursed_technique": "Reverse-engineer every transaction. If you know the effect, you can trace the source.",
+        "black_flash": "Balancing a full trial balance with zero errors = Black Flash. This is the ultimate cursed technique.",
+        "binding_vow": "DEAD CLIC is your binding vow: Debit Expenses, Assets, Drawings — Credit Liabilities, Income, Capital. Break this vow and your books won't balance.",
+        "cursed_tools": [
+            "T-Accounts (your cursed ledger)",
+            "Source documents (the origin of every cursed transaction)",
+            "Financial statements (your domain's true form)"
+        ],
+        "final_word": "Throughout heaven and earth, every debit has an equal and opposite credit."
+    },
+    "social_sciences": {
+        "subject_name": "Social Sciences",
+        "opening": "Alright, ronin. Listen up. Social Sciences is the study of cursed history and cursed geography. Every map is a domain. Every war is a cursed spirit born from human conflict.",
+        "domain_expansion": "Domain Expansion: Time and Space",
+        "curse_level": "Grade 1 (Grades 8 & 9)",
+        "sure_hit": "Contour lines reveal the terrain's true form. Map scales convert the cursed distance.",
+        "reverse_cursed_technique": "Analyze causes and consequences. Every event has a binding vow to what came before and what follows.",
+        "black_flash": "Quoting a primary source with correct dates and context = Black Flash. Historians respect the perfect citation.",
+        "binding_vow": "Always link back to the question. A wandering answer is a broken binding vow.",
+        "cursed_tools": [
+            "1:50 000 topographic maps (your terrain domain)",
+            "Timeline scrolls (your cursed chronology)",
+            "Primary sources (the original cursed energy)"
+        ],
+        "final_word": "Those who forget history are exorcised by it."
+    },
+    "technology": {
+        "subject_name": "Technology",
+        "opening": "Alright, ronin. Listen up. Technology is the art of building cursed tools. Every lever, every gear, every circuit is a cursed mechanism that multiplies your power.",
+        "domain_expansion": "Domain Expansion: Mechanical Advantage",
+        "curse_level": "Grade 1 (Grades 8 & 9)",
+        "sure_hit": "FLE 1-2-3 is the sure-hit. Fulcrum in middle = Class 1. Load in middle = Class 2. Effort in middle = Class 3.",
+        "reverse_cursed_technique": "Disassemble the mechanism in your mind. Every system can be broken into smaller cursed techniques.",
+        "black_flash": "Building a working prototype with your own hands = Black Flash. Real cursed tools are forged, not bought.",
+        "binding_vow": "Never skip the design process. Sketch, build, test, improve. The binding vow of the engineer.",
+        "cursed_tools": [
+            "Levers, gears, and pulleys (your physical cursed techniques)",
+            "Triangulation (your structural binding vow)",
+            "Circuits (your electrical cursed energy)"
+        ],
+        "final_word": "Throughout heaven and earth, only the well-designed tool is real."
+    },
+    "physical_sciences": {
+        "subject_name": "Physical Sciences",
+        "opening": "Alright, ronin. Listen up. Physics isn't a school subject. It's the universe's innate domain. Every law is a binding vow the cosmos made with itself. You don't 'learn' physics—you exorcise ignorance.",
+        "domain_expansion": "Domain Expansion: Thermodynamics",
+        "curse_level": "Special Grade (Grades 10-12)",
+        "sure_hit": "The First Law is a binding vow: energy cannot be created or destroyed, only converted. Every motion converts cursed energy.",
+        "reverse_cursed_technique": "Reverse Cursed Technique can heal a local calculation, but it doesn't erase entropy—it just pays the cost elsewhere.",
+        "black_flash": "F = ma. Apply force, and mass accelerates. Land a perfect free-body diagram + correct equation = Black Flash.",
+        "binding_vow": "Every action has an equal and opposite reaction. Newton's Third Law is the universe's eternal binding vow.",
+        "cursed_tools": [
+            "Free-body diagrams (your map of cursed forces)",
+            "Formula sheet (your cursed technique scroll)",
+            "Past papers (cursed spirits to exorcise)"
+        ],
+        "final_word": "The universe's innate domain is math. Its sure-hit is entropy. Throughout heaven and earth, you alone are made of quantized fields."
+    },
+    "life_sciences": {
+        "subject_name": "Life Sciences",
+        "opening": "Alright, ronin. Listen up. Life Sciences is the study of the cursed code of life. DNA is a binding vow written in base pairs. Every cell is a domain of cursed energy in motion.",
+        "domain_expansion": "Domain Expansion: DNA Replication",
+        "curse_level": "Special Grade (Grades 10-12)",
+        "sure_hit": "A pairs with T. C pairs with G. In RNA, A pairs with U. Break the binding vow of base pairing, and the whole sequence mutates.",
+        "reverse_cursed_technique": "Read the Punnett square backwards. If you know the offspring ratio, you can trace the parent genotypes.",
+        "black_flash": "Drawing a perfect Punnett square with P1, meiosis, gametes, fertilisation, F1 genotypes, and phenotypes = Black Flash. These are format marks you can't afford to lose.",
+        "binding_vow": "In sex-linked disorders, the allele is carried ONLY on the X chromosome. This is an unbreakable cursed vow.",
+        "cursed_tools": [
+            "Punnett squares (your cursed probability domain)",
+            "Pedigree diagrams (your cursed lineage scroll)",
+            "Gene sequences (the raw cursed code)"
+        ],
+        "final_word": "Throughout heaven and earth, only natural selection is absolute."
+    },
+    "accounting": {
+        "subject_name": "Accounting",
+        "opening": "Alright, ronin. Listen up. Accounting is the cursed ledger of every financial soul. Every transaction is a binding vow between debit and credit, recorded for eternity.",
+        "domain_expansion": "Domain Expansion: General Ledger",
+        "curse_level": "Grade 1 to Special Grade (Grades 10-12)",
+        "sure_hit": "Assets = Owner's Equity + Liabilities. This is the sure-hit. If your equation doesn't balance, your whole domain collapses.",
+        "reverse_cursed_technique": "Reconcile the bank statement. Every discrepancy is a cursed spirit that must be exorcised before the books balance.",
+        "black_flash": "Preparing a full set of financial statements with zero errors = Black Flash. This is Special Grade technique.",
+        "binding_vow": "GAAP principles are binding vows. Break them, and your financial statements are cursed.",
+        "cursed_tools": [
+            "T-Accounts (your cursed ledger)",
+            "Bank reconciliation statements (your cursed balance)",
+            "Financial ratios (your diagnostic cursed technique)"
+        ],
+        "final_word": "Throughout heaven and earth, only the balanced ledger is real."
+    },
+    "business_studies": {
+        "subject_name": "Business Studies",
+        "opening": "Alright, ronin. Listen up. Business Studies is the study of cursed business environments. Every decision a CEO makes is a cursed technique that ripples through micro, market, and macro domains.",
+        "domain_expansion": "Domain Expansion: Micro, Market, Macro",
+        "curse_level": "Grade 1 to Special Grade (Grades 10-12)",
+        "sure_hit": "SWOT analysis is your sure-hit. Strengths and Weaknesses are internal cursed energy you control. Opportunities and Threats are external cursed spirits you must adapt to.",
+        "reverse_cursed_technique": "Porter's Five Forces is your reverse cursed technique. Analyze the competitive landscape to neutralize external threats.",
+        "black_flash": "Writing a business essay with Introduction, Body, and Conclusion (LASO format) with correct headings = Black Flash. This is DBE-required cursed technique.",
+        "binding_vow": "The business environment is a binding vow. Adapt or be exorcised by change.",
+        "cursed_tools": [
+            "SWOT matrix (your cursed assessment scroll)",
+            "Porter's Five Forces (your competitive cursed technique)",
+            "PESTLE analysis (your macro cursed vision)"
+        ],
+        "final_word": "Throughout heaven and earth, only adaptive businesses survive."
+    },
+    "economics": {
+        "subject_name": "Economics",
+        "opening": "Alright, ronin. Listen up. Economics is the study of cursed energy flow — money, resources, and the invisible forces that move markets. Every transaction is a binding vow between buyer and seller.",
+        "domain_expansion": "Domain Expansion: Circular Flow",
+        "curse_level": "Special Grade (Grades 10-12)",
+        "sure_hit": "Injections = Leakages. When I + G + X = S + T + M, the economy is in equilibrium. This is the sure-hit of macroeconomics.",
+        "reverse_cursed_technique": "Reverse-engineer every graph. If you know the outcome, trace it back to the cause.",
+        "black_flash": "Calculating GDP = C + I + G + (X - M) with all correct components = Black Flash.",
+        "binding_vow": "Every cause has an effect. Every price change triggers a response. This is the binding vow of economics.",
+        "cursed_tools": [
+            "Circular flow diagrams (your macro domain)",
+            "Supply and demand graphs (your market cursed technique)",
+            "Past exam papers (cursed spirits to exorcise)"
+        ],
+        "final_word": "Throughout heaven and earth, only supply and demand are absolute."
+    },
+    "geography": {
+        "subject_name": "Geography",
+        "opening": "Alright, ronin. Listen up. Geography is the study of cursed earth and cursed sky. Every climate, every mountain, every river is a domain shaped by binding vows of nature.",
+        "domain_expansion": "Domain Expansion: Synoptic Chart",
+        "curse_level": "Special Grade (Grades 10-12)",
+        "sure_hit": "Mid-latitude cyclones move WEST to EAST in the Southern Hemisphere. Clockwise circulation around low pressure. This is the sure-hit of SA climate.",
+        "reverse_cursed_technique": "Read the contour lines backward. Steep gradients hide in closely packed lines.",
+        "black_flash": "Drawing a perfect cross-section from a synoptic chart with correct labels = Black Flash. Diagram marks are cursed energy you can't afford to lose.",
+        "binding_vow": "1:50 000 scale means 1 cm = 0.5 km. Break this binding vow, and your distance calculations are cursed.",
+        "cursed_tools": [
+            "Topographic maps (your terrain domain)",
+            "Synoptic charts (your weather cursed technique)",
+            "Cross-sections (your vertical cursed vision)"
+        ],
+        "final_word": "Throughout heaven and earth, only the topography is real."
+    },
+    "history": {
+        "subject_name": "History",
+        "opening": "Alright, ronin. Listen up. History is the study of cursed memory. Every war, every revolution, every struggle is a cursed spirit born from human choices. You don't 'learn' history — you exorcise the past.",
+        "domain_expansion": "Domain Expansion: The Cold War",
+        "curse_level": "Special Grade (Grades 10-12)",
+        "sure_hit": "In source analysis, use O-P-V-L: Origin, Purpose, Value, Limitations. This is the sure-hit of every History source question.",
+        "reverse_cursed_technique": "Trace every consequence back to its cause. If you know the outcome, reverse-engineer the cursed event.",
+        "black_flash": "Writing an essay with a clear line of argument, primary source evidence, and historiography = Black Flash.",
+        "binding_vow": "Every historical claim must be supported by evidence. Opinions without evidence are cursed.",
+        "cursed_tools": [
+            "Primary sources (the original cursed energy)",
+            "Timeline scrolls (your cursed chronology)",
+            "Historiography (your academic cursed vision)"
+        ],
+        "final_word": "Those who forget history are exorcised by it."
+    },
+    "maths_lit": {
+        "subject_name": "Mathematical Literacy",
+        "opening": "Alright, ronin. Listen up. Mathematical Literacy is the study of cursed real-world mathematics. Every tariff, every loan, every tax bracket is a cursed technique you must master to survive in the modern world.",
+        "domain_expansion": "Domain Expansion: Municipal Tariffs",
+        "curse_level": "Grade 1 (Grades 10-12)",
+        "sure_hit": "Stepped tariffs are the sure-hit. Calculate each block separately. NEVER multiply the whole usage by the top rate.",
+        "reverse_cursed_technique": "VAT calculations: Price inclusive / 1.15 = price exclusive. Reverse the binding vow of tax.",
+        "black_flash": "Calculating income tax using SARS tax brackets with all rebates correctly applied = Black Flash.",
+        "binding_vow": "Always round money to 2 decimal places. This is the binding vow of financial math.",
+        "cursed_tools": [
+            "SARS tax tables (your cursed tax domain)",
+            "Municipal tariff graphs (your cursed utility technique)",
+            "Exchange rate charts (your cursed global vision)"
+        ],
+        "final_word": "Throughout heaven and earth, only correctly calculated money is real."
+    },
+    "english": {
+        "subject_name": "English (HL & FAL)",
+        "opening": "Alright, ronin. Listen up. English is the study of cursed words. Every metaphor, every simile, every rhetorical device is a cursed technique that shapes reality through language.",
+        "domain_expansion": "Domain Expansion: Figures of Speech",
+        "curse_level": "Grade 1 (Grades 8-12)",
+        "sure_hit": "Identify the technique, quote the words, explain the literal meaning, explain the figurative effect. This 4-step is the sure-hit of every poetry and comprehension question.",
+        "reverse_cursed_technique": "In passive voice, the object becomes the subject. The binding vow of grammar is reversible.",
+        "black_flash": "Writing a summary in 7 concise points without lifting phrases from the original = Black Flash.",
+        "binding_vow": "Never name a figure of speech without explaining its effect. This is the binding vow of literature analysis.",
+        "cursed_tools": [
+            "Figures of speech (your cursed rhetorical technique)",
+            "Active and passive voice (your reversible grammar vow)",
+            "Visual literacy (your cursed visual technique)"
+        ],
+        "final_word": "Throughout heaven and earth, only the well-argued essay is real."
+    },
+    "life_orientation": {
+        "subject_name": "Life Orientation",
+        "opening": "Alright, ronin. Listen up. Life Orientation is the study of cursed self-mastery. Every goal, every decision, every relationship is a binding vow with your future self.",
+        "domain_expansion": "Domain Expansion: SMART Goals",
+        "curse_level": "Grade 1 (Grades 8-12)",
+        "sure_hit": "SMART is the sure-hit: Specific, Measurable, Achievable, Relevant, Time-bound. Every academic goal must satisfy all five criteria.",
+        "reverse_cursed_technique": "Reverse-engineer your failures. If you didn't achieve your goal, one of the SMART criteria was broken.",
+        "black_flash": "Using the P-E-E formula (Point, Explain, Example) in a Life Orientation essay = Black Flash.",
+        "binding_vow": "Never give one-word answers in LO. The examiner demands explanation. This is the binding vow of LO.",
+        "cursed_tools": [
+            "SMART goal worksheet (your cursed planner)",
+            "Study timetable (your cursed schedule)",
+            "Peer pressure refusal scripts (your cursed shield)"
+        ],
+        "final_word": "Throughout heaven and earth, only the self-aware sorcerer ronin is free."
+    }
+}
+
+# Helper: Get JJK-toned notes for any subject
+def get_jjk_notes_for_subject(subject_id):
+    return JJK_NOTES.get(subject_id, None)
 # ---------------------------------------------------------
 # 2. AESTHETIC THEMES & CUSTOM CSS
 # ---------------------------------------------------------
@@ -1319,14 +1569,108 @@ AESTHETICS = {
         "border": "rgba(234,179,8,0.35)",
         "glow": "0 0 16px rgba(234,179,8,0.2)"
     },
+           "jjk_ronin": {
+        "name": "⚔️ JJK Ronin",
+        "bg": "#0a0106",
+        "card": "#160822",
+        "text": "#e0e0e8",
+        "accent": "#4e1782",
+        "secondary": "#7a0f0f",
+        "pink": "#4d0991",
+        "border": "rgba(220,38,38,0.5)",
+        "glow": "0 0 20px rgba(220,38,38,0.5), 0 0 40px rgba(168,85,247,0.35)"
+    }     
 }
 
 def inject_theme_css(theme_key):
     """Inject rich visual styling aligned with the selected aesthetic theme."""
     t = AESTHETICS.get(theme_key, AESTHETICS["cyberpunk_neon"])
     is_cyber = (theme_key == "cyberpunk_neon")
+    is_jjk = (theme_key == "jjk_ronin")
 
-    if is_cyber:
+    if is_jjk:
+            extra_css = """
+        /* ⚔️ JJK Ronin — Cursed Energy Domain (Red + Purple + Silver) */
+        .stApp {
+            background-color: #0a0106 !important;
+            background-image: 
+                radial-gradient(circle at 15% 10%, rgba(220,38,38,0.35), transparent 45%),
+                radial-gradient(circle at 85% 85%, rgba(168,85,247,0.40), transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(220,38,38,0.08), transparent 60%),
+                linear-gradient(rgba(220,38,38,0.10) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(168,85,247,0.10) 1px, transparent 1px) !important;
+            background-size: 100% 100%, 100% 100%, 100% 100%, 40px 40px, 40px 40px !important;
+            background-attachment: fixed !important;
+            color: #e0e0e8 !important;
+        }
+        /* All text elements — silver-white */
+        .stApp h1, .stApp h2, .stApp h3, .stApp h4, .stApp h5, .stApp h6,
+        .stApp p, .stApp span, .stApp label, .stApp li, .stApp div,
+        .stApp [data-testid="stMarkdownContainer"] {
+            color: #e0e0e8;
+        }
+        section[data-testid="stSidebar"] {
+            background: linear-gradient(180deg, #1a0410 0%, #0d0206 50%, #12141c 100%) !important;
+            border-right: 2px solid #dc2626 !important;
+            box-shadow: 0 0 30px rgba(220,38,38,0.5) !important;
+        }
+        section[data-testid="stSidebar"] * {
+            color: #e0e0e8 !important;
+        }
+        div[data-testid="stExpander"], div[data-testid="stForm"] {
+            background: linear-gradient(135deg, #1a0410 0%, #12141c 50%, #0d0206 100%) !important;
+            border-radius: 14px !important;
+            border: 1.5px solid #dc2626 !important;
+            box-shadow: 0 0 20px rgba(220,38,38,0.55), inset 0 0 25px rgba(168,85,247,0.12) !important;
+        }
+        .stButton>button {
+            border-radius: 12px !important;
+            font-weight: 800 !important;
+            background: linear-gradient(135deg, #dc2626 0%, #7f1d1d 40%, #a855f7 100%) !important;
+            color: #ffffff !important;
+            border: none !important;
+            text-shadow: 0 1px 3px rgba(0,0,0,0.9) !important;
+            box-shadow: 0 0 18px rgba(220,38,38,0.75), 0 0 30px rgba(168,85,247,0.45) !important;
+            transition: all 0.2s ease !important;
+        }
+        .stButton>button:hover {
+            transform: translateY(-2px) scale(1.02) !important;
+            box-shadow: 0 0 30px rgba(220,38,38,1), 0 0 50px rgba(168,85,247,0.7) !important;
+        }
+        /* Headers — RED with purple glow (this is the key change) */
+        .stApp h1, .stApp h2, .stApp h3 {
+            color: #dc2626 !important;
+            text-shadow: 0 0 18px rgba(220,38,38,0.8), 0 0 35px rgba(168,85,247,0.4) !important;
+            letter-spacing: 0.5px !important;
+        }
+        .stTabs [data-baseweb="tab-list"] {
+            gap: 4px;
+            background: transparent !important;
+        }
+        .stTabs [data-baseweb="tab"] {
+            background: rgba(22,4,16,0.8) !important;
+            border: 1px solid rgba(220,38,38,0.5) !important;
+            border-radius: 10px 10px 0 0 !important;
+            color: #e0e0e8 !important;
+        }
+        .stTabs [aria-selected="true"] {
+            background: linear-gradient(135deg, #dc2626, #a855f7) !important;
+            color: #ffffff !important;
+            box-shadow: 0 0 18px rgba(220,38,38,0.7) !important;
+        }
+        span[data-testid="stMetricValue"] {
+            color: #dc2626 !important;
+            text-shadow: 0 0 14px rgba(220,38,38,0.8) !important;
+        }
+        hr {
+            border-color: rgba(220,38,38,0.3) !important;
+        }
+        div[data-testid="stExpander"] summary {
+            color: #f5f5f7 !important;
+            text-shadow: 0 0 8px rgba(220,38,38,0.5) !important;
+        }
+        """           
+    elif is_cyber:
         extra_css = """
         /* Cyberpunk 2099 Neon Grid and Glow */
         .stApp {
@@ -3026,15 +3370,16 @@ def main():
         inject_theme_css(theme_choice)
 
         tone_mode = st.radio(
-            "🗣️ Study Tone:",
-            options=["tiktok", "casual", "formal"],
-            format_func=lambda x: {
-                "tiktok": "📱 TikTok Slang",
-                "casual": "ZA Casual Lekker",
-                "formal": "🦅 Formal Academic"
-            }[x],
-            index=1
-        )
+    "🗣️ Study Tone:",
+    options=["tiktok", "casual", "jjk", "formal"],
+    format_func=lambda x: {
+        "tiktok": "📱 TikTok Slang",
+        "casual": "ZA Casual Lekker",
+        "jjk": "⚔️ JJK ronin Mode",
+        "formal": "🦅 Formal Academic"
+    }[x],
+    index=1
+)
 
         st.markdown("### 📚 Curriculum Navigation")
 
@@ -3206,40 +3551,60 @@ def main():
 
         notes_tone_choice = st.radio(
             "🗣️ Select Notes Tone Alignment:",
-            ["📱 TikTok Slang Mode (Gen Z)", "☕ ZA Casual Lekker", "🎓 Formal Academic (DBE Standard)"],
+            ["📱 TikTok Slang Mode (Gen Z)", "☕ ZA Casual Lekker", "⚔️ JJK Ronin Mode", "🎓 Formal Academic (DBE Standard)"],
             horizontal=True,
-            index=0 if tone_mode == "tiktok" else (1 if tone_mode == "casual" else 2),
+            index=0 if tone_mode == "tiktok" else (1 if tone_mode == "casual" else (2 if tone_mode == "jjk" else 3)),
             key="notes_tone_radio"
         )
-        notes_tone_key = "tiktok" if "TikTok" in notes_tone_choice else ("casual" if "Casual" in notes_tone_choice else "formal")
+        notes_tone_key = "tiktok" if "TikTok" in notes_tone_choice else ("casual" if "Casual" in notes_tone_choice else ("jjk" if "JJK" in notes_tone_choice else "formal"))
 
         notes_subject_id = subject_id
         notes_grade = grade
 
-        st.subheader(f"📖 {SUBJECTS[notes_subject_id]['icon']} {SUBJECTS[notes_subject_id]['name']} — CAPS Study & Revision Notes")
-        st.markdown(f"**Curriculum Scope:** {CAPS_STUDY_NOTES.get(notes_subject_id, {}).get('curriculum_overview', 'N/A')}")
-        st.divider()
+        # === JJK RONIN MODE ===
+        if notes_tone_key == "jjk":
+            jjk_notes = get_jjk_notes_for_subject(notes_subject_id)
+            if jjk_notes:
+                st.subheader(f"⚔️ {SUBJECTS[notes_subject_id]['icon']} {jjk_notes['subject_name']} — JJK RONIN CURSED NOTES")
+                st.caption(f"**Domain Expansion:** {jjk_notes['domain_expansion']} • **Curse Level:** {jjk_notes['curse_level']}")
+                st.markdown(f"### ⚔️ {jjk_notes['opening']}")
+                st.divider()
 
-        subj_notes = CAPS_STUDY_NOTES.get(notes_subject_id, None)
-        if not subj_notes:
-            st.info(f"No revision notes available for {SUBJECTS[notes_subject_id]['name']} yet.")
-        else:
-            matching_chapters = [
-                ch for ch in subj_notes.get("chapters", [])
-                if notes_grade in ch.get("grades", [])
-            ]
+                col1, col2 = st.columns(2)
+                with col1:
+                    st.markdown("#### 🎯 Sure-Hit Technique")
+                    st.info(jjk_notes['sure_hit'])
+                    st.markdown("#### 🔄 Reverse Cursed Technique")
+                    st.info(jjk_notes['reverse_cursed_technique'])
+                with col2:
+                    st.markdown("#### ⚡ Black Flash")
+                    st.success(jjk_notes['black_flash'])
+                    st.markdown("#### 📜 Binding Vow")
+                    st.warning(jjk_notes['binding_vow'])
 
-            if not matching_chapters:
-                st.warning(f"No notes for Grade {notes_grade}. Available grades:")
-                for ch in subj_notes.get("chapters", []):
-                    st.markdown(f"- **{ch['title']}** (Grades {', '.join(str(g) for g in ch['grades'])})")
+                st.markdown("#### 🗡️ Your Cursed Tools")
+                for tool in jjk_notes['cursed_tools']:
+                    st.markdown(f"- {tool}")
+
+                st.divider()
+                st.markdown(f"### 📖 {jjk_notes['final_word']}")
             else:
-                for ch in matching_chapters:
-                    with st.expander(f"📚 {ch['title']} (Grades {', '.join(str(g) for g in ch['grades'])})", expanded=True):
-                        tone_data = adapt_chapter_to_tone(ch['title'], ch['summary'], notes_tone_key, subj_notes['subject_name'])
-                        st.markdown(f"### {tone_data['hook']}")
-                        st.caption(tone_data['badge'])
-                        st.markdown(tone_data['summary'])
+                st.warning(f"JJK notes for {SUBJECTS[notes_subject_id]['name']} coming soon, ronin.")
+
+            # === ALSO SHOW STANDARD CAPS CONTENT BELOW JJK VIBE ===
+            st.divider()
+            st.markdown("### 📖 The Actual Study Content (DBE Standard)")
+            st.caption("Vibes are cool, but formulas win marks. Here's the real stuff:")
+
+            subj_notes_jjk = CAPS_STUDY_NOTES.get(notes_subject_id, None)
+            if subj_notes_jjk:
+                matching_ch_jjk = [
+                    ch for ch in subj_notes_jjk.get("chapters", [])
+                    if notes_grade in ch.get("grades", [])
+                ]
+                for ch in matching_ch_jjk:
+                    with st.expander(f"📚 {ch['title']}", expanded=True):
+                        st.markdown(f"**📌 Overview:** {ch['summary']}")
 
                         if ch.get("definitions"):
                             st.markdown("#### 📖 Key Definitions")
@@ -3259,21 +3624,72 @@ def main():
                                 st.markdown(f"- {step}")
                             st.success(f"**Final Answer:** {ex['answer']}")
 
-                        col_p, col_t = st.columns(2)
-                        with col_p:
+                        col_pj, col_tj = st.columns(2)
+                        with col_pj:
                             if ch.get("pitfalls"):
-                                st.markdown("#### ⚠️ Common Pitfalls")
+                                st.markdown("#### ⚠️ Pitfalls")
                                 for pit in ch["pitfalls"]:
                                     st.markdown(f"- ❌ {pit}")
-                        with col_t:
+                        with col_tj:
                             if ch.get("tips"):
                                 st.markdown("#### 🎯 Exam Tips")
                                 for tip in ch["tips"]:
                                     st.markdown(f"- ✨ {tip}")
+        # === STANDARD CAPS NOTES ===
+        else:
+            subj_notes = CAPS_STUDY_NOTES.get(notes_subject_id, None)
+            if not subj_notes:
+                st.info(f"No revision notes available for {SUBJECTS[notes_subject_id]['name']} yet.")
+            else:
+                matching_chapters = [
+                    ch for ch in subj_notes.get("chapters", [])
+                    if notes_grade in ch.get("grades", [])
+                ]
 
+                if not matching_chapters:
+                    st.warning(f"No notes for Grade {notes_grade}. Available grades:")
+                    for ch in subj_notes.get("chapters", []):
+                        st.markdown(f"- **{ch['title']}** (Grades {', '.join(str(g) for g in ch['grades'])})")
+                else:
+                    for ch in matching_chapters:
+                        with st.expander(f"📚 {ch['title']} (Grades {', '.join(str(g) for g in ch['grades'])})", expanded=True):
+                            tone_data = adapt_chapter_to_tone(ch['title'], ch['summary'], notes_tone_key, subj_notes['subject_name'])
+                            st.markdown(f"### {tone_data['hook']}")
+                            st.caption(tone_data['badge'])
+                            st.markdown(tone_data['summary'])
+
+                            if ch.get("definitions"):
+                                st.markdown("#### 📖 Key Definitions")
+                                for term, defn in ch["definitions"]:
+                                    st.markdown(f"- **{term}**: {defn}")
+
+                            if ch.get("formulas"):
+                                st.markdown("#### 📐 Formulas & Frameworks")
+                                for f_name, f_eq, f_note in ch["formulas"]:
+                                    st.markdown(f"- **{f_name}**: `{f_eq}`")
+
+                            if ch.get("worked_example"):
+                                ex = ch["worked_example"]
+                                st.markdown("#### 💡 Worked Example")
+                                st.info(f"**Problem:** {ex['problem']}")
+                                for step in ex["steps"]:
+                                    st.markdown(f"- {step}")
+                                st.success(f"**Final Answer:** {ex['answer']}")
+
+                            col_p, col_t = st.columns(2)
+                            with col_p:
+                                if ch.get("pitfalls"):
+                                    st.markdown("#### ⚠️ Common Pitfalls")
+                                    for pit in ch["pitfalls"]:
+                                        st.markdown(f"- ❌ {pit}")
+                            with col_t:
+                                if ch.get("tips"):
+                                    st.markdown("#### 🎯 Exam Tips")
+                                    for tip in ch["tips"]:
+                                        st.markdown(f"- ✨ {tip}")
     # ==================== TAB 3: EXAM ====================
-    with tab_exam:
-        st.subheader("⏱️ Official CAPS Timed Exam Simulation")
+        with tab_exam:
+          st.subheader("⏱️ Official CAPS Timed Exam Simulation")
         st.markdown(f"**10 Questions • {subj_meta['name']} • Grade {grade}**")
 
         if "exam_state" not in st.session_state:
@@ -3536,6 +3952,7 @@ def main():
 
 
 
+
 def adapt_chapter_to_tone(chapter_title, summary, tone, subject_name):
     is_math = "math" in subject_name.lower()
     is_science = any(k in subject_name.lower() for k in ["science", "biology", "life"])
@@ -3592,76 +4009,31 @@ def adapt_chapter_to_tone(chapter_title, summary, tone, subject_name):
             "pitfall": "⚠️ Common Student Slip-up: Forgetting to state reasons in geometry or forgetting the final conclusion sentence in business case studies.",
             "tip": "✨ Matric Secret: Start your revision with past exam papers from 2021-2024 to see the exact variations the examiners love repeating."
         }
-
-    return {
-        "hook": "🎓 OFFICIAL DBE CAPS EXAMINATION & RUBRIC STANDARD",
-        "badge": "📜 Formal CAPS DBE Academic Standard",
-        "summary": f"Curriculum and Assessment Policy Statement (CAPS) Prescribed Standard: {summary} Candidates are formally assessed on cognitive levels 1 through 4 (Knowledge, Routine Procedures, Complex Procedures, and Problem Solving). Full mathematical and scientific justification is mandatory.",
-        "takeaways": [
-            "📌 Criterion 1: Verbatim adherence to official DBE definition glossaries is required for full credit.",
-            "📌 Criterion 2: In multi-step algorithmic derivations, every intermediate transformation must be documented to qualify for Method (M) and Accuracy (A) marks.",
-            "📌 Criterion 3: Final numerical values must be expressed with standard SI units and rounded to exactly two decimal places unless otherwise stipulated."
-        ],
-        "pitfall": "⚖️ Formal Mark Allocation Caution: Omitting units, failure to provide geometric statements with accredited abbreviations (e.g., [tan-chord thm]), or presenting unjustified final answers will incur immediate mark forfeiture.",
-        "tip": "📜 Assessment Rubric Strategy: Review the DBE National Diagnostic Reports to identify historical national error trends and prioritize high-weighting syllabus sub-topics."
-    }
-def adapt_chapter_to_tone(chapter_title, summary, tone, subject_name):
-    is_math = "math" in subject_name.lower()
-    is_science = any(k in subject_name.lower() for k in ["science", "biology", "life"])
-    is_commerce = any(k in subject_name.lower() for k in ["account", "business", "econ", "ems"])
-
-    if tone == "tiktok":
-        hook = "🔥 NO CAP FR FR: LOCK IN ON THIS CHAPTER"
-        slang_sum = f"Fam, if you get this question in Paper 1 or Paper 2, DO NOT get cooked! {summary} Basically, markers expect you to flex the exact steps. Master the formula, don't drop negative signs, and you will literally eat and leave no crumbs."
+    if tone == "jjk":
+        hook = "⚔️ DOMAIN EXPANSION: INFINITE FOCUS"
+        jjk_sum = f"Listen, ronin. This chapter is your next mission. {summary} The examiner's cursed energy is strong, but your technique is stronger — IF you master the fundamentals. Complete your Reverse Cursed Technique by practising until you can do it without thinking."
         if is_math:
-            hook = "📱 MATHS TIKTOK CHEAT CODE: ATE AND LEFT NO CRUMBS"
-            slang_sum = f"Bro, this maths chapter is pure main character energy if you know the pattern. {summary} Stop doing mental gymnastics—isolate your variables, follow the DBE formula sheet, and collect your 5 free marks before the examiner even blinks."
+            hook = "📐 CURSED TECHNIQUE: FORMULA MASTERY"
+            jjk_sum = f"Every formula is a cursed technique, and every question is a cursed spirit. {summary} Reach Grade 1 by mastering the steps. Land a Black Flash by getting 100% on your next attempt. Lock in."
         elif is_science:
-            hook = "🧬 SCIENCE TIKTOK VIBE: RIZ MASTERY GUIDE"
-            slang_sum = f"Bestie, high-key you cannot just vibe your way through biology/physics definitions. {summary} DBE markers have a literal checklist of buzzwords. If the buzzword is missing, you are cooked fr. Memorize the diagram pathways and secure that Level 7 bag."
+            hook = "🧬 DOMAIN EXPANSION: CONCEPT MASTERY"
+            jjk_sum = f"Knowledge is your cursed energy. {summary} To reach Special Grade, you must memorize the pathways and understand the flow. Every definition you skip is a cursed spirit waiting to ambush you in the exam hall."
         elif is_commerce:
-            hook = "💰 COMMERCE MONEY MOVES: ZERO CAP"
-            slang_sum = f"Listen up future CEO: in this chapter, {summary} It is literally a balancing act. If your debits and credits or PESTLE factors do not align, you are giving broke energy on the memo. Lock in and secure the easy marks."
+            hook = "💰 CURSED TECHNIQUE: BALANCE MASTERY"
+            jjk_sum = f"Every transaction has cursed energy — debits and credits in perfect balance. {summary} Reach Special Grade by mastering the equation, and the examiner's domain won't affect you."
 
         return {
             "hook": hook,
-            "badge": "🔥 TikTok Slang Mode (Gen Z)",
-            "summary": slang_sum,
+            "badge": "⚔️ JJK Ronin Mode",
+            "summary": jjk_sum,
             "takeaways": [
-                "⚡ Cheat Code 1: Never skip writing down the base formula first—it is a free 1-mark safety net.",
-                "⚡ Cheat Code 2: Spot the examiner trap early so you do not take a massive L on question 2.",
-                "⚡ Cheat Code 3: Practice this with a 2-minute timer on your phone so you stay clutch under pressure."
+                "⚔️ Mission 1: Master the fundamental technique before attempting complex missions.",
+                "⚔️ Mission 2: Practice under pressure — the Shibuya Incident exam is coming.",
+                "⚔️ Mission 3: Land Black Flash by locking in for 25 focused minutes a day."
             ],
-            "pitfall": "💀 How Markers Try to Cook You: Rushing through signs or leaving out units (like N, m/s, or Rands) is literally giving away free marks for nothing. Do not fumble the bag!",
-            "tip": "🚀 TikTok Brainrot Hack: Turn the 3 main definitions into an audio voice note or rhythm—you will remember it instantly in the exam hall."
+            "pitfall": "💀 Cursed Spirit Alert: Sign errors, missing units, and skipped steps are ambushes. Do not fall for them.",
+            "tip": "🚀 Ronin's Path: Do 3 practice questions in a row correctly to unlock Reverse Cursed Technique."
         }
-
-    if tone == "casual":
-        hook = "☕ LEKKER MZANSI STUDY WALKTHROUGH"
-        casual_sum = f"Sharp sharp! Let's unpack this together without the scary textbook jargon. {summary} Once you see the pattern behind how they set matric past papers, this actually becomes one of the most scoring sections in the entire syllabus."
-        if is_math:
-            hook = "📐 LEKKER MATHS BREAKDOWN (MZANSI STYLE)"
-            casual_sum = f"Eish, learners often panic when they see this in Paper 1, but check how simple it really is: {summary} Just take it step by step, keep your working neat so the marker can award method marks, and you are good to go!"
-        elif is_science:
-            hook = "🔬 CHILL SCIENCE CHAT: EASY MARKS"
-            casual_sum = f"Listen here chief, don't let the big scientific words intimidate you. {summary} Think of the diagrams as a story (like food traveling down the gut or electrons flowing in a loop). Connect each part to its real function."
-        elif is_commerce:
-            hook = "💼 CHILL BUSINESS & NUMBERS TALK"
-            casual_sum = f"Lekker vibes! In business and accounting, everything tells a story about money or resources: {summary} Keep the core equation or framework in mind, and you will cruise through the case studies."
-
-        return {
-            "hook": hook,
-            "badge": "☕ ZA Casual Lekker Vibe",
-            "summary": casual_sum,
-            "takeaways": [
-                "💡 Tip 1: Highlight key question words like 'Describe', 'Calculate', or 'Justify'.",
-                "💡 Tip 2: Show every single working line—DBE markers love awarding CA (Consistent Accuracy) marks.",
-                "💡 Tip 3: Draw a quick rough sketch or write the formula in the margin before solving."
-            ],
-            "pitfall": "⚠️ Common Student Slip-up: Forgetting to state reasons in geometry or forgetting the final conclusion sentence in business case studies.",
-            "tip": "✨ Matric Secret: Start your revision with past exam papers from 2021-2024 to see the exact variations the examiners love repeating."
-        }
-
     return {
         "hook": "🎓 OFFICIAL DBE CAPS EXAMINATION & RUBRIC STANDARD",
         "badge": "📜 Formal CAPS DBE Academic Standard",
