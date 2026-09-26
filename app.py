@@ -3481,8 +3481,8 @@ def main():
         if q.get("diagram"):
             svg_html = render_diagram_svg(q["diagram"], q.get("diagram_data", {}))
             if svg_html:
-                st.markdown(svg_html, unsafe_allow_html=True)
-
+                # Using components.v1.html to force proper SVG rendering
+                st.components.v1.html(svg_html, height=400, scrolling=False)
         with st.expander(f"💡 Need a Hint? ({tone_mode.capitalize()} Mode)"):
             st.write(q["hints"].get(tone_mode, q["hints"]["casual"]))
 
