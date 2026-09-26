@@ -1310,7 +1310,7 @@ JJK_NOTES = {
             "Triangulation (your structural binding vow)",
             "Circuits (your electrical cursed energy)"
         ],
-        "final_word": "Throughout heaven and earth, only the well-designed tool is real."
+        "final_word": "its not about how well you can study its about how far you can go using your technique . And that technique  is your brain!"
     },
     "physical_sciences": {
         "subject_name": "Physical Sciences",
