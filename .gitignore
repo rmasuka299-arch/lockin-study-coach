@@ -1,0 +1,20 @@
+# Python cache
+__pycache__/
+*.pyc
+
+# Database (contains user data — never push this)
+*.db
+lockin_study_coach.db
+
+# Streamlit secrets (if you have any)
+.streamlit/secrets.toml
+
+# VS Code settings
+.vscode/
+# Secrets — never commit these
+.env
+*.env
+
+# Backups
+*_backup*.py
+ai_notes_backup.json

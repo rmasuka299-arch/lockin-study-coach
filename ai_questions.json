@@ -1,0 +1,3471 @@
+{
+  "mathematics": {
+    "8": {
+      "Integers (Calculations & Signs)": [
+        {
+          "subtopic": "Adding integers",
+          "question": "A shopkeeper in Johannesburg receives a refund of R-200 and then sells goods worth R350. What is the net amount?",
+          "correct": "150",
+          "steps": [
+            "Identify the signs: -200 and +350.",
+            "Add the absolute values: 200 + 350 = 550.",
+            "Since the positive value is larger, the result is positive: 550 - 200 = 150."
+          ],
+          "hints": {
+            "tiktok": "No cap, just flip the signs and add, bro.",
+            "casual": "Think of the refund as a loss and the sales as a gain, then combine them.",
+            "jjk": "Lock in the cursed energy: positive beats negative when it’s bigger.",
+            "formal": "Apply the rule for addition of signed integers as per DBE guidelines."
+          },
+          "cheers": {
+            "tiktok": "Yaas, you nailed it!",
+            "casual": "Lekker job, you got the right amount.",
+            "jjk": "Your cursed technique is strong, well done.",
+            "formal": "Correct answer, well executed."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Integers (Calculations & Signs)"
+        },
+        {
+          "subtopic": "Subtracting integers",
+          "question": "The temperature in Cape Town drops from 5°C to -8°C. By how many degrees did it drop?",
+          "correct": "13",
+          "steps": [
+            "Write the change as 5 - (-8).",
+            "Changing subtraction of a negative to addition: 5 + 8.",
+            "Add the numbers: 5 + 8 = 13."
+          ],
+          "hints": {
+            "tiktok": "No cap, turn that minus into a plus, bro.",
+            "casual": "Dropping below zero means you add the absolute values.",
+            "jjk": "The cursed energy flips the sign, making it an addition.",
+            "formal": "Convert the subtraction of a negative integer to addition per standard procedure."
+          },
+          "cheers": {
+            "tiktok": "Bet! You got the drop right.",
+            "casual": "Sharp, you’ve got the degree difference.",
+            "jjk": "Your technique is on point, excellent.",
+            "formal": "Answer is correct, well done."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Integers (Calculations & Signs)"
+        },
+        {
+          "subtopic": "Multiplying integers",
+          "question": "A farmer loses 12 goats each day for 4 days. What is the total change in the herd?",
+          "correct": "-48",
+          "steps": [
+            "Represent the daily loss as -12.",
+            "Multiply by the number of days: -12 × 4.",
+            "Calculate: -12 × 4 = -48."
+          ],
+          "hints": {
+            "tiktok": "Lock in, negative times positive stays negative, no cap.",
+            "casual": "When you lose something each day, the sign stays negative.",
+            "jjk": "Cursed energy multiplied by neutral yields a darker result.",
+            "formal": "Apply the rule: negative × positive = negative."
+          },
+          "cheers": {
+            "tiktok": "Big vibes, you got the number!",
+            "casual": "Lekker, that’s the right total loss.",
+            "jjk": "Your cursed calculation is flawless.",
+            "formal": "Correct computation, satisfactory."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Integers (Calculations & Signs)"
+        },
+        {
+          "subtopic": "Dividing integers",
+          "question": "A debt of R-96 is to be shared equally among 8 friends. How much does each friend owe?",
+          "correct": "-12",
+          "steps": [
+            "Write the debt as -96.",
+            "Divide by the number of friends: -96 ÷ 8.",
+            "Calculate: -96 ÷ 8 = -12."
+          ],
+          "hints": {
+            "tiktok": "No cap, division keeps the sign, bro.",
+            "casual": "Sharing a negative amount means each share stays negative.",
+            "jjk": "The cursed debt splits but remains cursed.",
+            "formal": "Division of a negative integer by a positive integer yields a negative quotient."
+          },
+          "cheers": {
+            "tiktok": "You locked that division, nice!",
+            "casual": "Sharp, each friend’s share is spot on.",
+            "jjk": "Your technique slices the cursed debt perfectly.",
+            "formal": "Answer is correct, well executed."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Integers (Calculations & Signs)"
+        },
+        {
+          "subtopic": "Order of operations with integers",
+          "question": "Calculate: -3 + 4 × (-2)",
+          "correct": "-11",
+          "steps": [
+            "Apply PEMDAS: first multiply 4 × (-2) = -8.",
+            "Then add the remaining term: -3 + (-8).",
+            "Add the negatives: -3 + -8 = -11."
+          ],
+          "hints": {
+            "tiktok": "No cap, do the mul before the add, bro.",
+            "casual": "Remember, multiplication comes first, then combine the signs.",
+            "jjk": "Cursed energy multiplies first, then the negatives combine.",
+            "formal": "Follow the order of operations: multiplication precedes addition for signed integers."
+          },
+          "cheers": {
+            "tiktok": "Yaas, you smashed the order!",
+            "casual": "Lekker, the result is spot on.",
+            "jjk": "Your mastery of cursed math is impressive.",
+            "formal": "Correct result, commendable work."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Integers (Calculations & Signs)"
+        }
+      ],
+      "Common Fractions & Decimals": [
+        {
+          "subtopic": "Converting fractions to decimals",
+          "question": "What is 3/4 expressed as a decimal?",
+          "correct": "0.75",
+          "steps": [
+            "Divide the numerator 3 by the denominator 4.",
+            "The division gives 0.75.",
+            "Write the result as a decimal."
+          ],
+          "hints": {
+            "tiktok": "Yo bro, just divide, no cap!",
+            "casual": "Sho, just split 3 by 4 and you’ll get the answer.",
+            "jjk": "Channel your cursed energy, let 3 ÷ 4 flow!",
+            "formal": "Perform the division of the numerator by the denominator to obtain the decimal equivalent."
+          },
+          "cheers": {
+            "tiktok": "You locked it, fire!",
+            "casual": "Lekker, you got it!",
+            "jjk": "Your technique is sharp, sorcerer!",
+            "formal": "Correct, well done."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Common Fractions & Decimals"
+        },
+        {
+          "subtopic": "Adding fractions with unlike denominators",
+          "question": "Add 1/3 and 2/5. Give your answer as an improper fraction.",
+          "correct": "11/15",
+          "steps": [
+            "Find the least common denominator: 15.",
+            "Convert 1/3 to 5/15 and 2/5 to 6/15.",
+            "Add the numerators: 5+6=11, keep denominator 15."
+          ],
+          "hints": {
+            "tiktok": "Find the LCM, then add, lock in!",
+            "casual": "Get a common bottom, then add up the tops.",
+            "jjk": "Summon the LCM as your cursed tool, then merge the fractions.",
+            "formal": "Determine the least common multiple of the denominators, rewrite the fractions, and add the numerators."
+          },
+          "cheers": {
+            "tiktok": "Boom, you nailed it!",
+            "casual": "Nice one, that’s spot on!",
+            "jjk": "Your calculation is flawless, warrior!",
+            "formal": "Answer correct, commendable work."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Common Fractions & Decimals"
+        },
+        {
+          "subtopic": "Converting decimals to fractions",
+          "question": "Express 0.6 as a fraction in lowest terms.",
+          "correct": "3/5",
+          "steps": [
+            "Write 0.6 as 6/10.",
+            "Simplify by dividing numerator and denominator by 2.",
+            "Result is 3/5."
+          ],
+          "hints": {
+            "tiktok": "Turn that .6 into a fraction, no cap!",
+            "casual": "6 over 10, then cut it down.",
+            "jjk": "Transform the decimal using cursed division, then reduce.",
+            "formal": "Represent the decimal as a fraction with denominator 10 and simplify."
+          },
+          "cheers": {
+            "tiktok": "You did it, fam!",
+            "casual": "Sharp, that’s right!",
+            "jjk": "Your fraction is pure energy!",
+            "formal": "Correct conversion, well executed."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Common Fractions & Decimals"
+        },
+        {
+          "subtopic": "Comparing fractions and decimals",
+          "question": "Which is larger: 0.45 or 4/9? Respond with the larger value.",
+          "correct": "4/9",
+          "steps": [
+            "Convert 4/9 to a decimal: 4 ÷ 9 ≈ 0.444...",
+            "Compare 0.45 with 0.444...",
+            "0.45 is greater, so 4/9 is smaller; therefore the larger value is 0.45."
+          ],
+          "hints": {
+            "tiktok": "Turn 4/9 into a decimal, lock in the compare!",
+            "casual": "Find the decimal of 4/9 then see which is bigger.",
+            "jjk": "Channel the conversion spell, then let the numbers duel.",
+            "formal": "Convert the fraction to a decimal and compare the two decimal values."
+          },
+          "cheers": {
+            "tiktok": "Facts, you got it!",
+            "casual": "Nice, you sorted that out!",
+            "jjk": "Your judgment cuts through like cursed blades!",
+            "formal": "Correct identification of the larger quantity."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Common Fractions & Decimals"
+        },
+        {
+          "subtopic": "Multiplying a fraction by a decimal",
+          "question": "What is 2/5 × 0.2? Give your answer as a decimal.",
+          "correct": "0.08",
+          "steps": [
+            "Convert 2/5 to decimal: 0.4.",
+            "Multiply 0.4 by 0.2.",
+            "Result is 0.08."
+          ],
+          "hints": {
+            "tiktok": "Turn the fraction, then multiply, no cap!",
+            "casual": "Make 2/5 a decimal, then do the product.",
+            "jjk": "Transform the fraction, then unleash the multiplication cursed energy.",
+            "formal": "Convert the fraction to its decimal form and multiply by the given decimal."
+          },
+          "cheers": {
+            "tiktok": "Bet! You smashed it!",
+            "casual": "Lekker, that’s the right number!",
+            "jjk": "Your calculation radiates powerful cursed energy!",
+            "formal": "Answer correct, good work."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Common Fractions & Decimals"
+        }
+      ],
+      "Exponents & Powers": [
+        {
+          "subtopic": "Product of Powers",
+          "question": "Calculate 5^2 × 5^3.",
+          "correct": "3125",
+          "steps": [
+            "Write each power: 5^2=25 and 5^3=125.",
+            "When multiplying same bases, add exponents: 2+3=5.",
+            "Compute 5^5=3125."
+          ],
+          "hints": {
+            "tiktok": "Yo bro, add the exponents, no cap!",
+            "casual": "Just add the little numbers on top, hey!",
+            "jjk": "Stack the cursed energy, 2+3, then unleash 5^5!",
+            "formal": "Apply the law of exponents: a^m·a^n = a^{m+n}."
+          },
+          "cheers": {
+            "tiktok": "You nailed it, lock in!",
+            "casual": "Sharp as a springbok, well done!",
+            "jjk": "Your technique is flawless, ronin!",
+            "formal": "Correct application of exponent rules."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Exponents & Powers"
+        },
+        {
+          "subtopic": "Power of a Power",
+          "question": "What is (2^3)^2?",
+          "correct": "64",
+          "steps": [
+            "First evaluate the inner power: 2^3=8.",
+            "Then raise the result to the outer exponent: 8^2=64.",
+            "Alternatively, multiply exponents: 3×2=6, so 2^6=64."
+          ],
+          "hints": {
+            "tiktok": "Multiply the tops, bro, no cap!",
+            "casual": "Take the 2 cubed, then square it, lekker!",
+            "jjk": "Combine the cursed layers: 3×2, then strike!",
+            "formal": "Use (a^m)^n = a^{m·n} to simplify."
+          },
+          "cheers": {
+            "tiktok": "Boom! You locked that in!",
+            "casual": "Nice work, you’ve got it!",
+            "jjk": "Your power is strong, sorcerer!",
+            "formal": "Correct result obtained."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Exponents & Powers"
+        },
+        {
+          "subtopic": "Zero Exponent",
+          "question": "What is the value of 7^0?",
+          "correct": "1",
+          "steps": [
+            "Recall the rule: any non‑zero number to the zero power equals 1.",
+            "No calculation needed beyond the rule."
+          ],
+          "hints": {
+            "tiktok": "Zero power means it’s a 1, no cap!",
+            "casual": "Even if the exponent’s zero, it’s still one, hey!",
+            "jjk": "Even cursed energy fades to 1 when exponent is zero.",
+            "formal": "Apply the exponent rule a^0 = 1 for a≠0."
+          },
+          "cheers": {
+            "tiktok": "You got that, lock in!",
+            "casual": "Easy peasy, well done!",
+            "jjk": "A perfect strike, ronin!",
+            "formal": "Answer is correct."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Exponents & Powers"
+        },
+        {
+          "subtopic": "Negative Exponent",
+          "question": "Simplify 3^(-2).",
+          "correct": "1/9",
+          "steps": [
+            "A negative exponent means reciprocal: 3^(-2)=1/(3^2).",
+            "Calculate the denominator: 3^2=9.",
+            "Result is 1/9."
+          ],
+          "hints": {
+            "tiktok": "Flip it, bro, negative means reciprocal, no cap!",
+            "casual": "Turn it upside down, then square the 3, hey!",
+            "jjk": "Reverse the cursed energy, then power up!",
+            "formal": "Use a^{-n}=1/a^{n} for n>0."
+          },
+          "cheers": {
+            "tiktok": "You flipped it, lock in!",
+            "casual": "Good job, that’s spot on!",
+            "jjk": "Your mastery is evident, sorcerer!",
+            "formal": "Correct simplification."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Exponents & Powers"
+        },
+        {
+          "subtopic": "Scientific Notation",
+          "question": "Write 4,500,000 in scientific notation as a power of ten.",
+          "correct": "4.5×10^6",
+          "steps": [
+            "Place the decimal after the first non‑zero digit: 4.5.",
+            "Count how many places the decimal moved: 6 places.",
+            "Combine: 4.5×10^6."
+          ],
+          "hints": {
+            "tiktok": "Slide that decimal, bro, count the moves, no cap!",
+            "casual": "Shift the point, count six spots, lekker!",
+            "jjk": "Guide the decimal like cursed energy, then power up six!",
+            "formal": "Express as a×10^{n} where 1≤a<10."
+          },
+          "cheers": {
+            "tiktok": "Decimal slid, you locked it!",
+            "casual": "Nice, you’ve got the notation!",
+            "jjk": "Your notation is flawless, ronin!",
+            "formal": "Correct scientific notation."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Exponents & Powers"
+        }
+      ],
+      "Algebraic Expressions": [
+        {
+          "subtopic": "Simplifying algebraic expressions",
+          "question": "Simplify the expression: 3x + 5x - 2y + 4y",
+          "correct": "8x+2y",
+          "steps": [
+            "Combine the x‑terms: 3x+5x = 8x",
+            "Combine the y‑terms: -2y+4y = 2y",
+            "Write the simplified form: 8x+2y"
+          ],
+          "hints": {
+            "tiktok": "Yo bro, no cap, just add the like terms and lock in the answer!",
+            "casual": "Hey, just group the x’s and y’s and add them up, lekker!",
+            "jjk": "Channel your cursed energy, ronin, and merge the like terms!",
+            "formal": "Apply the standard algebraic simplification procedure as outlined in the DBE curriculum."
+          },
+          "cheers": {
+            "tiktok": "Lit! You nailed it, fam!",
+            "casual": "Nice one, lekker work!",
+            "jjk": "Your cursed technique is flawless!",
+            "formal": "Well done, answer correct."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Algebraic Expressions"
+        },
+        {
+          "subtopic": "Evaluating algebraic expressions",
+          "question": "If x = 4 and y = -2, evaluate 2x^2 - 3y",
+          "correct": "38",
+          "steps": [
+            "Substitute x and y: 2(4)^2 - 3(-2)",
+            "Calculate the square: 2*16 = 32",
+            "Calculate the second term: -3(-2) = 6",
+            "Add the results: 32 + 6 = 38"
+          ],
+          "hints": {
+            "tiktok": "Lock in those values, no cap, then do the maths!",
+            "casual": "Plug in the numbers, then just crunch them, hey!",
+            "jjk": "Summon your cursed energy, insert the values, and unleash the result!",
+            "formal": "Substitute the given values into the expression and compute as per DBE guidelines."
+          },
+          "cheers": {
+            "tiktok": "Bet! You got the right number!",
+            "casual": "Sharp! That's the correct answer, bra!",
+            "jjk": "Your calculation radiates pure cursed energy!",
+            "formal": "Correct, well executed."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Algebraic Expressions"
+        },
+        {
+          "subtopic": "Expanding brackets",
+          "question": "Expand the product: (x + 3)(x - 5)",
+          "correct": "x^2-2x-15",
+          "steps": [
+            "Multiply x by each term in the second bracket: x·x = x^2, x·(-5) = -5x",
+            "Multiply 3 by each term in the second bracket: 3·x = 3x, 3·(-5) = -15",
+            "Combine like terms: -5x + 3x = -2x",
+            "Write the final expression: x^2-2x-15"
+          ],
+          "hints": {
+            "tiktok": "No cap, FOIL it out and lock in the result!",
+            "casual": "Just do the FOIL thing, hey, then tidy up.",
+            "jjk": "Unleash your cursed technique, FOIL the brackets like a ronin!",
+            "formal": "Apply the distributive property (FOIL) and combine like terms according to DBE standards."
+          },
+          "cheers": {
+            "tiktok": "Boom! You expanded it, fam!",
+            "casual": "Nice, that’s spot on, bru!",
+            "jjk": "Your expansion summons powerful cursed energy!",
+            "formal": "Correct expansion, well done."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Algebraic Expressions"
+        },
+        {
+          "subtopic": "Factorising simple expressions",
+          "question": "Factorise the expression: 6x - 9",
+          "correct": "3(2x-3)",
+          "steps": [
+            "Identify the greatest common factor of 6x and 9, which is 3",
+            "Factor 3 out of each term: 6x = 3·2x, 9 = 3·3",
+            "Write the expression as 3(2x-3)"
+          ],
+          "hints": {
+            "tiktok": "Find the GCF, no cap, then pull it out, lock in!",
+            "casual": "Look for the biggest number that fits both terms, bra!",
+            "jjk": "Detect the hidden GCF, summon it like cursed energy, ronin style!",
+            "formal": "Determine the greatest common factor and factor it out as per DBE methodology."
+          },
+          "cheers": {
+            "tiktok": "Yo! You factored it, lit!",
+            "casual": "Sharp move, that’s the right factor!",
+            "jjk": "Your cursed grasp of factors is impressive!",
+            "formal": "Factorisation correct, good work."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Algebraic Expressions"
+        },
+        {
+          "subtopic": "Combining like terms with constants",
+          "question": "Simplify the monetary sum: R1500 + R2500 - R800",
+          "correct": "3200",
+          "steps": [
+            "Add the first two amounts: 1500 + 2500 = 4000",
+            "Subtract the third amount: 4000 - 800 = 3200",
+            "Result is R3200"
+          ],
+          "hints": {
+            "tiktok": "Add up the rands, no cap, then subtract, lock in the cash!",
+            "casual": "Just do the maths with the rands, hey, easy stuff!",
+            "jjk": "Channel cursed energy into the numbers, add then subtract, ronin!",
+            "formal": "Perform the arithmetic operations sequentially as outlined in the DBE curriculum."
+          },
+          "cheers": {
+            "tiktok": "Yaas! You got the right total!",
+            "casual": "Lekker, that’s the correct amount!",
+            "jjk": "Your cursed arithmetic is flawless!",
+            "formal": "Correct calculation, well executed."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Algebraic Expressions"
+        }
+      ],
+      "Geometry of Straight Lines": [
+        {
+          "subtopic": "Slope and intercept",
+          "question": "Find the gradient of the line that passes through the points (2,3) and (6,11).",
+          "correct": "2",
+          "steps": [
+            "Use formula m=(y2-y1)/(x2-x1)",
+            "Plug in values: (11-3)/(6-2)",
+            "Simplify to get 2"
+          ],
+          "hints": {
+            "tiktok": "Yo bro, no cap, use the rise over run vibe!",
+            "casual": "Just do (y2‑y1) over (x2‑x1), lekker easy.",
+            "jjk": "Channel your cursed energy into the rise‑run formula, bro!",
+            "formal": "Apply the gradient formula m = (Δy)/(Δx) as per CAPS guidelines."
+          },
+          "cheers": {
+            "tiktok": "Bet! You nailed that slope!",
+            "casual": "Sharp one, hey!",
+            "jjk": "Your cursed technique is on point!",
+            "formal": "Correct answer, well done."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Geometry of Straight Lines"
+        },
+        {
+          "subtopic": "Equation of a line",
+          "question": "Write the equation of the line with gradient 3 that passes through the point (4,-2).",
+          "correct": "y=3x-14",
+          "steps": [
+            "Use point‑slope: y-y1=m(x-x1)",
+            "Substitute m=3, x1=4, y1=-2",
+            "Simplify to y=3x-14"
+          ],
+          "hints": {
+            "tiktok": "Lock in that slope 3, no cap!",
+            "casual": "Plug into y‑y₁=m(x‑x₁) and sort it out.",
+            "jjk": "Summon the line spell with m=3 and your point, ronin!",
+            "formal": "Employ the point‑slope form and isolate y as required."
+          },
+          "cheers": {
+            "tiktok": "Yooo, that's fire!",
+            "casual": "Nice work, bru!",
+            "jjk": "Your line is as sharp as cursed energy!",
+            "formal": "Answer correct, excellent."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Geometry of Straight Lines"
+        },
+        {
+          "subtopic": "Parallel lines",
+          "question": "If line L1 has equation y=-1/2x+5, what is the equation of a line parallel to L1 that passes through (2,3)?",
+          "correct": "y=-0.5x+4",
+          "steps": [
+            "Parallel lines share the same gradient -0.5",
+            "Use point‑slope with m=-0.5 and (2,3)",
+            "Simplify to y=-0.5x+4"
+          ],
+          "hints": {
+            "tiktok": "Parallel vibes only, lock in that -0.5 slope!",
+            "casual": "Same gradient, just shift the line through your point.",
+            "jjk": "Match the cursed energy of L1, then anchor it at (2,3).",
+            "formal": "Maintain the slope of L1 and apply the point‑slope method."
+          },
+          "cheers": {
+            "tiktok": "Big facts, you got it!",
+            "casual": "Lekker done!",
+            "jjk": "Your parallel line is pure power!",
+            "formal": "Correct, well executed."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Geometry of Straight Lines"
+        },
+        {
+          "subtopic": "Perpendicular lines",
+          "question": "Find the gradient of a line perpendicular to the line 4x-y=8.",
+          "correct": "-0.25",
+          "steps": [
+            "Rewrite as y=4x-8, so m1=4",
+            "Perpendicular gradient m2=-1/m1",
+            "Thus m2=-1/4=-0.25"
+          ],
+          "hints": {
+            "tiktok": "No cap, flip that slope and add a minus!",
+            "casual": "Take the negative reciprocal of 4, hey.",
+            "jjk": "Turn the cursed energy upside down: -1/4!",
+            "formal": "Determine the negative reciprocal of the given line's gradient."
+          },
+          "cheers": {
+            "tiktok": "Yasss, you slayed it!",
+            "casual": "Nice, that’s spot on!",
+            "jjk": "Your cursed technique is flawless!",
+            "formal": "Correct answer, well done."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Geometry of Straight Lines"
+        },
+        {
+          "subtopic": "Distance from point to line",
+          "question": "Calculate the perpendicular distance from the point (3,-2) to the line y=2x+1. Give your answer to 2 d.p.",
+          "correct": "4.02",
+          "steps": [
+            "Rewrite line as 2x-y+1=0 (A=2,B=-1,C=1)",
+            "Apply d=|Ax0+By0+C|/√(A^2+B^2)",
+            "Compute |2*3+(-1)*(-2)+1|/√5=9/√5≈4.02"
+          ],
+          "hints": {
+            "tiktok": "Lock in the formula, no cap, then crunch the numbers!",
+            "casual": "Use the distance formula with A,B,C – it’s easy.",
+            "jjk": "Summon the distance spell: |Ax+By+C| over √(A²+B²).",
+            "formal": "Apply the standard point‑to‑line distance formula and round to two decimal places."
+          },
+          "cheers": {
+            "tiktok": "Boom! Distance sorted!",
+            "casual": "Sweet, you got the right distance!",
+            "jjk": "Your cursed precision is impressive!",
+            "formal": "Answer correct, good job."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Geometry of Straight Lines"
+        }
+      ],
+      "Theorem of Pythagoras": [
+        {
+          "subtopic": "Finding the hypotenuse",
+          "question": "A right‑angled triangle has legs of 6 m and 8 m. What is the length of the hypotenuse in metres?",
+          "correct": "10",
+          "steps": [
+            "Square each leg: 6² = 36 and 8² = 64.",
+            "Add the squares: 36 + 64 = 100.",
+            "Take the square root of the sum: √100 = 10."
+          ],
+          "hints": {
+            "tiktok": "Yo, just square ’em, add ’em, sqrt it – no cap!",
+            "casual": "Just do the squares, add them up and take the root, bru.",
+            "jjk": "Channel your cursed energy, square the sides, combine and unleash the sqrt.",
+            "formal": "Apply the Pythagorean theorem: c = √(a² + b²)."
+          },
+          "cheers": {
+            "tiktok": "Bet! You nailed it, lit!",
+            "casual": "Sharp, hey! Good job.",
+            "jjk": "Your technique is as precise as a sorcerer’s strike!",
+            "formal": "Correct. Well done."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Theorem of Pythagoras"
+        },
+        {
+          "subtopic": "Finding a missing side",
+          "question": "In a right‑angled triangle, the hypotenuse is 13 m and one leg is 5 m. Find the length of the other leg.",
+          "correct": "12",
+          "steps": [
+            "Square the known sides: 13² = 169 and 5² = 25.",
+            "Subtract the smaller square from the larger: 169 – 25 = 144.",
+            "Take the square root: √144 = 12."
+          ],
+          "hints": {
+            "tiktok": "Flip the script – hyp² minus leg², then sqrt, lock in!",
+            "casual": "Take the hypotenuse square, minus the known leg square, then root it.",
+            "jjk": "Subtract the cursed energy of the known side from the total, then reveal the hidden power.",
+            "formal": "Use c² – a² = b² and solve for b."
+          },
+          "cheers": {
+            "tiktok": "Big brain vibes, fam!",
+            "casual": "Nice one, you’re on point.",
+            "jjk": "Your calculation resonates with pure cursed technique!",
+            "formal": "Correct answer."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Theorem of Pythagoras"
+        },
+        {
+          "subtopic": "Real‑world application",
+          "question": "A ladder 5 m long leans against a wall. Its foot is 3 m from the wall. How far above the ground does the ladder reach?",
+          "correct": "4",
+          "steps": [
+            "Square the ladder and the distance from the wall: 5² = 25, 3² = 9.",
+            "Subtract: 25 – 9 = 16.",
+            "Square root of 16 gives the height: √16 = 4."
+          ],
+          "hints": {
+            "tiktok": "Square, subtract, sqrt – climb that height, no cap!",
+            "casual": "Just do the maths, the ladder reaches 4 m up.",
+            "jjk": "Measure the vertical cursed energy after removing the horizontal component.",
+            "formal": "Apply the theorem with the ladder as hypotenuse."
+          },
+          "cheers": {
+            "tiktok": "You’re on fire, bro!",
+            "casual": "Well done, you got it.",
+            "jjk": "Your solution stands as tall as a seasoned sorcerer!",
+            "formal": "Answer is correct."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Theorem of Pythagoras"
+        },
+        {
+          "subtopic": "Pythagorean triple identification",
+          "question": "Which set of whole numbers is a Pythagorean triple: (7, 24, 25) or (8, 15, 22)?",
+          "correct": "7,24,25",
+          "steps": [
+            "Check (7,24,25): 7² + 24² = 49 + 576 = 625, √625 = 25.",
+            "Check (8,15,22): 8² + 15² = 64 + 225 = 289, √289 = 17 ≠ 22.",
+            "Therefore the first set satisfies the theorem."
+          ],
+          "hints": {
+            "tiktok": "Test ‘em – only one squad hits the sqrt goal, no cap!",
+            "casual": "Plug the numbers in, only the first set works.",
+            "jjk": "Only the true triple channels the perfect cursed energy balance.",
+            "formal": "Verify each set using a² + b² = c²."
+          },
+          "cheers": {
+            "tiktok": "You spotted the legit set, lit!",
+            "casual": "Good eye, that’s the right triple.",
+            "jjk": "Your discernment mirrors a master’s insight!",
+            "formal": "Correct identification."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Theorem of Pythagoras"
+        },
+        {
+          "subtopic": "Using the theorem in a field",
+          "question": "A farmer measures a diagonal across a rectangular plot that is 50 m long and 120 m wide. What is the length of the diagonal in metres?",
+          "correct": "130",
+          "steps": [
+            "Square the sides: 50² = 2500, 120² = 14400.",
+            "Add the squares: 2500 + 14400 = 16900.",
+            "Square root of 16900 gives the diagonal: √16900 = 130."
+          ],
+          "hints": {
+            "tiktok": "Add the squares, sqrt it, lock in that 130, bro!",
+            "casual": "Do the maths, the diagonal comes out to 130 m.",
+            "jjk": "Combine the field’s lengths, then unleash the sqrt to reveal the cursed line.",
+            "formal": "Apply c = √(a² + b²) with a = 50 m, b = 120 m."
+          },
+          "cheers": {
+            "tiktok": "Big win, you crushed it!",
+            "casual": "Nice work, that’s spot on.",
+            "jjk": "Your calculation shines brighter than a domain expansion!",
+            "formal": "Answer correct."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Theorem of Pythagoras"
+        }
+      ],
+      "Perimeter & Area of 2D Shapes": [
+        {
+          "subtopic": "Rectangle perimeter",
+          "question": "A rectangular garden in Pretoria measures 15 m by 45 m. What is its perimeter in metres?",
+          "correct": "120",
+          "steps": [
+            "Multiply length by 2",
+            "Multiply width by 2",
+            "Add the two results"
+          ],
+          "hints": {
+            "tiktok": "Yo bro, perimeter = 2L+2W, no cap!",
+            "casual": "Just double each side and add, hey.",
+            "jjk": "Lock in the cursed energy: 2×L + 2×W.",
+            "formal": "Apply the formula P = 2(l + w) as per DBE guidelines."
+          },
+          "cheers": {
+            "tiktok": "Bet! You nailed it!",
+            "casual": "Lekker work, you got it!",
+            "jjk": "Your cursed technique is strong!",
+            "formal": "Correct, well done."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Perimeter & Area of 2D Shapes"
+        },
+        {
+          "subtopic": "Triangle area",
+          "question": "The base of a triangular field in the Karoo is 12 m and its height is 8 m. Find its area.",
+          "correct": "48",
+          "steps": [
+            "Use formula A = ½ × base × height",
+            "Multiply base by height",
+            "Divide the product by 2"
+          ],
+          "hints": {
+            "tiktok": "Half the product, lock in, no cap.",
+            "casual": "Take half of 12 times 8, easy.",
+            "jjk": "Channel cursed energy: (b×h)/2.",
+            "formal": "Apply A = ½bh according to the curriculum."
+          },
+          "cheers": {
+            "tiktok": "Yooo, that's fire!",
+            "casual": "Sharp, you got the area!",
+            "jjk": "Your technique is flawless!",
+            "formal": "Correct answer."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Perimeter & Area of 2D Shapes"
+        },
+        {
+          "subtopic": "Circle circumference",
+          "question": "A circular water tank has a radius of 7 m. What is its circumference? (Use π≈3.14)",
+          "correct": "43.96",
+          "steps": [
+            "Use C = 2πr",
+            "Multiply π by 2",
+            "Multiply the result by radius"
+          ],
+          "hints": {
+            "tiktok": "C = 2πr, no cap, lock in.",
+            "casual": "Just double pi times radius.",
+            "jjk": "Cursed energy formula: 2×π×r.",
+            "formal": "Apply C = 2πr with π≈3.14."
+          },
+          "cheers": {
+            "tiktok": "Boom! You did it!",
+            "casual": "Nice one, that's the right length!",
+            "jjk": "Your cursed strike hits the target!",
+            "formal": "Correct."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Perimeter & Area of 2D Shapes"
+        },
+        {
+          "subtopic": "Square area",
+          "question": "A square playground in Cape Town has each side 8 m long. What is its area in square metres?",
+          "correct": "64",
+          "steps": [
+            "Use A = side²",
+            "Multiply side by itself"
+          ],
+          "hints": {
+            "tiktok": "Side squared, bro, no cap.",
+            "casual": "Just 8×8, hey.",
+            "jjk": "Cursed energy squares the side.",
+            "formal": "Apply A = s² as per DBE."
+          },
+          "cheers": {
+            "tiktok": "Lit! You got it!",
+            "casual": "Lekker, that's spot on!",
+            "jjk": "Your technique is impeccable!",
+            "formal": "Correct answer."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Perimeter & Area of 2D Shapes"
+        },
+        {
+          "subtopic": "Composite shape area",
+          "question": "A garden combines a rectangle 10 m by 20 m attached to a semicircle of radius 10 m on one of the 20 m sides. What is the total area? (Use π≈3.14)",
+          "correct": "357",
+          "steps": [
+            "Area rectangle = length × width",
+            "Area semicircle = ½πr²",
+            "Add both areas"
+          ],
+          "hints": {
+            "tiktok": "Rect + half circle, no cap, lock in.",
+            "casual": "Do the rectangle then half a circle, add up.",
+            "jjk": "Combine the cursed rectangle and half‑circle.",
+            "formal": "Calculate each component area then sum per DBE standards."
+          },
+          "cheers": {
+            "tiktok": "Boom! Composite master!",
+            "casual": "Sharp, you nailed the total!",
+            "jjk": "Your cursed technique merges perfectly!",
+            "formal": "Correct."
+          },
+          "grade": 8,
+          "subject": "Mathematics",
+          "topic": "Perimeter & Area of 2D Shapes"
+        }
+      ]
+    }
+  },
+  "natural_sciences": {
+    "8": {
+      "Human Digestive System": [
+        {
+          "subtopic": "Mouth and Salivary Glands",
+          "question": "What enzyme in saliva begins the digestion of carbohydrates?",
+          "correct": "amylase",
+          "steps": [
+            "Identify the organ that secretes saliva",
+            "Recall the enzyme that breaks down starch",
+            "Name the enzyme"
+          ],
+          "hints": {
+            "tiktok": "Yo bro, look for the enzyme that’s no cap breaking starch",
+            "casual": "Think of the juice in your mouth that kicks off carbs",
+            "jjk": "Channel your cursed energy to find the amylase ronin",
+            "formal": "Identify the salivary enzyme responsible for carbohydrate hydrolysis"
+          },
+          "cheers": {
+            "tiktok": "Bet! You nailed it, lock in!",
+            "casual": "Lekker job, you got it!",
+            "jjk": "Your technique is flawless, sorcerer!",
+            "formal": "Well done, answer correct."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Human Digestive System"
+        },
+        {
+          "subtopic": "Esophagus",
+          "question": "Through which muscular movement does food travel down the esophagus?",
+          "correct": "peristalsis",
+          "steps": [
+            "Recall the type of muscle contraction in tubes",
+            "Identify the wave-like motion",
+            "Name the process"
+          ],
+          "hints": {
+            "tiktok": "No cap, it’s the wave that pushes the grub",
+            "casual": "Think of the wave that shoves your biltong down",
+            "jjk": "Summon the peristaltic cursed energy flow",
+            "formal": "State the coordinated muscular contraction moving bolus"
+          },
+          "cheers": {
+            "tiktok": "You’re on fire, lock that in!",
+            "casual": "Sharp like a roo, well done!",
+            "jjk": "Your cursed technique is strong!",
+            "formal": "Correct, well answered."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Human Digestive System"
+        },
+        {
+          "subtopic": "Stomach",
+          "question": "What acidic substance in the stomach kills most bacteria?",
+          "correct": "hydrochloric acid",
+          "steps": [
+            "Identify the main gastric secret",
+            "Recall its pH and antimicrobial role",
+            "Provide the chemical name"
+          ],
+          "hints": {
+            "tiktok": "Bro, the acid that’s straight savage",
+            "casual": "Think of the strong juice that’s in your tummy",
+            "jjk": "The cursed acid that purges foes",
+            "formal": "Name the gastric acid with antimicrobial properties"
+          },
+          "cheers": {
+            "tiktok": "Yaas! You crushed it!",
+            "casual": "Nice one, bru!",
+            "jjk": "Your spirit roars with power!",
+            "formal": "Answer accepted, good work."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Human Digestive System"
+        },
+        {
+          "subtopic": "Small Intestine",
+          "question": "Which part of the small intestine is primarily responsible for nutrient absorption?",
+          "correct": "duodenum",
+          "steps": [
+            "List the three sections of the small intestine",
+            "Identify which has most villi",
+            "Give the name"
+          ],
+          "hints": {
+            "tiktok": "Lock in the first segment, no cap",
+            "casual": "Think of the front part of the gut where stuff gets taken in",
+            "jjk": "The duodenum, the first cursed gate",
+            "formal": "Specify the initial segment of the small intestine where absorption predominates"
+          },
+          "cheers": {
+            "tiktok": "Boom! You got it!",
+            "casual": "Lekker, you’re spot on!",
+            "jjk": "Your cursed insight shines!",
+            "formal": "Correct response."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Human Digestive System"
+        },
+        {
+          "subtopic": "Large Intestine",
+          "question": "What is the main function of the large intestine?",
+          "correct": "water absorption",
+          "steps": [
+            "Recall the role of the colon",
+            "Identify the key substance it reclaims",
+            "State the function"
+          ],
+          "hints": {
+            "tiktok": "No cap, it’s all about pulling H2O",
+            "casual": "Think of the gut part that drinks up water",
+            "jjk": "The colon’s cursed energy reclaims water",
+            "formal": "State the principal physiological role of the large intestine"
+          },
+          "cheers": {
+            "tiktok": "Yooo, you locked it!",
+            "casual": "Sharp as a spear, nice!",
+            "jjk": "Your technique is flawless!",
+            "formal": "Well done, answer correct."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Human Digestive System"
+        }
+      ],
+      "Plant & Animal Cells": [
+        {
+          "subtopic": "Cell wall",
+          "question": "What rigid structure is found only in plant cells that provides support and protection?",
+          "correct": "cell wall",
+          "steps": [
+            "Identify structures unique to plant cells",
+            "Recall that the rigid outer layer is the cell wall",
+            "Confirm it is absent in animal cells"
+          ],
+          "hints": {
+            "tiktok": "Yo bro, think about the wall that’s no cap, keeping the plant chill",
+            "casual": "Kop die muur wat net in plante voorkom, hey?",
+            "jjk": "Picture a cursed barrier, a ronin shield only plants wield",
+            "formal": "Identify the rigid extracellular layer exclusive to plant cells"
+          },
+          "cheers": {
+            "tiktok": "Bet you nailed it, lock in!",
+            "casual": "Lekker, jy het dit reg gekry!",
+            "jjk": "Your knowledge shines like cursed energy!",
+            "formal": "Correct, well done."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Plant & Animal Cells"
+        },
+        {
+          "subtopic": "Chloroplast",
+          "question": "Which organelle is responsible for photosynthesis in plant cells?",
+          "correct": "chloroplast",
+          "steps": [
+            "Recall the organelle that contains green pigment",
+            "Link that pigment to light energy capture",
+            "Recognise its role in converting CO₂ to glucose"
+          ],
+          "hints": {
+            "tiktok": "No cap, the green factory is the real MVP",
+            "casual": "Dink aan die groen ding wat sonlig eet",
+            "jjk": "The cursed energy converter, a chlorophyll‑laden ronin",
+            "formal": "Identify the organelle where photosynthesis occurs"
+          },
+          "cheers": {
+            "tiktok": "Boom! You’re on fire, lock in!",
+            "casual": "Ja, dis reg – dis die groen krag!",
+            "jjk": "Your answer radiates like a perfected technique!",
+            "formal": "Correct answer."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Plant & Animal Cells"
+        },
+        {
+          "subtopic": "Mitochondria",
+          "question": "What organelle produces most of the cell’s ATP in animal cells?",
+          "correct": "mitochondria",
+          "steps": [
+            "Identify the powerhouse of the cell",
+            "Recall that ATP is generated via cellular respiration",
+            "Confirm this organelle is abundant in animal cells"
+          ],
+          "hints": {
+            "tiktok": "Bro, the power plant inside you, no cap",
+            "casual": "Daai klein fabriek wat jou energie maak",
+            "jjk": "The cursed energy core, a mitochondrial ronin",
+            "formal": "Name the organelle chiefly responsible for ATP synthesis"
+          },
+          "cheers": {
+            "tiktok": "Yaas! You just unlocked the power, lock in!",
+            "casual": "Sharp, dis die regte antwoord!",
+            "jjk": "Your knowledge is a true cursed technique!",
+            "formal": "Correct, well done."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Plant & Animal Cells"
+        },
+        {
+          "subtopic": "Central vacuole",
+          "question": "Which type of vacuole is typically large and central in plant cells but small and numerous in animal cells?",
+          "correct": "central vacuole",
+          "steps": [
+            "Distinguish vacuole sizes between plant and animal cells",
+            "Recall that plants have one big storage sac",
+            "Note that animals have many tiny ones"
+          ],
+          "hints": {
+            "tiktok": "No cap, the big boss vacuole lives in plants",
+            "casual": "Die groot sak in plantte sel wat alles stoor",
+            "jjk": "Think of a massive cursed container, the plant’s ronin vault",
+            "formal": "Identify the large, central storage vacuole in plant cells"
+          },
+          "cheers": {
+            "tiktok": "Lock in, you got it!",
+            "casual": "Lekker, dis die regte een!",
+            "jjk": "Your answer echoes like a perfected curse!",
+            "formal": "Correct answer."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Plant & Animal Cells"
+        },
+        {
+          "subtopic": "Osmosis",
+          "question": "What process allows water to move across the cell membrane down its concentration gradient?",
+          "correct": "osmosis",
+          "steps": [
+            "Recall passive transport mechanisms",
+            "Identify water movement without energy input",
+            "Name the specific term for this movement"
+          ],
+          "hints": {
+            "tiktok": "Yo bro, water sliding no cap = ___",
+            "casual": "Water glip oor die membraan sonder poef",
+            "jjk": "The cursed flow of water, an osmic ronin move",
+            "formal": "Name the passive diffusion of water across a semipermeable membrane"
+          },
+          "cheers": {
+            "tiktok": "Boom! You locked that in!",
+            "casual": "Ja, dis korrek!",
+            "jjk": "Your knowledge surges like cursed water!",
+            "formal": "Correct, well done."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Plant & Animal Cells"
+        }
+      ],
+      "Photosynthesis & Respiration": [
+        {
+          "subtopic": "Light‑dependent reactions",
+          "question": "In the light‑dependent reactions of photosynthesis, which pigment primarily captures sunlight?",
+          "correct": "chlorophyll",
+          "steps": [
+            "Identify the pigment that absorbs visible light",
+            "Recall that chlorophyll a is the main pigment in chloroplasts",
+            "Select the name of that pigment"
+          ],
+          "hints": {
+            "tiktok": "No cap, the green vibe is chlorophyll, lock in bro!",
+            "casual": "Hey, think of the green stuff in the leaf – that's the pigment.",
+            "jjk": "Channel the cursed energy of the green ronin, it's chlorophyll.",
+            "formal": "Identify the primary photosynthetic pigment as outlined in the CAPS curriculum."
+          },
+          "cheers": {
+            "tiktok": "Bet! You nailed it, no cap!",
+            "casual": "Lekker job, you got it!",
+            "jjk": "Your knowledge shines like cursed energy!",
+            "formal": "Correct response recorded."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Photosynthesis & Respiration"
+        },
+        {
+          "subtopic": "Gas exchange in photosynthesis",
+          "question": "Write the gas that plants take in during photosynthesis.",
+          "correct": "carbon dioxide",
+          "steps": [
+            "Recall which gas is absorbed from the atmosphere",
+            "Link it to the photosynthetic equation",
+            "Provide the name of that gas"
+          ],
+          "hints": {
+            "tiktok": "Lock in, plants are sucking in CO2, no cap!",
+            "casual": "Think of the gas that comes out of car exhaust – plants love it.",
+            "jjk": "The cursed breath of industry, carbon dioxide, fuels the green ronin.",
+            "formal": "State the atmospheric gas absorbed in photosynthesis."
+          },
+          "cheers": {
+            "tiktok": "Yaas! You got that gas, bro!",
+            "casual": "Nice one, you know your gases!",
+            "jjk": "Your answer channels the true cursed energy!",
+            "formal": "Answer accepted."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Photosynthesis & Respiration"
+        },
+        {
+          "subtopic": "Stomatal function",
+          "question": "Which leaf opening controls gas exchange?",
+          "correct": "stomata",
+          "steps": [
+            "Identify the structures on leaf surfaces",
+            "Recall their role in gas exchange",
+            "Name the structures"
+          ],
+          "hints": {
+            "tiktok": "No cap, those tiny doors are stomata, lock in!",
+            "casual": "Those tiny pores on leaves are what we’re after.",
+            "jjk": "The cursed portals called stomata open the way.",
+            "formal": "Provide the term for leaf pores regulating exchange."
+          },
+          "cheers": {
+            "tiktok": "Boom! Stomata locked!",
+            "casual": "Sharp! You got the leaf doors right!",
+            "jjk": "Your answer opens the cursed gate!",
+            "formal": "Correct."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Photosynthesis & Respiration"
+        },
+        {
+          "subtopic": "Cellular respiration output",
+          "question": "What is the main energy‑currency molecule produced in aerobic respiration?",
+          "correct": "ATP",
+          "steps": [
+            "Recall the molecule that stores cellular energy",
+            "Identify it as the product of the electron transport chain",
+            "State its abbreviation"
+          ],
+          "hints": {
+            "tiktok": "Lock in, the cell’s money is ATP, no cap!",
+            "casual": "Think of the cell’s cash – it’s ATP.",
+            "jjk": "The cursed energy token is ATP, the ultimate rune.",
+            "formal": "Name the adenine nucleotide that stores energy."
+          },
+          "cheers": {
+            "tiktok": "Yooo, ATP vibes!",
+            "casual": "Lekker, you nailed the energy currency!",
+            "jjk": "Your knowledge radiates cursed power!",
+            "formal": "Answer recorded."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Photosynthesis & Respiration"
+        },
+        {
+          "subtopic": "Energy flow in food chains",
+          "question": "In a food chain, which process transfers chemical energy from plants to animals?",
+          "correct": "herbivory",
+          "steps": [
+            "Identify the interaction where animals eat plants",
+            "Recall the term for plant‑eating behavior",
+            "Provide that term"
+          ],
+          "hints": {
+            "tiktok": "No cap, when animals munch plants that’s herbivory, lock in!",
+            "casual": "Think of cows grazing – that’s the word we need.",
+            "jjk": "The cursed act of the plant‑eater is herbivory.",
+            "formal": "State the term for consumption of autotrophs by heterotrophs."
+          },
+          "cheers": {
+            "tiktok": "Bet! Herbivory on point!",
+            "casual": "Nice, you got the grazing term!",
+            "jjk": "Your answer wields the power of the green ronin!",
+            "formal": "Correct response."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Photosynthesis & Respiration"
+        }
+      ],
+      "Atoms & Periodic Table": [
+        {
+          "subtopic": "Atomic structure",
+          "question": "What sub‑atomic particle carries a positive charge in the nucleus of an atom?",
+          "correct": "proton",
+          "steps": [
+            "Identify the particles in the nucleus",
+            "Recall charge of each particle",
+            "Select the positively charged one"
+          ],
+          "hints": {
+            "tiktok": "Yo bro, think of the particle that's always lit, no cap.",
+            "casual": "Remember, the centre’s got the positive bits.",
+            "jjk": "Channel the cursed energy of the charged ronin in the nucleus.",
+            "formal": "Identify the positively charged sub‑atomic particle located in the atomic nucleus."
+          },
+          "cheers": {
+            "tiktok": "Bet! You nailed it, fam!",
+            "casual": "Lekker, you got it!",
+            "jjk": "Your cursed technique is on point!",
+            "formal": "Well done."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Atoms & Periodic Table"
+        },
+        {
+          "subtopic": "Periodic trends",
+          "question": "Which element in the first period has the highest atomic radius?",
+          "correct": "hydrogen",
+          "steps": [
+            "List first‑period elements",
+            "Know radius decreases left to right",
+            "Pick the leftmost element"
+          ],
+          "hints": {
+            "tiktok": "Lock in, the biggest vibe is on the far left, no cap.",
+            "casual": "Think of the element at the start of the row – it’s the biggest.",
+            "jjk": "The ronin at the front holds the largest cursed space.",
+            "formal": "Select the first‑period element with the greatest atomic radius."
+          },
+          "cheers": {
+            "tiktok": "Yass! You’re crushing it!",
+            "casual": "Sharp, that’s correct!",
+            "jjk": "Your cursed insight shines!",
+            "formal": "Correct answer."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Atoms & Periodic Table"
+        },
+        {
+          "subtopic": "Electron configuration",
+          "question": "Write the electron configuration for the element sodium (Na).",
+          "correct": "1s2 2s2 2p6 3s1",
+          "steps": [
+            "Find atomic number of Na (11)",
+            "Fill shells according to Aufbau rule",
+            "Write the notation"
+          ],
+          "hints": {
+            "tiktok": "Bro, fill ‘em up to 11, no cap!",
+            "casual": "Start from 1s and work your way to 3s.",
+            "jjk": "Channel the cursed flow of electrons up to the 3s ronin.",
+            "formal": "Provide the electron configuration for atomic number 11."
+          },
+          "cheers": {
+            "tiktok": "Boom! You nailed the config!",
+            "casual": "Nice work, that’s spot on!",
+            "jjk": "Your cursed energy aligns perfectly!",
+            "formal": "Answer accepted."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Atoms & Periodic Table"
+        },
+        {
+          "subtopic": "Group properties",
+          "question": "Name the group in the periodic table that contains the highly reactive metals used in fireworks, such as potassium.",
+          "correct": "alkali metals",
+          "steps": [
+            "Identify metals used in fireworks",
+            "Recall their group position",
+            "State the group name"
+          ],
+          "hints": {
+            "tiktok": "Lock in, the fire‑crew is in the alkali squad, no cap.",
+            "casual": "Those flashy metals sit in the alkali metals group.",
+            "jjk": "The cursed energy of the alkali ronins fuels the spark.",
+            "formal": "State the group containing highly reactive metals like potassium."
+          },
+          "cheers": {
+            "tiktok": "Yooo! Group locked!",
+            "casual": "Lekker, that’s the right group!",
+            "jjk": "Your cursed knowledge burns bright!",
+            "formal": "Correct."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Atoms & Periodic Table"
+        },
+        {
+          "subtopic": "Isotopes",
+          "question": "Carbon-14 has 6 protons. How many neutrons does it have?",
+          "correct": "8",
+          "steps": [
+            "Know atomic number of carbon (6)",
+            "Subtract protons from mass number (14‑6)",
+            "Result is neutrons"
+          ],
+          "hints": {
+            "tiktok": "Bro, 14 minus 6 equals the neutrons, no cap.",
+            "casual": "Just do 14 minus 6 – that’s the neutron count.",
+            "jjk": "Subtract the proton ronin from the mass to unleash neutrons.",
+            "formal": "Calculate neutrons by subtracting atomic number from mass number."
+          },
+          "cheers": {
+            "tiktok": "Bet! You got the neutrons!",
+            "casual": "Nice, that’s spot on!",
+            "jjk": "Your cursed calculation is flawless!",
+            "formal": "Well done."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Atoms & Periodic Table"
+        }
+      ],
+      "Particle Model of Matter": [
+        {
+          "subtopic": "Particle arrangement in solids",
+          "question": "Describe how particles are arranged in a solid and how this affects its shape.",
+          "correct": "tightly packed",
+          "steps": [
+            "Identify that a solid has a definite shape",
+            "Note that particles are close together",
+            "Explain that particles vibrate in fixed positions"
+          ],
+          "hints": {
+            "tiktok": "No cap, particles are vibin' tight in a solid.",
+            "casual": "Bru, think of particles jammed together like traffic in Jo'burg.",
+            "jjk": "Lock in, the cursed energy keeps particles locked in place.",
+            "formal": "DBE states particles in solids are closely packed, giving a fixed shape."
+          },
+          "cheers": {
+            "tiktok": "Yooo, you nailed it! 🔥",
+            "casual": "Lekker job, you’re on point!",
+            "jjk": "Your cursed technique is strong, well done!",
+            "formal": "Excellent work, as per DBE standards."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Particle Model of Matter"
+        },
+        {
+          "subtopic": "Particle movement in gases",
+          "question": "What is the average speed of particles in a gas compared to a liquid at the same temperature?",
+          "correct": "higher",
+          "steps": [
+            "Recall that temperature is the same for both",
+            "Recognise gas particles move more freely",
+            "Conclude gas particles have higher average speed"
+          ],
+          "hints": {
+            "tiktok": "No cap, gas particles are out here sprinting.",
+            "casual": "Bro, gas particles are like kids on a playground – running wild!",
+            "jjk": "As cursed energy spikes, gas particles accelerate faster.",
+            "formal": "According to the particle model, gases exhibit greater kinetic energy than liquids at equal temperature."
+          },
+          "cheers": {
+            "tiktok": "Boom! You got it! 🚀",
+            "casual": "Sharp! That’s proper SA smarts!",
+            "jjk": "Your technique shines, great job!",
+            "formal": "Well done, answer aligns with DBE expectations."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Particle Model of Matter"
+        },
+        {
+          "subtopic": "Change of state: melting",
+          "question": "When 500 g of ice at 0°C melts, how much energy is absorbed? (Use latent heat of fusion = 334 J/g)",
+          "correct": "167000",
+          "steps": [
+            "Multiply mass (500 g) by latent heat (334 J/g)",
+            "Calculate 500 × 334 = 167,000 J",
+            "State the energy absorbed is 167000 joules"
+          ],
+          "hints": {
+            "tiktok": "No cap, just 500 times 334, do the math!",
+            "casual": "Bru, 500g times 334 J/g – that’s a lot of heat, hey!",
+            "jjk": "Channel your cursed energy, 500 × 334, and unleash 167000!",
+            "formal": "Apply Q = m·L_f; with m=500g and L_f=334 J/g, Q=167000 J."
+          },
+          "cheers": {
+            "tiktok": "Facts! You crushed it! 💯",
+            "casual": "Nice one, you’re on fire!",
+            "jjk": "Your cursed calculation is flawless!",
+            "formal": "Correct answer, meeting DBE criteria."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Particle Model of Matter"
+        },
+        {
+          "subtopic": "Density and particle spacing",
+          "question": "If a metal block has a density of 7.8 g/cm³, is its particles more or less closely packed than water (1 g/cm³)?",
+          "correct": "more",
+          "steps": [
+            "Compare densities: 7.8 vs 1",
+            "Higher density means particles are closer",
+            "Conclude metal particles are more closely packed"
+          ],
+          "hints": {
+            "tiktok": "No cap, 7.8 is way up – particles tighter!",
+            "casual": "Think of it like a crowded braai spot vs a quiet park – more packed!",
+            "jjk": "Cursed energy density high, so particles are more compact.",
+            "formal": "A greater density indicates a higher particle packing fraction per DBE standards."
+          },
+          "cheers": {
+            "tiktok": "Yasss, you got it! 🎉",
+            "casual": "Lekker, that’s spot on!",
+            "jjk": "Your insight cuts through like cursed blade!",
+            "formal": "Answer correct, adhering to DBE guidelines."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Particle Model of Matter"
+        },
+        {
+          "subtopic": "Particle model and pressure",
+          "question": "How does increasing temperature affect the pressure of a fixed amount of gas in a sealed container?",
+          "correct": "increases",
+          "steps": [
+            "Recall temperature rise boosts particle kinetic energy",
+            "Higher kinetic energy means more frequent collisions",
+            "More collisions raise the gas pressure"
+          ],
+          "hints": {
+            "tiktok": "No cap, hotter gas = more push, pressure rises.",
+            "casual": "Bro, heat it up and the container feels the squeeze!",
+            "jjk": "When cursed energy heats, the pressure spikes like a cursed blast.",
+            "formal": "According to the ideal gas law, at constant volume, pressure rises with temperature."
+          },
+          "cheers": {
+            "tiktok": "Boom, you smashed it! 🚀",
+            "casual": "Sharp! You’re a real SA science star!",
+            "jjk": "Your cursed knowledge is supreme!",
+            "formal": "Well done, answer aligns with DBE expectations."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Particle Model of Matter"
+        }
+      ],
+      "Electric Circuits (Series & Parallel)": [
+        {
+          "subtopic": "Series circuit current",
+          "question": "A series circuit has a 9 V battery and three resistors of 2 Ω, 3 Ω and 5 Ω. What is the current flowing through the circuit?",
+          "correct": "0.9A",
+          "steps": [
+            "Add the resistances: 2+3+5=10 Ω",
+            "Use Ohm’s law I=V/R: 9 V/10 Ω",
+            "Result: I=0.9 A"
+          ],
+          "hints": {
+            "tiktok": "no cap, just divide that voltage by the total resistance, bro",
+            "casual": "Just add the resistors then use I=V/R, lekker!",
+            "jjk": "Channel your cursed energy, sum the resistors and unleash Ohm’s law",
+            "formal": "Determine the total resistance, then apply I=V/R as stipulated by the DBE syllabus"
+          },
+          "cheers": {
+            "tiktok": "you nailed it, lock in!",
+            "casual": "Sharp, hey! Well done!",
+            "jjk": "Your calculation is as precise as a sorcerer’s strike!",
+            "formal": "Correct response, satisfactory."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Electric Circuits (Series & Parallel)"
+        },
+        {
+          "subtopic": "Parallel circuit voltage",
+          "question": "Two resistors of 4 Ω and 6 Ω are connected in parallel across a 12 V source. What is the voltage across each resistor?",
+          "correct": "12V",
+          "steps": [
+            "In a parallel circuit voltage is the same across all branches",
+            "Identify the source voltage: 12 V",
+            "Therefore each resistor has 12 V across it"
+          ],
+          "hints": {
+            "tiktok": "lock in, parallel means same volts, no cap",
+            "casual": "Both get the same 12 V, easy peasy",
+            "jjk": "The parallel realm shares one voltage, like a unified cursed energy",
+            "formal": "According to parallel circuit rules, the potential difference equals the source voltage"
+          },
+          "cheers": {
+            "tiktok": "boom, you’re lit!",
+            "casual": "Nice one, you got it!",
+            "jjk": "Your answer resonates like a perfected technique!",
+            "formal": "Answer is correct, well done."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Electric Circuits (Series & Parallel)"
+        },
+        {
+          "subtopic": "Total resistance in series",
+          "question": "Find the total resistance of a series circuit with resistors 10 Ω, 15 Ω and 5 Ω.",
+          "correct": "30Ω",
+          "steps": [
+            "Add all resistances: 10+15+5",
+            "Sum equals 30 Ω",
+            "Series total is the sum"
+          ],
+          "hints": {
+            "tiktok": "just stack ’em up, sum ’em, bro",
+            "casual": "Add ’em together, you’ll get 30 Ω",
+            "jjk": "Stack the resistors like layers of cursed armor, total them",
+            "formal": "Sum the individual resistances to obtain the series equivalent"
+          },
+          "cheers": {
+            "tiktok": "you killed it, no cap!",
+            "casual": "Great job, that’s spot on!",
+            "jjk": "Your calculation is as solid as a domain expansion!",
+            "formal": "Correct, satisfactory result."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Electric Circuits (Series & Parallel)"
+        },
+        {
+          "subtopic": "Equivalent resistance in parallel",
+          "question": "What is the equivalent resistance of a parallel circuit with two 8 Ω resistors?",
+          "correct": "4Ω",
+          "steps": [
+            "Use formula 1/R_eq = 1/R1 + 1/R2",
+            "Calculate: 1/8+1/8 = 1/4",
+            "Invert to get R_eq = 4 Ω"
+          ],
+          "hints": {
+            "tiktok": "flip the fractions, get 4Ω, lock in",
+            "casual": "Do the reciprocal sum, you’ll land on 4 Ω",
+            "jjk": "Combine the cursed currents, invert the sum, reveal 4 Ω",
+            "formal": "Apply the parallel resistance formula as per DBE guidelines"
+          },
+          "cheers": {
+            "tiktok": "yeet, you got it!",
+            "casual": "Well done, that’s correct!",
+            "jjk": "Your answer shines like a perfected technique!",
+            "formal": "Answer is accurate, commendable."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Electric Circuits (Series & Parallel)"
+        },
+        {
+          "subtopic": "Effect of adding a resistor in series",
+          "question": "If a 3 Ω resistor is added in series to a circuit that already has a total resistance of 7 Ω, what is the new total resistance?",
+          "correct": "10Ω",
+          "steps": [
+            "Current total is 7 Ω",
+            "Add the new 3 Ω resistor: 7+3",
+            "New total = 10 Ω"
+          ],
+          "hints": {
+            "tiktok": "just add ’em up, 7+3 = 10, no cap",
+            "casual": "Add the extra 3 Ω, you get 10 Ω",
+            "jjk": "Stack another cursed barrier, sum gives 10 Ω",
+            "formal": "Increase the series resistance by the added resistor’s value"
+          },
+          "cheers": {
+            "tiktok": "you’re fire, lock in!",
+            "casual": "Nice, that’s the right answer!",
+            "jjk": "Your result is as strong as a perfected cursed technique!",
+            "formal": "Correct, the new resistance is 10 Ω."
+          },
+          "grade": 8,
+          "subject": "Natural Sciences",
+          "topic": "Electric Circuits (Series & Parallel)"
+        }
+      ]
+    }
+  },
+  "ems": {
+    "8": {
+      "The Accounting Equation (A = O + L)": [
+        {
+          "subtopic": "Recording credit purchases",
+          "question": "A shop in Durban buys inventory worth R5,000 on credit. What amount is recorded as a Liability?",
+          "correct": "R5,000",
+          "steps": [
+            "Identify the transaction as a purchase on credit",
+            "Recognise that inventory increases assets while the amount owed creates a liability",
+            "Record the liability equal to the purchase price"
+          ],
+          "hints": {
+            "tiktok": "No cap, the loan side is R5,000, lock in that number!",
+            "casual": "Jou, just think of the amount you still owe the supplier – R5 000.",
+            "jjk": "The cursed energy of debt rises by R5,000, bro.",
+            "formal": "Record a liability of R5 000 as per DBE accounting standards."
+          },
+          "cheers": {
+            "tiktok": "Bet! You nailed it, bro!",
+            "casual": "Lekker job, you got it!",
+            "jjk": "Your cursed technique is spot on!",
+            "formal": "Correct entry, well done."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "The Accounting Equation (A = O + L)"
+        },
+        {
+          "subtopic": "Owner's equity from services",
+          "question": "A student earns R2,000 cash for tutoring services. How does this affect Owner's Equity?",
+          "correct": "R2,000",
+          "steps": [
+            "Cash received increases assets",
+            "Revenue from services increases owner's equity",
+            "The amount added equals the cash received"
+          ],
+          "hints": {
+            "tiktok": "Lock in the cash, no cap – it adds R2k to equity!",
+            "casual": "Just add the R2 000 you made to the owner's share.",
+            "jjk": "Your cursed revenue flows with R2,000 energy.",
+            "formal": "Increase owner's equity by R2 000 reflecting earned revenue."
+          },
+          "cheers": {
+            "tiktok": "Yaas, you slayed that!",
+            "casual": "Sharp move, you got it!",
+            "jjk": "Your technique is flawless!",
+            "formal": "Accurate response, commendable."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "The Accounting Equation (A = O + L)"
+        },
+        {
+          "subtopic": "Impact of cash expenses",
+          "question": "A business pays R1,200 cash for rent. What is the effect on Assets?",
+          "correct": "Decrease",
+          "steps": [
+            "Cash payment reduces the cash asset",
+            "Rent expense does not affect liabilities",
+            "The asset side drops by the amount paid"
+          ],
+          "hints": {
+            "tiktok": "No cap, the cash side goes down – it’s a decrease!",
+            "casual": "Jou, your cash just shrank by R1 200, so assets dip.",
+            "jjk": "Cursed energy drains, assets decrease.",
+            "formal": "Assets decrease due to cash outflow for rent expense."
+          },
+          "cheers": {
+            "tiktok": "Boom, you got it!",
+            "casual": "Nice one, that’s correct!",
+            "jjk": "Your cursed strike hits the mark!",
+            "formal": "Correct, the asset reduction is noted."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "The Accounting Equation (A = O + L)"
+        },
+        {
+          "subtopic": "Calculating owner's equity",
+          "question": "At month‑end a shop reports Assets of R30,000 and Liabilities of R12,000. What is Owner's Equity?",
+          "correct": "R18,000",
+          "steps": [
+            "Use the accounting equation A = O + L",
+            "Rearrange to O = A – L",
+            "Subtract liabilities from assets"
+          ],
+          "hints": {
+            "tiktok": "Lock in the math: 30k minus 12k = 18k, no cap!",
+            "casual": "Just do 30 000 minus 12 000, you get 18 000.",
+            "jjk": "Subtract the cursed debt from the asset pool – 18,000 remains.",
+            "formal": "Owner's equity equals R30 000 – R12 000 = R18 000."
+          },
+          "cheers": {
+            "tiktok": "Yooo, you cracked it!",
+            "casual": "Lekker, that’s the right figure!",
+            "jjk": "Your calculation exudes mastery!",
+            "formal": "Accurate computation, well done."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "The Accounting Equation (A = O + L)"
+        },
+        {
+          "subtopic": "Recording bank loans",
+          "question": "A business receives a bank loan of R10,000. How does this affect the accounting equation?",
+          "correct": "R10,000",
+          "steps": [
+            "Cash received increases assets",
+            "The loan creates a liability of the same amount",
+            "Both sides of the equation rise equally"
+          ],
+          "hints": {
+            "tiktok": "No cap, both asset and liability jump by R10k, lock in!",
+            "casual": "Jou, you get R10 000 in cash and owe the same to the bank.",
+            "jjk": "Cursed energy of R10,000 floods both asset and liability realms.",
+            "formal": "Record an increase of R10 000 in assets and an equal increase in liabilities."
+          },
+          "cheers": {
+            "tiktok": "Bet! You got the balance right!",
+            "casual": "Sharp, you nailed the loan entry!",
+            "jjk": "Your cursed ledger is balanced!",
+            "formal": "Correct entry, the equation remains balanced."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "The Accounting Equation (A = O + L)"
+        }
+      ],
+      "Cash Receipts Journal (CRJ)": [
+        {
+          "subtopic": "Cash sales entry",
+          "question": "On 12 March, a school uniform shop sold R2,500 cash to a student. Record the amount in the Cash Receipts Journal.",
+          "correct": "R2,500",
+          "steps": [
+            "Identify the transaction as a cash sale",
+            "Enter R2,500 in the cash receipts column",
+            "Total the column at month‑end"
+          ],
+          "hints": {
+            "tiktok": "Yo bro, just lock in that R2,500 cash, no cap!",
+            "casual": "Just pop the R2,500 into the cash column, hey!",
+            "jjk": "Channel your cursed energy and inscribe R2,500, ronin style!",
+            "formal": "Record the cash sale of R2,500 in the appropriate CRJ column as per DBE guidelines."
+          },
+          "cheers": {
+            "tiktok": "Bet! You nailed it, fam!",
+            "casual": "Lekker done, bru!",
+            "jjk": "Your technique is flawless, sorcerer!",
+            "formal": "Correct entry recorded, well done."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Cash Receipts Journal (CRJ)"
+        },
+        {
+          "subtopic": "Cash received from debtors",
+          "question": "A retailer received R1,200 cash from debtor #305 for an outstanding invoice. What amount is entered in the CRJ?",
+          "correct": "R1,200",
+          "steps": [
+            "Recognise the receipt as a cash collection from a debtor",
+            "Enter R1,200 in the cash receipts column",
+            "Reference debtor #305 beside the entry"
+          ],
+          "hints": {
+            "tiktok": "Lock in that R1,200, no cap!",
+            "casual": "Just drop R1,200 in the CRJ, boet.",
+            "jjk": "Summon R1,200 with your cursed technique, ronin!",
+            "formal": "Record the cash collection of R1,200 against debtor 305 in the CRJ."
+          },
+          "cheers": {
+            "tiktok": "Yooo, you’re on fire!",
+            "casual": "Sharp move, china!",
+            "jjk": "Your cursed energy is spot‑on!",
+            "formal": "Accurate entry, commendable work."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Cash Receipts Journal (CRJ)"
+        },
+        {
+          "subtopic": "Bank deposit",
+          "question": "At month‑end the Cash Receipts Journal shows a total cash balance of R8,300. How much should be deposited into the bank?",
+          "correct": "R8,300",
+          "steps": [
+            "Total all cash receipt entries",
+            "Confirm no outstanding petty cash",
+            "Deposit the total amount R8,300 into the bank"
+          ],
+          "hints": {
+            "tiktok": "Deposit that R8,300, lock in, no cap!",
+            "casual": "Just take the R8,300 and head to the bank, hey.",
+            "jjk": "Transfer the R8,300 cursed energy to the bank vault!",
+            "formal": "The full cash balance of R8,300 is to be deposited as per standard procedure."
+          },
+          "cheers": {
+            "tiktok": "Big ups, you got it!",
+            "casual": "Nice one, you’re solid!",
+            "jjk": "Your technique summons the right amount!",
+            "formal": "Deposit amount correctly identified, well executed."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Cash Receipts Journal (CRJ)"
+        },
+        {
+          "subtopic": "Balancing the CRJ",
+          "question": "If total cash receipts are R5,600 and total cash payments are R2,300, what is the closing cash balance?",
+          "correct": "R3,300",
+          "steps": [
+            "Subtract total payments from total receipts",
+            "R5,600 – R2,300 = R3,300",
+            "Record R3,300 as the closing balance"
+          ],
+          "hints": {
+            "tiktok": "Do the math, R5,600 minus R2,300 equals what, no cap?",
+            "casual": "Just R5,600 less R2,300 – you get it, china?",
+            "jjk": "Let the cursed subtraction reveal R3,300, ronin!",
+            "formal": "Calculate the closing balance: receipts minus payments yields R3,300."
+          },
+          "cheers": {
+            "tiktok": "Facts, you solved it!",
+            "casual": "Lekker, you’ve got the balance!",
+            "jjk": "Your calculation is pure cursed mastery!",
+            "formal": "Correct closing balance, excellent computation."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Cash Receipts Journal (CRJ)"
+        },
+        {
+          "subtopic": "Posting to ledger",
+          "question": "After posting all cash receipts, the Cash on Hand ledger shows a debit balance of R4,500. What total cash amount was recorded in the CRJ?",
+          "correct": "R4,500",
+          "steps": [
+            "Identify the ledger’s debit balance",
+            "Recognise that the ledger reflects total CRJ entries",
+            "State R4,500 as the recorded total"
+          ],
+          "hints": {
+            "tiktok": "The ledger’s debit reads R4,500, lock in that number!",
+            "casual": "If the ledger says R4,500, that’s your total, hey.",
+            "jjk": "The cursed ledger whispers R4,500, ronin!",
+            "formal": "The Cash on Hand ledger debit balance of R4,500 represents the total cash recorded in the CRJ."
+          },
+          "cheers": {
+            "tiktok": "Yo, you crushed it!",
+            "casual": "Sharp, you’re on point!",
+            "jjk": "Your cursed ledger reading is flawless!",
+            "formal": "Answer correct, well done."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Cash Receipts Journal (CRJ)"
+        }
+      ],
+      "Financial Literacy & Personal Budget": [
+        {
+          "subtopic": "Monthly Income",
+          "question": "Lerato earns a monthly salary of R12,500. She pays R2,300 for rent, R1,200 for transport, and R800 for groceries. What is her remaining disposable income?",
+          "correct": "R8200",
+          "steps": [
+            "Add all expenses: R2,300+R1,200+R800=R4,300",
+            "Subtract total expenses from salary: R12,500‑R4,300",
+            "Result is disposable income R8,200"
+          ],
+          "hints": {
+            "tiktok": "Lock in, subtract those bills, no cap you’ll see the leftover.",
+            "casual": "Check how much you’ve got after the big bills, hey.",
+            "jjk": "Channel your cursed energy to slash expenses and reveal the net.",
+            "formal": "Determine total deductions and subtract from gross earnings."
+          },
+          "cheers": {
+            "tiktok": "Bet! You nailed it, bro!",
+            "casual": "Lekker job, you’ve got it!",
+            "jjk": "Your technique is flawless, sorcerer.",
+            "formal": "Correct, well done."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Financial Literacy & Personal Budget"
+        },
+        {
+          "subtopic": "Savings Goal",
+          "question": "Sipho wants to save R5,000 for a new phone in 10 months. How much must he save each month?",
+          "correct": "R500",
+          "steps": [
+            "Identify total amount needed: R5,000",
+            "Divide by number of months: R5,000 ÷ 10",
+            "Result is monthly saving R500"
+          ],
+          "hints": {
+            "tiktok": "No cap, split it up and lock in R500 each month.",
+            "casual": "Just split the R5k over ten months, easy.",
+            "jjk": "Let your cursed energy allocate R500 per cycle.",
+            "formal": "Divide the target amount by the time horizon to obtain the periodic saving requirement."
+          },
+          "cheers": {
+            "tiktok": "Yooo, you’re set!",
+            "casual": "Sharp, you’ve got the figure!",
+            "jjk": "Your resolve shines, future sorcerer!",
+            "formal": "Accurate, proceed accordingly."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Financial Literacy & Personal Budget"
+        },
+        {
+          "subtopic": "Budget Shortfall",
+          "question": "A family budget shows income R20,000 and expenses R22,450. What is the monthly shortfall?",
+          "correct": "R2450",
+          "steps": [
+            "Subtract income from expenses: R22,450‑R20,000",
+            "Result is the deficit amount",
+            "Shortfall equals R2,450"
+          ],
+          "hints": {
+            "tiktok": "Lock in the gap, it’s R2.45k, no cap.",
+            "casual": "You’re short by a couple thousand, check the maths.",
+            "jjk": "Your cursed energy reveals a R2,450 void.",
+            "formal": "Calculate the difference between total outflows and inflows to determine the deficit."
+          },
+          "cheers": {
+            "tiktok": "Facts, you got it!",
+            "casual": "Nice, you spotted the shortfall!",
+            "jjk": "The void is named, you’re on fire!",
+            "formal": "Correct identification of the budget deficit."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Financial Literacy & Personal Budget"
+        },
+        {
+          "subtopic": "Bank Fees",
+          "question": "If a checking account charges R25 per month and R0.50 per transaction, and Thandi makes 12 transactions, what is her total bank cost for the month?",
+          "correct": "R31",
+          "steps": [
+            "Calculate transaction fees: 12 × R0.50 = R6",
+            "Add monthly fee: R25 + R6",
+            "Total cost is R31"
+          ],
+          "hints": {
+            "tiktok": "Add R25 plus 12×R0.5, lock in R31, no cap.",
+            "casual": "R25 plus six rand from the 12 clicks = R31.",
+            "jjk": "Your cursed ledger totals R31 this cycle.",
+            "formal": "Sum the fixed monthly charge and the variable transaction charges to obtain total cost."
+          },
+          "cheers": {
+            "tiktok": "Boom! R31, you got it!",
+            "casual": "Lekker, that’s the right total!",
+            "jjk": "Your calculation is flawless, sorcerer!",
+            "formal": "Accurate, well executed."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Financial Literacy & Personal Budget"
+        },
+        {
+          "subtopic": "Tax Deduction",
+          "question": "Mandla earns R15,000 per month. He contributes R1,200 to a retirement annuity, which is tax‑deductible at an 18% marginal rate. How much tax saving does he get?",
+          "correct": "R216",
+          "steps": [
+            "Identify deductible amount: R1,200",
+            "Multiply by marginal tax rate: R1,200 × 0.18 = R216",
+            "Result is tax saving of R216"
+          ],
+          "hints": {
+            "tiktok": "No cap, 18% of R1,200 = R216, lock it in.",
+            "casual": "Just 18% of the R1.2k contribution, that’s R216.",
+            "jjk": "Your cursed energy converts R1,200 into R216 tax relief.",
+            "formal": "Apply the marginal tax rate to the deductible contribution to compute the tax benefit."
+          },
+          "cheers": {
+            "tiktok": "Yasss, R216 saved!",
+            "casual": "Nice one, that’s the tax break!",
+            "jjk": "Your cursed technique yields R216, impressive!",
+            "formal": "Correct, the tax saving is R216."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Financial Literacy & Personal Budget"
+        }
+      ],
+      "Factors of Production": [
+        {
+          "subtopic": "Land",
+          "question": "Identify the factor of production represented by a wheat field in the Free State.",
+          "correct": "Land",
+          "steps": [
+            "Recognise the physical resource",
+            "Confirm it is a natural resource",
+            "Classify it as land"
+          ],
+          "hints": {
+            "tiktok": "No cap, this is the ground you lock in",
+            "casual": "Think of the soil under your braai spot",
+            "jjk": "Channel the cursed energy of the earth itself",
+            "formal": "Consider the natural resource category within the factor framework"
+          },
+          "cheers": {
+            "tiktok": "Bet! You nailed it, bro!",
+            "casual": "Lekker job, you got it!",
+            "jjk": "Your insight shines like a true sorcerer",
+            "formal": "Well done, answer correct"
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Factors of Production"
+        },
+        {
+          "subtopic": "Labor",
+          "question": "What term describes the work performed by a mine worker in the Witwatersrand?",
+          "correct": "Labor",
+          "steps": [
+            "Identify the human effort",
+            "Link it to the mining activity",
+            "Label the effort as labor"
+          ],
+          "hints": {
+            "tiktok": "Lock in, the hustle is no cap labor",
+            "casual": "It’s the sweat on the job, hey",
+            "jjk": "The cursed energy of the worker is labor",
+            "formal": "The appropriate term is the human input factor"
+          },
+          "cheers": {
+            "tiktok": "Yasss, you got it, bro!",
+            "casual": "Sharp! That’s the right word",
+            "jjk": "Your answer radiates cursed mastery",
+            "formal": "Correct, well answered"
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Factors of Production"
+        },
+        {
+          "subtopic": "Capital",
+          "question": "Name the type of capital represented by a tractor used on a farm in the Karoo.",
+          "correct": "Physical capital",
+          "steps": [
+            "Spot the machine",
+            "Determine it is man‑made equipment",
+            "Classify as physical capital"
+          ],
+          "hints": {
+            "tiktok": "No cap, that’s some heavy physical capital",
+            "casual": "It’s the gear you drive, not the cash",
+            "jjk": "The cursed tool is physical capital",
+            "formal": "Identify the man‑made productive asset"
+          },
+          "cheers": {
+            "tiktok": "Boom! You’re on fire, bro!",
+            "casual": "Nice one, that’s spot on!",
+            "jjk": "Your knowledge wields power like a sorcerer",
+            "formal": "Answer correct, good work"
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Factors of Production"
+        },
+        {
+          "subtopic": "Entrepreneurship",
+          "question": "What is the factor of production that involves taking risks to start a bakery in Durban?",
+          "correct": "Entrepreneurship",
+          "steps": [
+            "Recognise the risk‑taking act",
+            "Link it to organising resources",
+            "Label the factor as entrepreneurship"
+          ],
+          "hints": {
+            "tiktok": "Lock in, starting a shop is pure entrepreneurship, no cap",
+            "casual": "It’s the person who kicks off the biz",
+            "jjk": "The ronin of commerce is entrepreneurship",
+            "formal": "The relevant factor is the initiative of the entrepreneur"
+          },
+          "cheers": {
+            "tiktok": "Yooo, you nailed it, bro!",
+            "casual": "Great job, you got the right term!",
+            "jjk": "Your answer summons cursed brilliance",
+            "formal": "Correct response, well done"
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Factors of Production"
+        },
+        {
+          "subtopic": "Combination of factors",
+          "question": "When a farmer uses land, labor and capital to grow citrus, what is this process called?",
+          "correct": "Production",
+          "steps": [
+            "List the three inputs",
+            "See them being used together",
+            "Name the overall activity as production"
+          ],
+          "hints": {
+            "tiktok": "No cap, that whole vibe is production",
+            "casual": "It’s the act of making the oranges",
+            "jjk": "The cursed synergy creates production",
+            "formal": "The term refers to the process of creating output"
+          },
+          "cheers": {
+            "tiktok": "Bet! Production achieved, bro!",
+            "casual": "Well done, that’s spot on!",
+            "jjk": "Your answer echoes the power of cursed energy",
+            "formal": "Answer correct, commendable"
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Factors of Production"
+        }
+      ],
+      "Forms of Ownership": [
+        {
+          "subtopic": "Sole Proprietorship",
+          "question": "In a sole proprietorship, who bears all the financial risk and profit?",
+          "correct": "owner",
+          "steps": [
+            "Identify that a sole proprietorship is owned by one person",
+            "Recall that the owner holds both liability and profit",
+            "Conclude the owner is the answer"
+          ],
+          "hints": {
+            "tiktok": "No cap, the boss takes all the vibes",
+            "casual": "Think of the guy who runs the tuck shop",
+            "jjk": "Like a ronin, the sole owner wields all cursed energy",
+            "formal": "The individual proprietor holds full liability and entitlement to earnings"
+          },
+          "cheers": {
+            "tiktok": "Yesss, you nailed it, bro!",
+            "casual": "Lekker job, you got it!",
+            "jjk": "Your cursed energy is strong, well done!",
+            "formal": "Correct, well done."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Forms of Ownership"
+        },
+        {
+          "subtopic": "Partnership",
+          "question": "What is the minimum number of people required to form a legal partnership in South Africa?",
+          "correct": "2",
+          "steps": [
+            "Define a partnership as a business run by two or more people",
+            "Check the Companies Act requirement for partners",
+            "State the minimum number is two"
+          ],
+          "hints": {
+            "tiktok": "Lock in, you need at least two heads in the game",
+            "casual": "Just two mates can start a partnership",
+            "jjk": "Two sorcerers must unite their cursed energy",
+            "formal": "A partnership must consist of at least two persons under the Act"
+          },
+          "cheers": {
+            "tiktok": "Bet, you got it!",
+            "casual": "Sharp, that's right!",
+            "jjk": "Your technique is on point!",
+            "formal": "Answer correct."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Forms of Ownership"
+        },
+        {
+          "subtopic": "Private Company (Pty Ltd)",
+          "question": "What suffix must a private company include in its registration name?",
+          "correct": "Pty Ltd",
+          "steps": [
+            "Recall the naming rules for private companies",
+            "Identify the required suffix",
+            "Provide the exact phrase"
+          ],
+          "hints": {
+            "tiktok": "No cap, the name ends with that lit suffix",
+            "casual": "Look for the 'Pty Ltd' at the end",
+            "jjk": "The company wears the 'Pty Ltd' armor",
+            "formal": "A private company must be registered with the suffix ‘Pty Ltd’"
+          },
+          "cheers": {
+            "tiktok": "Big ups, you got it!",
+            "casual": "Nice one, that's correct!",
+            "jjk": "Your cursed seal is perfect!",
+            "formal": "Correct response."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Forms of Ownership"
+        },
+        {
+          "subtopic": "Public Company (Ltd)",
+          "question": "Can a public company issue shares to the general public? Answer 'yes' or 'no'.",
+          "correct": "yes",
+          "steps": [
+            "Understand that public companies can list shares",
+            "Recognise they may offer to the public",
+            "Select the affirmative answer"
+          ],
+          "hints": {
+            "tiktok": "Lock in, they can sell shares to the crowd",
+            "casual": "Public companies can go to the market",
+            "jjk": "They unleash shares like cursed energy to all",
+            "formal": "A public company is permitted to issue shares to the public"
+          },
+          "cheers": {
+            "tiktok": "Yooo, that's fire!",
+            "casual": "Goed gedaan, you’re right!",
+            "jjk": "Your power level just rose!",
+            "formal": "Answer is correct."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Forms of Ownership"
+        },
+        {
+          "subtopic": "Co-operative",
+          "question": "In a co-operative, who controls the business decisions?",
+          "correct": "members",
+          "steps": [
+            "Identify the democratic structure of a co‑operative",
+            "Recall that members have voting rights",
+            "Conclude members control decisions"
+          ],
+          "hints": {
+            "tiktok": "No cap, the crew decides together",
+            "casual": "All the members get a say",
+            "jjk": "The co‑op’s members wield the cursed council",
+            "formal": "Decision‑making rests with the co‑operative’s members"
+          },
+          "cheers": {
+            "tiktok": "Boom, you got it!",
+            "casual": "Lekker, that’s spot on!",
+            "jjk": "Your spirit is strong, well done!",
+            "formal": "Correct, well answered."
+          },
+          "grade": 8,
+          "subject": "Economic & Management Sciences",
+          "topic": "Forms of Ownership"
+        }
+      ]
+    }
+  },
+  "social_sciences": {
+    "8": {
+      "Topographic Maps & 1:50 000 Scale": [
+        {
+          "subtopic": "Reading Scale Bar",
+          "question": "If the scale bar on a 1:50 000 topographic map shows 2 cm, what real‑world distance does this represent in kilometres?",
+          "correct": "1",
+          "steps": [
+            "Identify that 1 cm on a 1:50 000 map equals 0.5 km.",
+            "Multiply 2 cm by 0.5 km per cm.",
+            "Result is 1 km."
+          ],
+          "hints": {
+            "tiktok": "no cap, 1 cm = 0.5 km on a 1:50 000 map, lock in!",
+            "casual": "Check the scale bar, hey – how far does 2 cm stretch on the ground?",
+            "jjk": "Channel your cursed energy, count the centimetres like a ronin counting foes.",
+            "formal": "Refer to the DBE guidelines on scale interpretation for precise calculations."
+          },
+          "cheers": {
+            "tiktok": "You did it, bro! 🎉",
+            "casual": "Lekker job, you nailed it!",
+            "jjk": "Your cursed technique is strong, well done!",
+            "formal": "Excellent work, keep it up."
+          },
+          "grade": 8,
+          "subject": "Social Sciences",
+          "topic": "Topographic Maps & 1:50 000 Scale"
+        },
+        {
+          "subtopic": "Contour Interval",
+          "question": "A map uses a contour interval of 10 m. How much elevation change is shown between the 5th and 12th contour lines?",
+          "correct": "70 m",
+          "steps": [
+            "Find the number of intervals: 12‑5 = 7.",
+            "Multiply by the interval size: 7 × 10 m = 70 m.",
+            "That is the total elevation change."
+          ],
+          "hints": {
+            "tiktok": "no cap, 7 intervals × 10 m = 70 m, lock in!",
+            "casual": "Just count the lines between 5 and 12, then multiply by 10 m.",
+            "jjk": "Let your cursed energy count the lines, 7 of them, each 10 m strong.",
+            "formal": "Apply the standard contour‑interval calculation as outlined in DBE resources."
+          },
+          "cheers": {
+            "tiktok": "Boom! You got it, bro!",
+            "casual": "Nice one, that’s proper SA geography!",
+            "jjk": "Your cursed count is flawless!",
+            "formal": "Well done, accurate calculation."
+          },
+          "grade": 8,
+          "subject": "Social Sciences",
+          "topic": "Topographic Maps & 1:50 000 Scale"
+        },
+        {
+          "subtopic": "Identifying Landforms",
+          "question": "On a 1:50 000 map, tightly packed contour lines indicate which type of slope?",
+          "correct": "steep",
+          "steps": [
+            "Observe the spacing of contour lines.",
+            "Tight spacing means rapid elevation change.",
+            "Rapid change = steep slope."
+          ],
+          "hints": {
+            "tiktok": "no cap, tight lines = steep, lock in!",
+            "casual": "Look at those lines – if they’re close together, the hill is steep.",
+            "jjk": "When the cursed energy is dense, the terrain is steep as a ronin’s resolve.",
+            "formal": "Interpret line density per DBE mapping conventions to infer slope gradient."
+          },
+          "cheers": {
+            "tiktok": "Yaas, you’re steep on this!",
+            "casual": "Sharp as a mountain, nice work!",
+            "jjk": "Your cursed perception is razor‑sharp!",
+            "formal": "Correct identification, keep up the good work."
+          },
+          "grade": 8,
+          "subject": "Social Sciences",
+          "topic": "Topographic Maps & 1:50 000 Scale"
+        },
+        {
+          "subtopic": "Measuring Distance",
+          "question": "Using a ruler, you measure 3.5 cm between two points on the map. What is the actual distance in kilometres?",
+          "correct": "1.75",
+          "steps": [
+            "Recall 1 cm = 0.5 km on a 1:50 000 map.",
+            "Multiply 3.5 cm by 0.5 km per cm.",
+            "3.5 × 0.5 = 1.75 km."
+          ],
+          "hints": {
+            "tiktok": "no cap, 3.5 cm × 0.5 km = 1.75 km, lock in!",
+            "casual": "Take that 3.5 cm and remember each cm is half a kilometre.",
+            "jjk": "Channel cursed energy: 3.5 units × 0.5 = 1.75, like a spell multiplier.",
+            "formal": "Apply the scale conversion factor as prescribed by the DBE."
+          },
+          "cheers": {
+            "tiktok": "Big flex, you got the distance!",
+            "casual": "Lekker, that’s the right kilometre count!",
+            "jjk": "Your cursed calculation hits the mark!",
+            "formal": "Accurate conversion, well done."
+          },
+          "grade": 8,
+          "subject": "Social Sciences",
+          "topic": "Topographic Maps & 1:50 000 Scale"
+        },
+        {
+          "subtopic": "Map Symbols",
+          "question": "What symbol on a South African topographic map represents a railway line?",
+          "correct": "double line",
+          "steps": [
+            "Consult the map legend for transport symbols.",
+            "Identify the symbol for railways – two parallel lines.",
+            "The answer is ‘double line’."
+          ],
+          "hints": {
+            "tiktok": "no cap, look for two parallel lines, lock in!",
+            "casual": "Check the legend – the railway is shown as two lines side by side.",
+            "jjk": "The cursed tracks appear as a double line, like twin cursed blades.",
+            "formal": "Refer to the DBE symbol guide; railways are indicated by a double line."
+          },
+          "cheers": {
+            "tiktok": "Yo, you spotted the rails!",
+            "casual": "Nice, you nailed the railway symbol!",
+            "jjk": "Your cursed eye sees the double line!",
+            "formal": "Correct identification, continue the good work."
+          },
+          "grade": 8,
+          "subject": "Social Sciences",
+          "topic": "Topographic Maps & 1:50 000 Scale"
+        }
+      ],
+      "Climate Regions of the World": [
+        {
+          "subtopic": "Savanna Climate",
+          "question": "Which climate region characterises the Kruger National Park?",
+          "correct": "Savanna",
+          "steps": [
+            "Identify the park's location",
+            "Recall its grassy plains and seasonal rains",
+            "Match these traits to the savanna climate"
+          ],
+          "hints": {
+            "tiktok": "Yo bro, think of the wide open grasslands, no cap.",
+            "casual": "Check the map, Kruger’s got those big grassy plains.",
+            "jjk": "Channel your cursed energy and see the endless savanna, like a ronin roaming.",
+            "formal": "Refer to the CAPS description of the savanna climate region."
+          },
+          "cheers": {
+            "tiktok": "You locked it in, lit!",
+            "casual": "Sharp, hey! Nice work.",
+            "jjk": "Your cursed technique is on point!",
+            "formal": "Well done, answer correct."
+          },
+          "grade": 8,
+          "subject": "Social Sciences",
+          "topic": "Climate Regions of the World"
+        },
+        {
+          "subtopic": "Desert Climate",
+          "question": "Namaqualand is best known for which climate region?",
+          "correct": "Desert",
+          "steps": [
+            "Locate Namaqualand in the Northern Cape",
+            "Note its extremely low rainfall",
+            "Identify the desert climate characteristics"
+          ],
+          "hints": {
+            "tiktok": "No cap, it's the driest vibe around, bro.",
+            "casual": "Think of the arid dunes and barely any rain.",
+            "jjk": "Even cursed spirits avoid this barren land, true desert energy.",
+            "formal": "Consult the CAPS table for arid desert climate indicators."
+          },
+          "cheers": {
+            "tiktok": "Bet you nailed it, fire!",
+            "casual": "Lekker done, you got it!",
+            "jjk": "Your spirit sealed the answer!",
+            "formal": "Correct, you have met the learning outcome."
+          },
+          "grade": 8,
+          "subject": "Social Sciences",
+          "topic": "Climate Regions of the World"
+        },
+        {
+          "subtopic": "Mediterranean Climate",
+          "question": "Which South African city lies in a Mediterranean climate zone?",
+          "correct": "Cape Town",
+          "steps": [
+            "Identify major SA coastal cities",
+            "Recall the wet winters and dry summers pattern",
+            "Select the city fitting that pattern"
+          ],
+          "hints": {
+            "tiktok": "Lock in the city with cool vibes and summer dry, no cap.",
+            "casual": "Check the Western Cape – that’s where the wine lands are.",
+            "jjk": "The cursed winds whisper of Table Mountain’s climate.",
+            "formal": "Refer to CAPS material on Mediterranean climate distribution in South Africa."
+          },
+          "cheers": {
+            "tiktok": "You’re on fire, bro!",
+            "casual": "Nice one, bru!",
+            "jjk": "Your cursed energy shines bright!",
+            "formal": "Answer accepted, well done."
+          },
+          "grade": 8,
+          "subject": "Social Sciences",
+          "topic": "Climate Regions of the World"
+        },
+        {
+          "subtopic": "Temperate Climate",
+          "question": "The Highveld region experiences which climate type?",
+          "correct": "Temperate",
+          "steps": [
+            "Locate the Highveld on a map",
+            "Observe its moderate rainfall and distinct seasons",
+            "Align these traits with the temperate climate"
+          ],
+          "hints": {
+            "tiktok": "Think moderate temps, no cap, like a chill vibe.",
+            "casual": "Highveld’s got those warm summers and cold winters.",
+            "jjk": "Even a ronin feels the balanced cursed energy here.",
+            "formal": "Consult the CAPS description of temperate climate characteristics."
+          },
+          "cheers": {
+            "tiktok": "Boom, you locked that!",
+            "casual": "Sharp! You got it, hey!",
+            "jjk": "Your technique is flawless!",
+            "formal": "Correct response, well executed."
+          },
+          "grade": 8,
+          "subject": "Social Sciences",
+          "topic": "Climate Regions of the World"
+        },
+        {
+          "subtopic": "Polar Climate",
+          "question": "Which region near South Africa is classified under a polar climate?",
+          "correct": "Antarctica",
+          "steps": [
+            "Identify the southernmost continent",
+            "Recall its permanent ice and extreme cold",
+            "Match these features to the polar climate"
+          ],
+          "hints": {
+            "tiktok": "No cap, it’s the icy place farthest south, bro.",
+            "casual": "Think of the massive ice sheet at the bottom of the globe.",
+            "jjk": "Cursed energy freezes solid – that’s the polar realm.",
+            "formal": "Refer to CAPS content on polar climate zones beyond the Antarctic Circle."
+          },
+          "cheers": {
+            "tiktok": "You nailed it, fire!",
+            "casual": "Lekker job, bru!",
+            "jjk": "Your cursed mastery is evident!",
+            "formal": "Answer correct, you have satisfied the assessment criteria."
+          },
+          "grade": 8,
+          "subject": "Social Sciences",
+          "topic": "Climate Regions of the World"
+        }
+      ],
+      "Settlement Patterns in South Africa": [
+        {
+          "subtopic": "Historical settlement patterns",
+          "question": "Which province was the centre of the early 19th‑century Voortrek settlements?",
+          "correct": "Gauteng",
+          "steps": [
+            "Identify the Voortrek era (1830s).",
+            "Recall that the Voortrekkers settled beyond the Vaal River.",
+            "The main concentration was in the area now called Gauteng."
+          ],
+          "hints": {
+            "tiktok": "Yo, think of the Gold Reef – no cap, it's where the trek ended.",
+            "casual": "Remember the gold rush area, lekker!",
+            "jjk": "Channel your cursed energy to the gold‑rich lands of the ronin.",
+            "formal": "Consider the province that hosted the initial Voortrek farms in the 1830s."
+          },
+          "cheers": {
+            "tiktok": "You nailed it, lock in!",
+            "casual": "Sharp, boet!",
+            "jjk": "Your cursed technique is strong!",
+            "formal": "Well done."
+          },
+          "grade": 8,
+          "subject": "Social Sciences",
+          "topic": "Settlement Patterns in South Africa"
+        },
+        {
+          "subtopic": "Factors influencing settlement",
+          "question": "Name one natural factor that encourages settlement along South Africa's coastal belt.",
+          "correct": "Water",
+          "steps": [
+            "Identify natural resources important for settlements.",
+            "Coastal areas provide access to water.",
+            "Water is essential for domestic and agricultural use."
+          ],
+          "hints": {
+            "tiktok": "Think of what keeps you hydrated, no cap.",
+            "casual": "What's the first thing you need by the sea?",
+            "jjk": "Cursed energy flows like water to the shore.",
+            "formal": "Consider the primary natural resource required for habitation."
+          },
+          "cheers": {
+            "tiktok": "Bet, you got it!",
+            "casual": "Nice one, china!",
+            "jjk": "Your technique is flowing!",
+            "formal": "Correct."
+          },
+          "grade": 8,
+          "subject": "Social Sciences",
+          "topic": "Settlement Patterns in South Africa"
+        },
+        {
+          "subtopic": "Urbanisation trends",
+          "question": "What is the term for the rapid growth of informal settlements around major cities?",
+          "correct": "Urban sprawl",
+          "steps": [
+            "Define informal settlements.",
+            "Link them to expanding city boundaries.",
+            "The phenomenon is called urban sprawl."
+          ],
+          "hints": {
+            "tiktok": "Big city vibes spreading, lock in.",
+            "casual": "When the city spreads like jam on toast.",
+            "jjk": "Like cursed energy expanding beyond the domain.",
+            "formal": "Identify the term describing uncontrolled city expansion."
+          },
+          "cheers": {
+            "tiktok": "Big moves!",
+            "casual": "Lekker job!",
+            "jjk": "Your cursed seal is solid!",
+            "formal": "Well answered."
+          },
+          "grade": 8,
+          "subject": "Social Sciences",
+          "topic": "Settlement Patterns in South Africa"
+        },
+        {
+          "subtopic": "Rural‑urban migration",
+          "question": "Which economic activity draws most migrants to Johannesburg?",
+          "correct": "Mining",
+          "steps": [
+            "Identify major economic sectors in Jo'burg.",
+            "Mining has historically attracted workers.",
+            "Hence mining is the pull factor."
+          ],
+          "hints": {
+            "tiktok": "Gold and diamonds, no cap.",
+            "casual": "Think of the gold mines, bru.",
+            "jjk": "The cursed energy of the mines calls the ronin.",
+            "formal": "Consider the primary extractive industry influencing migration."
+          },
+          "cheers": {
+            "tiktok": "You locked that!",
+            "casual": "Sharp, china!",
+            "jjk": "Your cursed power is strong!",
+            "formal": "Correct response."
+          },
+          "grade": 8,
+          "subject": "Social Sciences",
+          "topic": "Settlement Patterns in South Africa"
+        },
+        {
+          "subtopic": "Types of settlements",
+          "question": "What term describes a small, self‑sufficient rural settlement with a church and school?",
+          "correct": "Village",
+          "steps": [
+            "Identify characteristics: small size, facilities like church and school.",
+            "Such settlements are classified as villages.",
+            "The term is village."
+          ],
+          "hints": {
+            "tiktok": "Small community vibe, no cap.",
+            "casual": "Think of a plaas area with a church.",
+            "jjk": "A ronin village where cursed energy gathers.",
+            "formal": "Name the settlement type with limited population and basic services."
+          },
+          "cheers": {
+            "tiktok": "Lit!",
+            "casual": "Lekker, bru!",
+            "jjk": "Your technique is on point!",
+            "formal": "Well done."
+          },
+          "grade": 8,
+          "subject": "Social Sciences",
+          "topic": "Settlement Patterns in South Africa"
+        }
+      ],
+      "Mineral Revolution in South Africa": [],
+      "World War I Causes": []
+    }
+  },
+  "technology": {
+    "8": {
+      "Structural Analysis & Triangulation": [],
+      "Class 1, 2, 3 Levers & Mechanical Advantage": [
+        {
+          "subtopic": "Class 1 lever identification",
+          "question": "Identify the class of lever when a seesaw on a school playground in Cape Town has the fulcrum in the middle, a student as the load on one end and a teacher applying effort on the other end.",
+          "correct": "Class 1",
+          "steps": [
+            "Locate the fulcrum, load and effort positions.",
+            "See that fulcrum is between load and effort.",
+            "Classify as a Class 1 lever."
+          ],
+          "hints": {
+            "tiktok": "No cap, the fulcrum sits in the middle, lock in that class!",
+            "casual": "Check where the pivot is – it’s smack in the middle, bru.",
+            "jjk": "The ronin’s pivot lies between the cursed load and the effort.",
+            "formal": "Determine the relative positions of fulcrum, load and effort as per DBE definitions."
+          },
+          "cheers": {
+            "tiktok": "Bet! You nailed it, fam!",
+            "casual": "Sharp one, hey!",
+            "jjk": "Your cursed energy is balanced – brilliant!",
+            "formal": "Correct response. Well done."
+          },
+          "grade": 8,
+          "subject": "Technology",
+          "topic": "Class 1, 2, 3 Levers & Mechanical Advantage"
+        },
+        {
+          "subtopic": "Class 2 lever mechanical advantage",
+          "question": "A wheelbarrow on a farm near Pretoria carries an 80 kg load 0.3 m from the fulcrum, while effort is applied 0.9 m from the fulcrum. What is the mechanical advantage?",
+          "correct": "3",
+          "steps": [
+            "Mechanical advantage = effort arm ÷ load arm.",
+            "Plug in 0.9 m ÷ 0.3 m.",
+            "Result is 3."
+          ],
+          "hints": {
+            "tiktok": "Lock in, MA is just distance ratio, no cap!",
+            "casual": "Just divide the longer arm by the short one, bru.",
+            "jjk": "Divide the cursed energy arm by the load arm to unleash MA.",
+            "formal": "Apply MA = d_e / d_l using the given distances."
+          },
+          "cheers": {
+            "tiktok": "Yooo, that’s a 3‑fold win!",
+            "casual": "Nice one, lekker!",
+            "jjk": "Your calculation is as sharp as a cursed blade!",
+            "formal": "Answer correct. Excellent work."
+          },
+          "grade": 8,
+          "subject": "Technology",
+          "topic": "Class 1, 2, 3 Levers & Mechanical Advantage"
+        },
+        {
+          "subtopic": "Class 3 lever in everyday tool",
+          "question": "A pair of tweezers used to pick up a bead has the effort applied between the fulcrum and the load. What class of lever is it?",
+          "correct": "Class 3",
+          "steps": [
+            "Identify fulcrum at the hinge.",
+            "Notice effort is applied between fulcrum and load.",
+            "Classify as Class 3 where effort is between fulcrum and load."
+          ],
+          "hints": {
+            "tiktok": "No cap, effort sits in the middle – that’s a Class 3 vibe!",
+            "casual": "Effort’s in the middle, that’s a Class 3, hey!",
+            "jjk": "The cursed energy point sits between pivot and load – Class 3.",
+            "formal": "Recognize the arrangement: effort between fulcrum and load corresponds to Class 3."
+          },
+          "cheers": {
+            "tiktok": "Bro, you got that!",
+            "casual": "Lekker job, bru!",
+            "jjk": "Your cursed insight is flawless!",
+            "formal": "Correct. Well executed."
+          },
+          "grade": 8,
+          "subject": "Technology",
+          "topic": "Class 1, 2, 3 Levers & Mechanical Advantage"
+        },
+        {
+          "subtopic": "Force needed with mechanical advantage",
+          "question": "Using a Class 2 lever (handcart) with a mechanical advantage of 4, how much effort is needed to lift a 200 N sack of cement?",
+          "correct": "50 N",
+          "steps": [
+            "Effort = load ÷ MA.",
+            "Divide 200 N by 4.",
+            "Result is 50 N."
+          ],
+          "hints": {
+            "tiktok": "Lock in, just split the load by 4, no cap!",
+            "casual": "Take the 200 N and chop it by four, bru.",
+            "jjk": "Divide the cursed load by the MA to tame the effort.",
+            "formal": "Apply Effort = Load / Mechanical Advantage as per DBE guidelines."
+          },
+          "cheers": {
+            "tiktok": "Yasss, 50 N nailed it!",
+            "casual": "Sharp, hey!",
+            "jjk": "Your cursed calculation is spot on!",
+            "formal": "Answer correct. Good job."
+          },
+          "grade": 8,
+          "subject": "Technology",
+          "topic": "Class 1, 2, 3 Levers & Mechanical Advantage"
+        },
+        {
+          "subtopic": "Choosing lever class for lifting a heavy rock",
+          "question": "If you need to lift a 500 kg rock with minimal effort, which lever class gives the greatest mechanical advantage?",
+          "correct": "Class 2",
+          "steps": [
+            "Compare MA potential of lever classes.",
+            "Class 2 places load between fulcrum and effort, giving high MA.",
+            "Select Class 2 for greatest advantage."
+          ],
+          "hints": {
+            "tiktok": "No cap, Class 2 is the flex for max MA!",
+            "casual": "If you want the easiest lift, go Class 2, bru.",
+            "jjk": "The ronin chooses Class 2 to harness the strongest cursed leverage.",
+            "formal": "Select the lever class where the load lies between fulcrum and effort for optimal MA."
+          },
+          "cheers": {
+            "tiktok": "Bet! You chose the right class!",
+            "casual": "Lekker, you got it!",
+            "jjk": "Your cursed choice is supreme!",
+            "formal": "Correct selection. Well done."
+          },
+          "grade": 8,
+          "subject": "Technology",
+          "topic": "Class 1, 2, 3 Levers & Mechanical Advantage"
+        }
+      ],
+      "Gear Trains & Velocity Ratios": [],
+      "Electrical Components & Logic": []
+    }
+  },
+  "english": {
+    "8": {
+      "Figures of Speech (Metaphor, Simile, Personification)": [],
+      "Active and Passive Voice": [],
+      "Direct and Indirect Speech": [
+        {
+          "subtopic": "Pronoun and Time Shift",
+          "question": "Change the direct speech to indirect: \"I will meet you at the mall tomorrow,\" said Thabo.",
+          "correct": "He said he would meet me at the mall the next day",
+          "steps": [
+            "Identify the reporting verb 'said'",
+            "Change 'I' to 'he' and 'you' to 'me'",
+            "Shift present future 'will' to 'would' and 'tomorrow' to 'the next day'"
+          ],
+          "hints": {
+            "tiktok": "No cap, swap 'I' for 'he' and flip 'tomorrow' to 'the next day'.",
+            "casual": "Just change the pronouns and move the time forward a day, hey!",
+            "jjk": "Channel your cursed energy: turn 'I' into 'he' and rewrite the future tense.",
+            "formal": "Replace first‑person pronouns with third‑person and adjust temporal adverbs accordingly."
+          },
+          "cheers": {
+            "tiktok": "Yass, you nailed it!",
+            "casual": "Lekker job, you got it!",
+            "jjk": "Your cursed technique is on point!",
+            "formal": "Correct transformation achieved."
+          },
+          "grade": 8,
+          "subject": "English",
+          "topic": "Direct and Indirect Speech"
+        },
+        {
+          "subtopic": "Reporting Questions",
+          "question": "Convert to indirect speech: \"Where is the nearest clinic?\" asked Lindiwe.",
+          "correct": "Lindiwe asked where the nearest clinic was",
+          "steps": [
+            "Replace the question mark with a statement clause",
+            "Change the verb to past tense",
+            "Maintain the question word 'where'",
+            "Lowercase the first word after the reporting verb"
+          ],
+          "hints": {
+            "tiktok": "Lock in, keep 'where' and drop the question mark, no cap.",
+            "casual": "Just turn the question into a statement, keep the 'where'.",
+            "jjk": "Summon the spirit of inquiry, but speak it as a report.",
+            "formal": "Transform the interrogative into a reported clause preserving the interrogative adverb."
+          },
+          "cheers": {
+            "tiktok": "Boom, you did it!",
+            "casual": "Sho, that’s spot on!",
+            "jjk": "Your report is as sharp as a cursed blade!",
+            "formal": "The conversion is correct."
+          },
+          "grade": 8,
+          "subject": "English",
+          "topic": "Direct and Indirect Speech"
+        },
+        {
+          "subtopic": "Imperative Reporting",
+          "question": "Report this command: \"Close the windows now!\" the teacher shouted.",
+          "correct": "The teacher shouted to close the windows immediately",
+          "steps": [
+            "Identify the imperative verb 'Close'",
+            "Add 'to' before the verb for infinitive form",
+            "Replace 'now' with 'immediately'",
+            "Keep the reporting verb in past tense"
+          ],
+          "hints": {
+            "tiktok": "No cap, add 'to' before the action and swap 'now' for 'immediately'.",
+            "casual": "Just slip in a 'to' and change 'now' to 'immediately', bru!",
+            "jjk": "Infuse the command with a cursed infinitive and swift timing.",
+            "formal": "Introduce an infinitive complement and replace temporal adverb with its formal equivalent."
+          },
+          "cheers": {
+            "tiktok": "Lit, you got the command!",
+            "casual": "Nice, you nailed the shout!",
+            "jjk": "Your reporting is as swift as a sorcerer’s strike!",
+            "formal": "The imperative has been accurately reported."
+          },
+          "grade": 8,
+          "subject": "English",
+          "topic": "Direct and Indirect Speech"
+        },
+        {
+          "subtopic": "Negative Statements",
+          "question": "Turn into indirect speech: \"I don't like the school lunch,\" said Sipho.",
+          "correct": "Sipho said he didn't like the school lunch",
+          "steps": [
+            "Keep the reporting verb in past",
+            "Change 'I' to 'he'",
+            "Retain the negative contraction",
+            "Adjust any time references if needed"
+          ],
+          "hints": {
+            "tiktok": "Lock in, swap 'I' for 'he' and keep the 'don't' vibe.",
+            "casual": "Just switch the pronoun, keep the negation, lekker!",
+            "jjk": "Channel the cursed energy of denial, shift the subject.",
+            "formal": "Replace first‑person pronoun with third‑person while preserving the negative construction."
+          },
+          "cheers": {
+            "tiktok": "Yooo, that’s correct!",
+            "casual": "Sharp, you got it!",
+            "jjk": "Your cursed report is flawless!",
+            "formal": "The negative statement has been correctly reported."
+          },
+          "grade": 8,
+          "subject": "English",
+          "topic": "Direct and Indirect Speech"
+        },
+        {
+          "subtopic": "Reporting with Modal Verbs",
+          "question": "Change to indirect speech: \"We must finish the project by Friday,\" the team leader announced.",
+          "correct": "The team leader announced they had to finish the project by Friday",
+          "steps": [
+            "Identify modal 'must' and replace with past form 'had to'",
+            "Change 'we' to 'they'",
+            "Keep the deadline phrase unchanged",
+            "Maintain past tense reporting verb"
+          ],
+          "hints": {
+            "tiktok": "No cap, swap 'must' for 'had to' and flip 'we' to 'they'.",
+            "casual": "Just turn 'must' into 'had to' and change the crew pronoun, hey!",
+            "jjk": "Transform the forced will into a past‑bound cursed command.",
+            "formal": "Replace the present modal with its past counterpart and adjust pronouns accordingly."
+          },
+          "cheers": {
+            "tiktok": "Boom, you crushed it!",
+            "casual": "Lekker, that’s spot on!",
+            "jjk": "Your report radiates cursed precision!",
+            "formal": "The modal transformation is accurate."
+          },
+          "grade": 8,
+          "subject": "English",
+          "topic": "Direct and Indirect Speech"
+        }
+      ],
+      "Parts of Speech & Punctuation": []
+    }
+  },
+  "life_orientation": {
+    "8": {
+      "Development of the Self & Self-Concept": [
+        {
+          "subtopic": "Physical development",
+          "question": "At what age does the average South African adolescent experience their peak growth spurt?",
+          "correct": "14",
+          "steps": [
+            "Identify the typical puberty timeline in South Africa",
+            "Locate the age range when rapid height increase occurs",
+            "Conclude the peak growth spurt is around age 14"
+          ],
+          "hints": {
+            "tiktok": "No cap, think about when most teens hit their growth boom, lock in!",
+            "casual": "Kop een blik op wanneer most learners start growing fast, around grade 8.",
+            "jjk": "Channel your cursed energy to sense the age of the strongest growth surge, bro!",
+            "formal": "Refer to developmental health data indicating the peak somatic growth period."
+          },
+          "cheers": {
+            "tiktok": "Yooo, you nailed it!",
+            "casual": "Lekker job, you got it!",
+            "jjk": "Your cursed technique is on point!",
+            "formal": "Well done, answer correct."
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Development of the Self & Self-Concept"
+        },
+        {
+          "subtopic": "Self‑esteem",
+          "question": "Name one factor that positively influences a Grade 8 learner's self‑esteem in school.",
+          "correct": "Praise",
+          "steps": [
+            "Identify sources of positive feedback",
+            "Explain how praise reinforces competence",
+            "Provide an example of teacher praise boosting confidence"
+          ],
+          "hints": {
+            "tiktok": "Lock in, think of what teachers give when you crush a task, no cap!",
+            "casual": "Think about the shout‑outs you get when you ace a test.",
+            "jjk": "When the sorcerer bestows a blessing, the spirit rises – that’s praise.",
+            "formal": "Consider affirmative reinforcement as a catalyst for self‑concept enhancement."
+          },
+          "cheers": {
+            "tiktok": "Bet! You got it!",
+            "casual": "Sharp! That’s spot on.",
+            "jjk": "Your cursed energy resonates with praise!",
+            "formal": "Correct, well‑reasoned response."
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Development of the Self & Self-Concept"
+        },
+        {
+          "subtopic": "Social influences",
+          "question": "What is the term for the group of friends that most influences a learner’s behaviour?",
+          "correct": "Peer group",
+          "steps": [
+            "Define the social circle surrounding a learner",
+            "Distinguish between family and friend influences",
+            "Identify the dominant influence as the peer group"
+          ],
+          "hints": {
+            "tiktok": "No cap, think about the squad that’s always vibing with you!",
+            "casual": "Your mates at school – that’s the crew that shapes you.",
+            "jjk": "The clan of comrades that fuels your cursed actions – the peer group.",
+            "formal": "The primary referent group affecting behavioural norms is the peer group."
+          },
+          "cheers": {
+            "tiktok": "Boom! You got the squad name!",
+            "casual": "Nice one, you’ve got the crew!",
+            "jjk": "Your technique discerns the clan flawlessly!",
+            "formal": "Answer accurate, peer group identified."
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Development of the Self & Self-Concept"
+        },
+        {
+          "subtopic": "Identity formation",
+          "question": "Which South African value, often highlighted in the CAPS, helps shape a learner’s sense of belonging?",
+          "correct": "Ubuntu",
+          "steps": [
+            "Recall the national values integrated in CAPS",
+            "Identify the value linked to community and belonging",
+            "Select Ubuntu as the answer"
+          ],
+          "hints": {
+            "tiktok": "Lock in, think of that ‘we’re all in this together’ vibe, no cap!",
+            "casual": "It’s the ‘I am because we are’ feeling, hey!",
+            "jjk": "Channel the collective cursed energy of the tribe – Ubuntu.",
+            "formal": "The principle of communal humanity, Ubuntu, underpins identity development."
+          },
+          "cheers": {
+            "tiktok": "Yasss, you felt the vibe!",
+            "casual": "Lekker, that’s the spirit of togetherness!",
+            "jjk": "Your cursed spirit embraces Ubuntu!",
+            "formal": "Correct, Ubuntu identified."
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Development of the Self & Self-Concept"
+        },
+        {
+          "subtopic": "Cognitive development",
+          "question": "According to Piaget, which stage are most Grade 8 learners in?",
+          "correct": "Formal operational",
+          "steps": [
+            "Review Piaget’s stages of cognitive development",
+            "Match the typical age range of Grade 8 (13‑14) to a stage",
+            "Conclude they are in the formal operational stage"
+          ],
+          "hints": {
+            "tiktok": "No cap, think about abstract thinking and problem‑solving, lock in!",
+            "casual": "When you start thinking ‘what‑ifs’, you’re in that stage.",
+            "jjk": "Your mind now wields cursed energy of abstract reasoning – formal operational.",
+            "formal": "Piaget designates the abstract reasoning stage as formal operational for early adolescents."
+          },
+          "cheers": {
+            "tiktok": "Boom, you cracked it!",
+            "casual": "Nice, you’re thinking deep!",
+            "jjk": "Your cursed intellect reaches formal operational!",
+            "formal": "Answer correct, formal operational stage confirmed."
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Development of the Self & Self-Concept"
+        }
+      ],
+      "Healthy Lifestyle & Substance Abuse": [
+        {
+          "subtopic": "Nutrition",
+          "question": "What is the recommended daily intake of fruits and vegetables for a Grade 8 learner in South Africa (in servings)?",
+          "correct": "5",
+          "steps": [
+            "Recall the DBE health guideline for learners",
+            "Identify one serving as roughly one cup",
+            "Add up to the total recommended servings"
+          ],
+          "hints": {
+            "tiktok": "Yo bro, think 5 servings, no cap!",
+            "casual": "Mates, aim for five portions a day, like a good biltong split up.",
+            "jjk": "Channel your cursed energy into five fruit servings, lock in!",
+            "formal": "According to the DBE, learners should consume five servings of fruits and vegetables daily."
+          },
+          "cheers": {
+            "tiktok": "You nailed it, fam! 🎉",
+            "casual": "Lekker job, bru!",
+            "jjk": "Your technique is flawless, sorcerer!",
+            "formal": "Well done, answer correct."
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Healthy Lifestyle & Substance Abuse"
+        },
+        {
+          "subtopic": "Physical Activity",
+          "question": "How many minutes of moderate‑to‑vigorous physical activity should a Grade 8 learner aim for each day?",
+          "correct": "60",
+          "steps": [
+            "Recall the DBE recommendation for daily activity",
+            "Define moderate‑to‑vigorous intensity",
+            "State the total minutes per day"
+          ],
+          "hints": {
+            "tiktok": "Lock in 60 mins, no cap, stay active!",
+            "casual": "Hey, think of an hour of sport – that’s the goal.",
+            "jjk": "Summon 60 minutes of cursed energy movement, bro!",
+            "formal": "The DBE advises at least sixty minutes of moderate‑to‑vigorous activity daily."
+          },
+          "cheers": {
+            "tiktok": "Boom! You’re fit AF! 💪",
+            "casual": "Sharp, you’re on point, bru!",
+            "jjk": "Your stamina is legendary, ronin!",
+            "formal": "Correct, well done."
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Healthy Lifestyle & Substance Abuse"
+        },
+        {
+          "subtopic": "Alcohol Abuse",
+          "question": "What is the legal blood‑alcohol concentration (BAC) limit for drivers in South Africa?",
+          "correct": "0.05",
+          "steps": [
+            "Recall South African traffic law limits",
+            "Convert the limit to a decimal form",
+            "Provide the exact figure"
+          ],
+          "hints": {
+            "tiktok": "No cap, keep it under .05, lock in!",
+            "casual": "Don’t go above 0.05, that’s the legal line.",
+            "jjk": "Keep your cursed energy below .05 BAC, bro!",
+            "formal": "The legal driving limit is a BAC of 0.05 percent."
+          },
+          "cheers": {
+            "tiktok": "Safe ride, you got it! 🚗",
+            "casual": "Good on you, stay safe, bru!",
+            "jjk": "Your caution is as sharp as a cursed blade!",
+            "formal": "Correct, you are aware of the regulation."
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Healthy Lifestyle & Substance Abuse"
+        },
+        {
+          "subtopic": "Smoking",
+          "question": "At what age is a person legally allowed to purchase tobacco products in South Africa?",
+          "correct": "18",
+          "steps": [
+            "Identify the Tobacco Products Control Act age limit",
+            "Confirm the age is for purchase, not use",
+            "State the age in years"
+          ],
+          "hints": {
+            "tiktok": "Lock in 18, no cap, that’s the age!",
+            "casual": "You gotta be 18 to buy smokes here, bro.",
+            "jjk": "Only when you hit 18 can you wield that cursed leaf!",
+            "formal": "The legal purchase age for tobacco is eighteen years."
+          },
+          "cheers": {
+            "tiktok": "Facts! You’re on point! 🎯",
+            "casual": "Nice one, bru, you’re sharp!",
+            "jjk": "Your knowledge shines like cursed energy!",
+            "formal": "Correct, well answered."
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Healthy Lifestyle & Substance Abuse"
+        },
+        {
+          "subtopic": "Mental Health & Substance Abuse",
+          "question": "Name one common behavioural sign of substance abuse in teenagers.",
+          "correct": "irritability",
+          "steps": [
+            "Recall typical behavioural changes linked to abuse",
+            "Select a sign that appears frequently",
+            "Provide the single word answer"
+          ],
+          "hints": {
+            "tiktok": "Look for irritability, no cap, that’s a red flag!",
+            "casual": "If they’re short‑tempered, that could be a sign, bru.",
+            "jjk": "Cursed energy can manifest as irritability, lock in!",
+            "formal": "Irritability is a recognized behavioural indicator of substance misuse."
+          },
+          "cheers": {
+            "tiktok": "You got it, bro! 🔥",
+            "casual": "Lekker, you nailed it, bru!",
+            "jjk": "Your insight cuts through like a cursed strike!",
+            "formal": "Correct, answer accepted."
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Healthy Lifestyle & Substance Abuse"
+        }
+      ],
+      "Human Rights & Social Justice in SA": [
+        {
+          "subtopic": "Bill of Rights – Equality",
+          "question": "Which section of the South African Constitution guarantees equality before the law?",
+          "correct": "Section 9",
+          "steps": [
+            "Locate the Constitution document",
+            "Find the Bill of Rights chapter",
+            "Identify the clause on equality"
+          ],
+          "hints": {
+            "tiktok": "Yo bro, lock in on the part that says 'no cap' everyone’s equal!",
+            "casual": "Hey bru, think about the part of the Constitution that talks about equality.",
+            "jjk": "Channel your cursed energy and seek the ronin section that shields all alike.",
+            "formal": "Refer to the Constitution's Bill of Rights; the equality guarantee is enumerated in the relevant section."
+          },
+          "cheers": {
+            "tiktok": "Bet! You nailed it, no cap!",
+            "casual": "Lekker job, you got it!",
+            "jjk": "Your cursed technique is strong—well done!",
+            "formal": "Correct response; well done."
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Human Rights & Social Justice in SA"
+        },
+        {
+          "subtopic": "Children's Rights – Medical Consent",
+          "question": "At what age can a child in South Africa consent to medical treatment without parental approval?",
+          "correct": "12",
+          "steps": [
+            "Review the Children’s Act",
+            "Identify the age threshold for medical consent",
+            "Confirm the specific age number"
+          ],
+          "hints": {
+            "tiktok": "No cap, bro, the magic number’s a dozen!",
+            "casual": "Think about when a kid can make that health choice on their own, bru.",
+            "jjk": "Summon the cursed age where the child becomes a ronin of health decisions.",
+            "formal": "According to the Children’s Act, the statutory age for autonomous medical consent is specified."
+          },
+          "cheers": {
+            "tiktok": "Yo, that’s a solid lock!",
+            "casual": "Sharp, you’re on point!",
+            "jjk": "Your cursed energy hits the mark!",
+            "formal": "Answer correct; commendable."
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Human Rights & Social Justice in SA"
+        },
+        {
+          "subtopic": "Gender-Based Violence – Helpline",
+          "question": "What is the national helpline number for victims of gender-based violence in South Africa?",
+          "correct": "0800 428 428",
+          "steps": [
+            "Search for government support services",
+            "Locate the GBV helpline listing",
+            "Write down the full telephone number"
+          ],
+          "hints": {
+            "tiktok": "Lock in the digits, bro—no cap, it’s all eights!",
+            "casual": "Bru, the number’s all eights, just remember the zeros first.",
+            "jjk": "Channel cursed energy into the digits; the number echoes like a chant.",
+            "formal": "The Department of Social Development provides the GBV helpline; note the complete number."
+          },
+          "cheers": {
+            "tiktok": "You got the digits, no cap!",
+            "casual": "Nice one, you’re sorted!",
+            "jjk": "Your technique reveals the secret code!",
+            "formal": "Correct; acknowledgment noted."
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Human Rights & Social Justice in SA"
+        },
+        {
+          "subtopic": "Land Reform – Restitution",
+          "question": "What term describes the government’s policy to restore land to those dispossessed before 1994?",
+          "correct": "Land restitution",
+          "steps": [
+            "Examine land reform policies",
+            "Identify the specific program addressing pre‑1994 dispossession",
+            "Note the official terminology"
+          ],
+          "hints": {
+            "tiktok": "No cap, bro, it’s the ‘land’ move to give back the vibe!",
+            "casual": "Think about the word that means giving land back, bru.",
+            "jjk": "Summon the cursed phrase that restores the earth to its original ronin owners.",
+            "formal": "The policy is formally termed ‘land restitution’ within the Land Reform framework."
+          },
+          "cheers": {
+            "tiktok": "Locked in, you nailed it!",
+            "casual": "Lekker, that’s spot on!",
+            "jjk": "Your cursed insight restores the truth!",
+            "formal": "Answer accurate; well done."
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Human Rights & Social Justice in SA"
+        },
+        {
+          "subtopic": "Socio‑economic Rights – Housing",
+          "question": "Which constitutional right ensures access to adequate housing in South Africa?",
+          "correct": "Section 26",
+          "steps": [
+            "Review socio‑economic rights in the Constitution",
+            "Find the clause on housing",
+            "Record the section number"
+          ],
+          "hints": {
+            "tiktok": "Lock in the section, bro—no cap, it’s two‑six!",
+            "casual": "Bru, the housing right lives in the 20s, think 26.",
+            "jjk": "The cursed scroll’s 26th line protects shelter for all.",
+            "formal": "The right to adequate housing is enshrined in Section 26 of the Constitution."
+          },
+          "cheers": {
+            "tiktok": "You got it, no cap!",
+            "casual": "Sharp, you’ve got the right number!",
+            "jjk": "Your cursed energy reveals the section!",
+            "formal": "Correct; acknowledgement."
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Human Rights & Social Justice in SA"
+        }
+      ],
+      "Career Choices & Subjects": [
+        {
+          "subtopic": "Identifying personal interests",
+          "question": "List one career that aligns with a passion for helping children learn.",
+          "correct": "Teaching",
+          "steps": [
+            "Identify your love for children",
+            "Consider roles that involve instruction",
+            "Match the passion to the teaching career"
+          ],
+          "hints": {
+            "tiktok": "no cap, if you love kids, lock in teaching bro",
+            "casual": "Think of a job where you can share knowledge with the little ones",
+            "jjk": "Channel your cursed energy into guiding young ronin",
+            "formal": "Select a profession that directly supports child education"
+          },
+          "cheers": {
+            "tiktok": "bet! you nailed it, fam",
+            "casual": "Lekker job, you’re on the right track",
+            "jjk": "Your cursed technique shines!",
+            "formal": "Correct, well done"
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Career Choices & Subjects"
+        },
+        {
+          "subtopic": "Researching career options",
+          "question": "Name a South African industry where a degree in environmental science is valuable.",
+          "correct": "Mining",
+          "steps": [
+            "Identify sectors impacting the environment",
+            "Recall South Africa's major economic activities",
+            "Link environmental science to mining sustainability"
+          ],
+          "hints": {
+            "tiktok": "lock in, think of the gold and platinum mines, bro",
+            "casual": "Look at the big mining sector down the Witwatersrand",
+            "jjk": "Even the cursed sorcerers need clean earth in the mining domain",
+            "formal": "Consider industries where environmental assessments are mandated"
+          },
+          "cheers": {
+            "tiktok": "you slayed that, no cap",
+            "casual": "Sharp! That’s spot on",
+            "jjk": "Your technique is flawless",
+            "formal": "Correct, excellent"
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Career Choices & Subjects"
+        },
+        {
+          "subtopic": "Understanding subject requirements",
+          "question": "Which CAPS subject is compulsory for entry into a nursing programme?",
+          "correct": "Life Orientation",
+          "steps": [
+            "Review university entry criteria",
+            "Identify mandatory subjects for health fields",
+            "Confirm Life Orientation is required"
+          ],
+          "hints": {
+            "tiktok": "no cap, LO is a must for nursing bro",
+            "casual": "Don’t forget LO, it’s a must for nursing",
+            "jjk": "Cursed energy won’t flow without LO in your scroll",
+            "formal": "Life Orientation is listed as a prerequisite"
+          },
+          "cheers": {
+            "tiktok": "bet! you got it",
+            "casual": "Nice one, that’s correct",
+            "jjk": "Your cursed seal is approved",
+            "formal": "Correct answer"
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Career Choices & Subjects"
+        },
+        {
+          "subtopic": "Linking subjects to careers",
+          "question": "What subject would best support a future career as a graphic designer?",
+          "correct": "Visual Arts",
+          "steps": [
+            "Identify the creative skills needed",
+            "Match those skills to a CAPS subject",
+            "Select Visual Arts as the direct link"
+          ],
+          "hints": {
+            "tiktok": "lock in, Visual Arts is the vibe for designers bro",
+            "casual": "Think of the art class where you sketch and design",
+            "jjk": "Summon your cursed brush in Visual Arts",
+            "formal": "Visual Arts provides the foundational design competencies"
+          },
+          "cheers": {
+            "tiktok": "you killed it, no cap",
+            "casual": "Well done, that’s right",
+            "jjk": "Your cursed palette dazzles",
+            "formal": "Correct, well answered"
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Career Choices & Subjects"
+        },
+        {
+          "subtopic": "Decision‑making process",
+          "question": "State one factor you should consider when choosing a subject combination for Grade 9.",
+          "correct": "Career interest",
+          "steps": [
+            "Identify long‑term goals",
+            "Assess which subjects align with those goals",
+            "Choose the combination that supports your interest"
+          ],
+          "hints": {
+            "tiktok": "no cap, think about where you wanna be in 5 years bro",
+            "casual": "What do you see yourself doing later? Let that guide you",
+            "jjk": "Let your future cursed path dictate the subjects",
+            "formal": "Consider future occupational aspirations when selecting subjects"
+          },
+          "cheers": {
+            "tiktok": "bet! you’re on fire",
+            "casual": "Nice, that’s the right thinking",
+            "jjk": "Your future cursed energy is strong",
+            "formal": "Correct, good insight"
+          },
+          "grade": 8,
+          "subject": "Life Orientation",
+          "topic": "Career Choices & Subjects"
+        }
+      ]
+    }
+  }
+}

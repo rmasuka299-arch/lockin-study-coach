@@ -1,0 +1,1610 @@
+{
+  "mathematics": {
+    "subject_name": "Mathematics",
+    "formulas": [
+      {
+        "name": "Area of a triangle",
+        "formula": "½×base×height",
+        "use_when": "to find area of any triangular garden or plot"
+      },
+      {
+        "name": "Circumference of a circle",
+        "formula": "π×diameter",
+        "use_when": "to calculate fence length around a circular field"
+      },
+      {
+        "name": "Slope of a line",
+        "formula": "(y₂−y₁)/(x₂−x₁)",
+        "use_when": "to determine steepness of a road or ramp"
+      },
+      {
+        "name": "Pythagoras theorem",
+        "formula": "a²+b²=c²",
+        "use_when": "to find missing side of a right‑angled triangle, e.g., ladder against a wall"
+      },
+      {
+        "name": "Volume of a rectangular prism",
+        "formula": "length×width×height",
+        "use_when": "to compute capacity of a water tank or brick"
+      },
+      {
+        "name": "Surface area of a cylinder",
+        "formula": "2πr(r+h)",
+        "use_when": "to estimate paint needed for a cylindrical water tank"
+      },
+      {
+        "name": "Simple interest",
+        "formula": "I=P×r×t",
+        "use_when": "to calculate interest on a school savings account"
+      },
+      {
+        "name": "Linear equation (standard form)",
+        "formula": "ax+by=c",
+        "use_when": "to solve real‑world problems like budgeting"
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Integer",
+        "definition": "A whole number, positive, negative or zero; used when counting items like students"
+      },
+      {
+        "term": "Factor",
+        "definition": "A number that divides another without remainder; e.g., 2 and 3 are factors of 6"
+      },
+      {
+        "term": "Coefficient",
+        "definition": "Number multiplying a variable, such as 5 in 5x; shows magnitude in equations"
+      },
+      {
+        "term": "Variable",
+        "definition": "A symbol (usually a letter) that represents an unknown number, like x in algebra"
+      },
+      {
+        "term": "Proportion",
+        "definition": "Equality of two ratios, often used in recipes or scaling maps in South Africa"
+      },
+      {
+        "term": "Angle",
+        "definition": "The space between two intersecting lines, measured in degrees; important for surveying land"
+      },
+      {
+        "term": "Perimeter",
+        "definition": "Total distance around a shape; used to fence a rectangular garden"
+      },
+      {
+        "term": "Probability",
+        "definition": "Likelihood of an event occurring, expressed as a fraction or percent; e.g., chance of rain"
+      },
+      {
+        "term": "Ratio",
+        "definition": "Comparison of two quantities, such as 3:1 for mixing cement and sand"
+      },
+      {
+        "term": "Median"
+      }
+    ],
+    "memory_hooks": [
+      {
+        "concept": "Slope",
+        "hook": "Rise over Run – remember the word 'RUSH' (Rise Up, Stay Horizontal)"
+      },
+      {
+        "concept": "Pythagoras",
+        "hook": "'A squared plus B squared equals C squared' – think of a right‑angled 'ABC' pizza slice"
+      },
+      {
+        "concept": "Area of Triangle",
+        "hook": "'Half Base Height' – imagine cutting a rectangle in half"
+      },
+      {
+        "concept": "Simple Interest",
+        "hook": "'Principal times Rate times Time' – PRiT like a coffee 'pritt'"
+      },
+      {
+        "concept": "Surface Area Cylinder",
+        "hook": "'Two Pi R (R plus H)' – say it like a chant: 'Two pie are, are plus a'"
+      }
+    ]
+  },
+  "natural_sciences": {
+    "subject_name": "Natural Sciences",
+    "formulas": [
+      {
+        "name": "Speed",
+        "formula": "v = d/t",
+        "use_when": "to find how fast an object moves"
+      },
+      {
+        "name": "Density",
+        "formula": "ρ = m/V",
+        "use_when": "to determine compactness of matter"
+      },
+      {
+        "name": "Pressure",
+        "formula": "P = F/A",
+        "use_when": "when a force acts on an area"
+      },
+      {
+        "name": "Work",
+        "formula": "W = F·d",
+        "use_when": "to calculate energy transferred by a force"
+      },
+      {
+        "name": "Power",
+        "formula": "P = W/t",
+        "use_when": "to find rate of doing work"
+      },
+      {
+        "name": "Ohm's Law",
+        "formula": "V = I·R",
+        "use_when": "in simple electrical circuits"
+      },
+      {
+        "name": "Heat Energy",
+        "formula": "Q = m·c·ΔT",
+        "use_when": "to calculate heat gained or lost"
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Cell",
+        "definition": "basic unit of life, e.g., plant cell with cell wall"
+      },
+      {
+        "term": "Ecosystem",
+        "definition": "community of organisms interacting with their environment"
+      },
+      {
+        "term": "Photosynthesis",
+        "definition": "process plants use sunlight to make food"
+      },
+      {
+        "term": "Adaptation",
+        "definition": "trait that helps a species survive in South African habitats"
+      },
+      {
+        "term": "Force",
+        "definition": "push or pull that can change motion"
+      },
+      {
+        "term": "Energy",
+        "definition": "capacity to do work, e.g., solar energy in the Karoo"
+      },
+      {
+        "term": "Density",
+        "definition": "mass per unit volume, important for rock identification"
+      },
+      {
+        "term": "Conductor",
+        "definition": "material that allows electricity to flow, like copper wires"
+      },
+      {
+        "term": "Insulator",
+        "definition": "material that resists electricity, e.g., rubber"
+      },
+      {
+        "term": "Rock Cycle",
+        "definition": "transformation of igneous, sedimentary and metamorphic rocks in South Africa"
+      }
+    ],
+    "memory_hooks": [
+      {
+        "concept": "Speed",
+        "hook": "V=Distance over Time – V for Vehicle"
+      },
+      {
+        "concept": "Density",
+        "hook": "D = Mass over Volume – D like ‘dense’"
+      },
+      {
+        "concept": "Ohm's Law",
+        "hook": "VIR – Very Important Rule"
+      },
+      {
+        "concept": "Heat Energy",
+        "hook": "Q = m·c·ΔT – ‘Q’ sounds like ‘cue’ to heat"
+      },
+      {
+        "concept": "Work",
+        "hook": "W = Force × Distance – W for ‘Wagon’ you push"
+      }
+    ]
+  },
+  "ems": {
+    "subject_name": "Economic & Management Sciences",
+    "formulas": [
+      {
+        "name": "Profit",
+        "formula": "Profit = Revenue - Cost",
+        "use_when": "To determine gain after selling goods"
+      },
+      {
+        "name": "Loss",
+        "formula": "Loss = Cost - Revenue",
+        "use_when": "When expenses exceed sales"
+      },
+      {
+        "name": "Break-even Point (units)",
+        "formula": "BEP = Fixed Costs ÷ (Selling Price per unit - Variable Cost per unit)",
+        "use_when": "To find quantity where profit = 0"
+      },
+      {
+        "name": "Simple Interest",
+        "formula": "SI = Principal × Rate × Time",
+        "use_when": "Calculating interest on loans or savings"
+      },
+      {
+        "name": "Percentage Change",
+        "formula": "% Change = (New Value - Old Value) ÷ Old Value × 100",
+        "use_when": "To compare growth or decline"
+      },
+      {
+        "name": "Contribution Margin",
+        "formula": "CM = Selling Price per unit - Variable Cost per unit",
+        "use_when": "Assessing how much each unit contributes to fixed costs"
+      },
+      {
+        "name": "Budget Surplus/Deficit",
+        "formula": "Balance = Total Income - Total Expenditure",
+        "use_when": "Evaluating household or school budget"
+      },
+      {
+        "name": "Price Elasticity of Demand",
+        "formula": "Ed = (% Change in Quantity Demanded) ÷ (% Change in Price)",
+        "use_when": "Measuring responsiveness of demand"
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Revenue",
+        "definition": "Total money earned from selling goods or services, e.g., school tuck shop sales"
+      },
+      {
+        "term": "Cost",
+        "definition": "Money spent to produce or purchase goods, including fixed and variable costs"
+      },
+      {
+        "term": "Fixed Cost",
+        "definition": "Expenses that do not change with output, like rent of a shop"
+      },
+      {
+        "term": "Variable Cost",
+        "definition": "Costs that vary with production, such as raw materials"
+      },
+      {
+        "term": "Stakeholder",
+        "definition": "Anyone affected by a business, e.g., customers, employees, community"
+      },
+      {
+        "term": "Entrepreneurship",
+        "definition": "Process of creating and managing a new business, common in South African start‑ups"
+      },
+      {
+        "term": "Supply and Demand",
+        "definition": "Relationship that determines price; higher demand with limited supply raises prices"
+      },
+      {
+        "term": "Market",
+        "definition": "Place where buyers and sellers interact, like a township market"
+      },
+      {
+        "term": "Capital",
+        "definition": "Money or assets used to start a business, e.g., a loan from a South African bank"
+      },
+      {
+        "term": "Budget",
+        "definition": "Plan that outlines expected income and expenses over a period"
+      }
+    ],
+    "memory_hooks": [
+      {
+        "concept": "Profit vs Loss",
+        "hook": "R minus C = P, if negative it’s a L"
+      },
+      {
+        "concept": "Break-even",
+        "hook": "Fixed ÷ (Price‑Var) tells you when you’re even"
+      },
+      {
+        "concept": "Simple Interest",
+        "hook": "P × R × T – the three friends that always multiply"
+      },
+      {
+        "concept": "Percentage Change",
+        "hook": "New‑Old over Old, then ×100 – think ‘N‑O over O’"
+      }
+    ]
+  },
+  "social_sciences": {
+    "subject_name": "Social Sciences",
+    "formulas": [
+      {
+        "name": "Population Growth Rate",
+        "formula": "(Births - Deaths + Immigration - Emigration) / Total Population × 1000",
+        "use_when": "Calculating annual change in population"
+      },
+      {
+        "name": "GDP per Capita",
+        "formula": "GDP ÷ Population",
+        "use_when": "Assessing average economic output per person"
+      },
+      {
+        "name": "Dependency Ratio",
+        "formula": "(Population aged 0‑14 + Population aged 65+) ÷ Population aged 15‑64 × 100",
+        "use_when": "Measuring proportion of dependents to working‑age"
+      },
+      {
+        "name": "Human Development Index (simplified)",
+        "formula": "(Life Expectancy Index + Education Index + Income Index) ÷ 3",
+        "use_when": "Comparing overall development levels"
+      },
+      {
+        "name": "Rate of Urbanisation",
+        "formula": "(Urban Population at End - Urban Population at Start) ÷ Total Population × 100",
+        "use_when": "Tracking shift from rural to urban"
+      },
+      {
+        "name": "Cultural Diffusion Types",
+        "formula": "Expansion, Relocation, Hierarchical, Contagious, Stimulus Diffusion",
+        "use_when": "Identifying how cultural traits spread"
+      },
+      {
+        "name": "Land Use Suitability Index",
+        "formula": "(Soil Quality + Climate + Topography + Accessibility) ÷ 4",
+        "use_when": "Evaluating best land use for agriculture or settlement"
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Demography",
+        "definition": "Study of population size, structure and changes in South Africa"
+      },
+      {
+        "term": "Apartheid",
+        "definition": "System of racial segregation enforced in SA from 1948 to 1994"
+      },
+      {
+        "term": "Migrant Labour",
+        "definition": "Workers who move temporarily to work, common in SA mining sector"
+      },
+      {
+        "term": "Urbanisation",
+        "definition": "Growth of cities; e.g., Johannesburg’s expansion"
+      },
+      {
+        "term": "Cultural Diffusion",
+        "definition": "Spread of cultural traits, such as Zulu dance influencing other groups"
+      },
+      {
+        "term": "GDP",
+        "definition": "Gross Domestic Product – total value of goods and services produced in SA"
+      },
+      {
+        "term": "Land Reform",
+        "definition": "Government policy to redistribute land to previously disadvantaged South Africans"
+      },
+      {
+        "term": "Constitution",
+        "definition": "South Africa’s supreme law adopted in 1996"
+      },
+      {
+        "term": "Sustainable Development",
+        "definition": "Development meeting present needs without harming future generations, key in SA water management"
+      },
+      {
+        "term": "Human Rights",
+        "definition": "Basic freedoms guaranteed by the South African Bill of Rights"
+      }
+    ],
+    "memory_hooks": [
+      {
+        "concept": "Population Growth Rate",
+        "hook": "B I I E = Births‑I‑Immigration‑Emigration over total"
+      },
+      {
+        "concept": "GDP per Capita",
+        "hook": "‘GDP ÷ People = How much each person gets’"
+      },
+      {
+        "concept": "Dependency Ratio",
+        "hook": "‘Kids + Seniors over Workers = Dependents per 100 workers’"
+      },
+      {
+        "concept": "Apartheid Years",
+        "hook": "‘48 to 94, think of 1948‑1994, the years SA was split’"
+      },
+      {
+        "concept": "Land Reform",
+        "hook": "‘Reds for Reds, Blacks get back the land’ (R for Redistribution)"
+      },
+      {
+        "concept": "Cultural Diffusion Types",
+        "hook": "‘E R H C S = Expansion, Relocation, Hierarchical, Contagious, Stimulus’"
+      }
+    ]
+  },
+  "technology": {
+    "subject_name": "Technology",
+    "formulas": [
+      {
+        "name": "Area of rectangle",
+        "formula": "A=l×w",
+        "use_when": "calculating surface area of a tabletop"
+      },
+      {
+        "name": "Volume of rectangular prism",
+        "formula": "V=l×w×h",
+        "use_when": "finding material needed for a box"
+      },
+      {
+        "name": "Speed",
+        "formula": "v=d/t",
+        "use_when": "measuring how fast a robot travels"
+      },
+      {
+        "name": "Work",
+        "formula": "W=F×d",
+        "use_when": "calculating work done by a force moving an object"
+      },
+      {
+        "name": "Power",
+        "formula": "P=W/t",
+        "use_when": "determining power of a motor"
+      },
+      {
+        "name": "Efficiency",
+        "formula": "η=(useful output/total input)×100%",
+        "use_when": "evaluating energy conversion of a solar panel"
+      },
+      {
+        "name": "Ohm's Law",
+        "formula": "V=I×R",
+        "use_when": "sizing resistors in a circuit"
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Design process",
+        "definition": "A step‑by‑step method (Define, Research, Plan, Make, Evaluate) used in South African schools to solve tech problems"
+      },
+      {
+        "term": "Prototype",
+        "definition": "A preliminary model built to test ideas before final production"
+      },
+      {
+        "term": "Material",
+        "definition": "Substance used to make a product; common SA examples include wood, steel, and recycled plastic"
+      },
+      {
+        "term": "Conductor",
+        "definition": "A material that allows electricity to flow, e.g., copper wiring in homes"
+      },
+      {
+        "term": "Insulator",
+        "definition": "A material that blocks electricity, such as rubber or plastic sheaths used in SA wiring"
+      },
+      {
+        "term": "Lever",
+        "definition": "A simple machine that amplifies force; examples include a crowbar or a seesaw"
+      },
+      {
+        "term": "Pulley",
+        "definition": "A wheel with a rope that changes direction of force; used in mining lifts in South Africa"
+      },
+      {
+        "term": "Gear",
+        "definition": "Toothed wheel that transfers motion; found on bicycles and farm machinery"
+      },
+      {
+        "term": "Circuit",
+        "definition": "A closed loop through which electric current travels, like a house lighting circuit"
+      }
+    ],
+    "memory_hooks": [
+      {
+        "concept": "Design steps",
+        "hook": "D.R.P.M.E – Define, Research, Plan, Make, Evaluate"
+      },
+      {
+        "concept": "Ohm's Law",
+        "hook": "VIR – Voltage equals Current times Resistance"
+      },
+      {
+        "concept": "Power formula",
+        "hook": "P = W over T – Power is Work divided by Time"
+      },
+      {
+        "concept": "Efficiency",
+        "hook": "E = (Output ÷ Input) × 100 – think ‘E for Excellent results’"
+      },
+      {
+        "concept": "Speed",
+        "hook": "Speed = Distance ÷ Time – ‘S = D/T, just like a road sign’"
+      }
+    ]
+  },
+  "physical_sciences": {
+    "subject_name": "Physical Sciences",
+    "formulas": [
+      {
+        "name": "Speed",
+        "formula": "v = d / t",
+        "use_when": "to find how fast an object moves"
+      },
+      {
+        "name": "Acceleration",
+        "formula": "a = Δv / Δt",
+        "use_when": "when velocity changes over time"
+      },
+      {
+        "name": "Force (Newton's 2nd Law)",
+        "formula": "F = m × a",
+        "use_when": "to calculate force on a mass"
+      },
+      {
+        "name": "Pressure",
+        "formula": "P = F / A",
+        "use_when": "to determine pressure on a surface"
+      },
+      {
+        "name": "Density",
+        "formula": "ρ = m / V",
+        "use_when": "to find how compact a material is"
+      },
+      {
+        "name": "Work",
+        "formula": "W = F × d",
+        "use_when": "when a force moves an object"
+      },
+      {
+        "name": "Energy (Kinetic)",
+        "formula": "KE = ½ m v²",
+        "use_when": "to calculate energy of moving object"
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Velocity",
+        "definition": "Rate of change of displacement; includes speed and direction"
+      },
+      {
+        "term": "Mass",
+        "definition": "Amount of matter in an object; measured in kilograms"
+      },
+      {
+        "term": "Force",
+        "definition": "Push or pull on an object; measured in newtons"
+      },
+      {
+        "term": "Pressure",
+        "definition": "Force per unit area; e.g., tyre pressure in South African cars"
+      },
+      {
+        "term": "Density",
+        "definition": "Mass per unit volume; used to identify minerals in SA mining"
+      },
+      {
+        "term": "Work",
+        "definition": "Energy transferred when a force moves an object"
+      },
+      {
+        "term": "Energy",
+        "definition": "Capacity to do work; kinetic and potential forms taught in Grade 8"
+      },
+      {
+        "term": "Power",
+        "definition": "Rate of doing work; measured in watts"
+      },
+      {
+        "term": "Friction",
+        "definition": "Resistive force opposing motion; important on South African road surfaces"
+      },
+      {
+        "term": "Simple Machine",
+        "definition": "Device that changes direction or magnitude of force, e.g., lever, pulley"
+      }
+    ],
+    "memory_hooks": [
+      {
+        "concept": "Newton's 2nd Law",
+        "hook": "F=MA – ‘F’irst ‘M’ath ‘A’pplication"
+      },
+      {
+        "concept": "Density",
+        "hook": "D = M over V – ‘D’rink ‘M’ilk ‘V’ery fast"
+      },
+      {
+        "concept": "Pressure",
+        "hook": "P = F over A – ‘P’ressure ‘F’orces ‘A’lways"
+      },
+      {
+        "concept": "Kinetic Energy",
+        "hook": "KE = ½ m v² – ‘K’ick ‘E’nergy ‘½’ the mass times speed squared"
+      },
+      {
+        "concept": "Speed vs Velocity",
+        "hook": "Speed is ‘S’imple distance/time, Velocity adds ‘V’ector direction"
+      }
+    ]
+  },
+  "life_sciences": {
+    "subject_name": "Life Sciences",
+    "formulas": [
+      {
+        "name": "Photosynthesis equation",
+        "formula": "6CO2+6H2O+light→C6H12O6+6O2",
+        "use_when": "to show how plants make glucose"
+      },
+      {
+        "name": "Cellular respiration equation",
+        "formula": "C6H12O6+6O2→6CO2+6H2O+ATP",
+        "use_when": "to explain how organisms release energy from glucose"
+      },
+      {
+        "name": "Density",
+        "formula": "ρ=m/V",
+        "use_when": "calculating density of a substance"
+      },
+      {
+        "name": "Speed",
+        "formula": "v=d/t",
+        "use_when": "finding how fast an object moves"
+      },
+      {
+        "name": "Concentration",
+        "formula": "c=m/V",
+        "use_when": "determining solute concentration in a solution"
+      },
+      {
+        "name": "Diffusion rate (simplified)",
+        "formula": "R∝ΔC/d",
+        "use_when": "predicting how fast particles spread"
+      },
+      {
+        "name": "Energy transfer in food chain",
+        "formula": "E_next=E_current×0.10",
+        "use_when": "estimating energy passed to the next trophic level"
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Photosynthesis",
+        "definition": "Process where green plants use sunlight to turn CO₂ and water into glucose and O₂"
+      },
+      {
+        "term": "Cellular respiration",
+        "definition": "Breakdown of glucose with O₂ to release energy (ATP), CO₂ and H₂O"
+      },
+      {
+        "term": "Chlorophyll",
+        "definition": "Green pigment in chloroplasts that captures light energy"
+      },
+      {
+        "term": "Ecosystem",
+        "definition": "Community of organisms plus the physical environment they interact with, e.g., Kruger National Park"
+      },
+      {
+        "term": "Food chain",
+        "definition": "Linear sequence showing who eats whom, starting with producers"
+      },
+      {
+        "term": "Habitat",
+        "definition": "Natural home of a species, such as the fynbos for proteas"
+      },
+      {
+        "term": "Biodiversity",
+        "definition": "Variety of life in an area; high in South Africa’s Cape Floristic Region"
+      },
+      {
+        "term": "Adaptation",
+        "definition": "Trait that helps an organism survive in its environment"
+      },
+      {
+        "term": "Osmosis",
+        "definition": "Movement of water across a semi‑permeable membrane from low to high solute concentration"
+      },
+      {
+        "term": "Gene",
+        "definition": "Unit of heredity that codes for a protein"
+      },
+      {
+        "term": "Allele",
+        "definition": "Different version of a gene, e.g., sickle‑cell allele"
+      },
+      {
+        "term": "Symbiosis",
+        "definition": "Close, long‑term interaction between two species, such as oxpeckers on buffalo"
+      }
+    ],
+    "memory_hooks": [
+      {
+        "concept": "Levels of biological organization",
+        "hook": "MRS G – Molecule, Cell, Tissue, Organ, System, Organism, Population, Community, Ecosystem, Biosphere"
+      },
+      {
+        "concept": "Photosynthesis reactants",
+        "hook": "\"Six CO₂, Six H₂O, Sunlight\" – remember the 6‑6‑light combo"
+      },
+      {
+        "concept": "Respiration products",
+        "hook": "\"Six CO₂, Six H₂O, ATP\" – same numbers, opposite direction"
+      },
+      {
+        "concept": "Energy loss in food chains",
+        "hook": "\"10% rule – only one‑tenth passes on\""
+      },
+      {
+        "concept": "Osmosis direction",
+        "hook": "\"Water moves to the salty side\" – low solute → high solute"
+      }
+    ]
+  },
+  "accounting": {
+    "subject_name": "Accounting",
+    "formulas": [
+      {
+        "name": "Net Profit",
+        "formula": "Revenue - Expenses",
+        "use_when": "To find profit after all costs"
+      },
+      {
+        "name": "Gross Profit",
+        "formula": "Sales - Cost of Goods Sold",
+        "use_when": "To assess profit before operating expenses"
+      },
+      {
+        "name": "Profit Margin %",
+        "formula": "(Net Profit / Revenue) * 100",
+        "use_when": "To express profit as a percentage of sales"
+      },
+      {
+        "name": "Break-even Point (units)",
+        "formula": "Fixed Costs / (Selling Price per unit - Variable Cost per unit)",
+        "use_when": "To determine sales needed to cover all costs"
+      },
+      {
+        "name": "Straight-Line Depreciation",
+        "formula": "(Cost - Residual Value) / Useful Life",
+        "use_when": "To allocate asset cost over its useful life"
+      },
+      {
+        "name": "Simple Interest",
+        "formula": "Principal * Rate * Time",
+        "use_when": "To calculate interest on short-term loans"
+      },
+      {
+        "name": "Cash Flow",
+        "formula": "Cash Inflows - Cash Outflows",
+        "use_when": "To see net cash movement in a period"
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Asset",
+        "definition": "Resource owned by a business (e.g., inventory, equipment) that can generate future economic benefit"
+      },
+      {
+        "term": "Liability",
+        "definition": "Obligation to pay money or provide services (e.g., loans, taxes payable to SARS)"
+      },
+      {
+        "term": "Equity",
+        "definition": "Owner’s residual interest after liabilities; in SA called shareholders’ equity"
+      },
+      {
+        "term": "Revenue",
+        "definition": "Income earned from selling goods or services, recorded in ZAR"
+      },
+      {
+        "term": "Expense",
+        "definition": "Costs incurred to earn revenue, such as rent, salaries, utilities"
+      },
+      {
+        "term": "Depreciation",
+        "definition": "Systematic reduction in value of a tangible asset over its useful life"
+      },
+      {
+        "term": "Cash Flow",
+        "definition": "Movement of cash in and out of a business, crucial for liquidity"
+      },
+      {
+        "term": "Bank Reconciliation",
+        "definition": "Process of matching the company’s cash book with the bank statement"
+      },
+      {
+        "term": "Profit",
+        "definition": "Positive difference between revenue and expenses"
+      },
+      {
+        "term": "Loss",
+        "definition": "Negative difference when expenses exceed revenue"
+      },
+      {
+        "term": "Budget",
+        "definition": "Financial plan estimating income and expenditures for a period"
+      },
+      {
+        "term": "Trial Balance",
+        "definition": "List of all ledger balances to check that debits equal credits"
+      }
+    ],
+    "memory_hooks": [
+      {
+        "concept": "Net Profit",
+        "hook": "PEAR – Profit Equals (Revenue minus) Expenses And Revenue"
+      },
+      {
+        "concept": "Depreciation",
+        "hook": "Cost minus scrap, split by years – that's the depreciation cheers"
+      },
+      {
+        "concept": "Break-even",
+        "hook": "Fixed over (Price minus Variable) = units to stay stable"
+      },
+      {
+        "concept": "Cash Flow",
+        "hook": "In flows, out goes, net shows – cash flow rhymes with ‘go’"
+      }
+    ]
+  },
+  "business_studies": {
+    "subject_name": "Business Studies",
+    "formulas": [
+      {
+        "name": "Profit",
+        "formula": "Profit = Revenue - Total Costs",
+        "use_when": "Calculate net earnings after all expenses"
+      },
+      {
+        "name": "Break-even Point (units)",
+        "formula": "BEP = Fixed Costs ÷ (Selling Price per unit - Variable Cost per unit)",
+        "use_when": "Determine sales volume needed to cover all costs"
+      },
+      {
+        "name": "Contribution Margin per unit",
+        "formula": "CM = Selling Price per unit - Variable Cost per unit",
+        "use_when": "Assess how much each unit contributes to fixed costs and profit"
+      },
+      {
+        "name": "Profit Margin %",
+        "formula": "Profit Margin = (Profit ÷ Revenue) × 100%",
+        "use_when": "Express profit as a percentage of sales"
+      },
+      {
+        "name": "Return on Investment (ROI)",
+        "formula": "ROI = (Net Profit ÷ Investment) × 100%",
+        "use_when": "Evaluate efficiency of an investment"
+      },
+      {
+        "name": "Inventory Turnover Ratio",
+        "formula": "Inventory Turnover = Cost of Goods Sold ÷ Average Inventory",
+        "use_when": "Measure how quickly stock is sold"
+      },
+      {
+        "name": "Working Capital",
+        "formula": "Working Capital = Current Assets - Current Liabilities",
+        "use_when": "Assess short‑term financial health"
+      },
+      {
+        "name": "Economic Order Quantity (EOQ)",
+        "formula": "EOQ = √[(2 × Demand × Ordering Cost) ÷ Holding Cost per unit]",
+        "use_when": "Find optimal order size to minimize total inventory costs"
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Revenue",
+        "definition": "Total income earned from sales of goods or services"
+      },
+      {
+        "term": "Fixed Costs",
+        "definition": "Costs that do not change with output, e.g., rent, salaries"
+      },
+      {
+        "term": "Variable Costs",
+        "definition": "Costs that vary directly with production volume"
+      },
+      {
+        "term": "Break-even Point",
+        "definition": "The level of sales where total revenue equals total costs"
+      },
+      {
+        "term": "Stakeholder",
+        "definition": "Anyone with an interest in the business, such as shareholders, employees, customers"
+      },
+      {
+        "term": "Entrepreneurship",
+        "definition": "The process of creating, organising and managing a new business venture"
+      },
+      {
+        "term": "Marketing Mix",
+        "definition": "The 4 Ps – Product, Price, Place, Promotion – used to meet market needs"
+      },
+      {
+        "term": "Supply Chain",
+        "definition": "Network of organisations involved in producing and delivering a product"
+      },
+      {
+        "term": "Gross Domestic Product (GDP)",
+        "definition": "Total value of all goods and services produced in South Africa in a year"
+      },
+      {
+        "term": "Informal Sector",
+        "definition": "Economic activities not regulated or taxed by the government, common in South Africa"
+      }
+    ],
+    "memory_hooks": [
+      {
+        "concept": "Profit Formula",
+        "hook": "P = R – C, think ‘Profit = Revenue minus Costs’"
+      },
+      {
+        "concept": "Break-even",
+        "hook": "Fixed ÷ (Price‑Var) – ‘Fixed over Price minus Variable’"
+      },
+      {
+        "concept": "ROI",
+        "hook": "R‑O‑I spells ‘Return On Investment’, remember ‘R over I’"
+      },
+      {
+        "concept": "EOQ",
+        "hook": "EOQ is the square‑root of ‘2×D×S ÷ H’, imagine a ‘2‑D‑S‑H’ dance"
+      },
+      {
+        "concept": "4 Ps of Marketing",
+        "hook": "‘Pretty Pink Pies’ – Product, Price, Place, Promotion"
+      }
+    ]
+  },
+  "economics": {
+    "subject_name": "Economics",
+    "formulas": [
+      {
+        "name": "GDP (Expenditure Approach)",
+        "formula": "GDP = C + I + G + (X - M)",
+        "use_when": "To calculate total economic output of South Africa"
+      },
+      {
+        "name": "Unemployment Rate",
+        "formula": "UR = (U / LF) × 100",
+        "use_when": "When measuring the percentage of unemployed people in the labour force"
+      },
+      {
+        "name": "Inflation Rate (CPI)",
+        "formula": "Inflation = [(CPI_t - CPI_{t-1}) / CPI_{t-1}] × 100",
+        "use_when": "To track price level changes, e.g., SA CPI"
+      },
+      {
+        "name": "Price Elasticity of Demand",
+        "formula": "PED = (%ΔQd) / (%ΔP)",
+        "use_when": "Assessing how SA consumers respond to price changes"
+      },
+      {
+        "name": "Profit",
+        "formula": "Profit = TR - TC",
+        "use_when": "When evaluating business performance"
+      },
+      {
+        "name": "Marginal Cost",
+        "formula": "MC = ΔTC / ΔQ",
+        "use_when": "To decide on producing an extra unit in SA firms"
+      },
+      {
+        "name": "Per‑Capita Income",
+        "formula": "PCI = GDP / Population",
+        "use_when": "Comparing living standards across provinces"
+      },
+      {
+        "name": "Fiscal Deficit",
+        "formula": "Deficit = G - T",
+        "use_when": "When government spending exceeds tax revenue in SA"
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Scarcity",
+        "definition": "Limited resources vs unlimited wants; drives choices in SA households"
+      },
+      {
+        "term": "Opportunity Cost",
+        "definition": "Value of the next best alternative foregone, e.g., choosing maize over wheat"
+      },
+      {
+        "term": "Supply",
+        "definition": "Quantity of goods producers are willing to sell at each price; SA farmers supply maize"
+      },
+      {
+        "term": "Demand",
+        "definition": "Quantity consumers are willing to buy at each price; urban SA demand for smartphones"
+      },
+      {
+        "term": "Equilibrium Price",
+        "definition": "Price where quantity supplied equals quantity demanded; e.g., sugar market balance"
+      },
+      {
+        "term": "GDP",
+        "definition": "Gross Domestic Product – total value of all goods/services produced in South Africa"
+      },
+      {
+        "term": "Inflation",
+        "definition": "General rise in price levels; SA CPI measures this"
+      },
+      {
+        "term": "Unemployment",
+        "definition": "People without work but actively seeking jobs; SA unemployment rate is a key indicator"
+      },
+      {
+        "term": "Fiscal Policy",
+        "definition": "Government spending and taxation decisions; SA Treasury uses it to stimulate growth"
+      },
+      {
+        "term": "Monetary Policy",
+        "definition": "Central bank actions on interest rates and money supply; the SARB sets repo rates"
+      }
+    ],
+    "memory_hooks": [
+      {
+        "concept": "GDP Formula",
+        "hook": "CIGX = C + I + G + X‑M, think of a 'CIG' (cigarette) plus 'X‑M' (extra minus)"
+      },
+      "",
+      {
+        "concept": "Unemployment Rate",
+        "hook": "U over LF, then *100 – imagine 100 workers, U are 'unemployed'"
+      },
+      "",
+      {
+        "concept": "Price Elasticity",
+        "hook": "PED = ΔQ / ΔP – 'PED' sounds like 'pedal', push the price pedal and see how quantity moves"
+      },
+      "",
+      {
+        "concept": "Fiscal Deficit",
+        "hook": "Deficit = G‑T, 'G' for Government spend, 'T' for Taxes – if G > T, you owe the treasury"
+      },
+      "",
+      {
+        "concept": "Inflation Rate",
+        "hook": "CPI change ×100 – think of 'CPI' as a 'price index' that 'inflates' each year"
+      }
+    ]
+  },
+  "geography": {
+    "subject_name": "Geography",
+    "formulas": [
+      {
+        "name": "Scale Ratio",
+        "formula": "real distance = map distance × scale factor",
+        "use_when": "Converting map measurements to real‑world distances"
+      },
+      {
+        "name": "Population Density",
+        "formula": "PD = total population / area (people/km²)",
+        "use_when": "Assessing how crowded an area is"
+      },
+      {
+        "name": "Latitude to Kilometres",
+        "formula": "1° latitude ≈ 111 km",
+        "use_when": "Estimating north‑south distances on the globe"
+      },
+      {
+        "name": "Longitude to Kilometres",
+        "formula": "1° longitude ≈ 111 km × cos(latitude)",
+        "use_when": "Estimating east‑west distances at a given latitude"
+      },
+      {
+        "name": "Gradient (Slope)",
+        "formula": "gradient = (vertical rise / horizontal run) × 100%",
+        "use_when": "Calculating steepness of landforms such as roads or rivers"
+      },
+      {
+        "name": "Compass Bearing",
+        "formula": "bearing = atan2(ΔE,ΔN) (in degrees)",
+        "use_when": "Finding direction from one point to another on a map"
+      },
+      {
+        "name": "Local Time from UTC",
+        "formula": "local time = UTC + offset (hours)",
+        "use_when": "Determining time in South African provinces or other regions"
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Latitude",
+        "definition": "Angular distance north or south of the Equator; measured in degrees (SA: Cape Town ≈ -34°)"
+      },
+      {
+        "term": "Longitude",
+        "definition": "Angular distance east or west of the Prime Meridian; measured in degrees (SA: Johannesburg ≈ 28°E)"
+      },
+      {
+        "term": "Scale",
+        "definition": "Ratio showing the relationship between a distance on a map and the actual distance on the ground"
+      },
+      {
+        "term": "Topography",
+        "definition": "The arrangement of natural and artificial physical features of an area, e.g., the Drakensberg mountains"
+      },
+      {
+        "term": "Biome",
+        "definition": "A large ecological area with distinct plant and animal communities; South Africa has savanna, fynbos, and desert biomes"
+      },
+      {
+        "term": "Urbanisation",
+        "definition": "The process by which an increasing proportion of a population lives in cities, such as the growth of Gauteng's metro areas"
+      },
+      {
+        "term": "Rural",
+        "definition": "Areas outside towns and cities, often characterised by farming and low population density"
+      },
+      {
+        "term": "Climate",
+        "definition": "Long‑term patterns of temperature and precipitation; South Africa has Mediterranean, semi‑arid, and subtropical climates"
+      },
+      {
+        "term": "Plateau",
+        "definition": "An elevated flat landform; the Highveld is a major South African plateau"
+      },
+      {
+        "term": "River Basin",
+        "definition": "The land area drained by a river and its tributaries; the Orange River basin covers much of the interior"
+      },
+      {
+        "term": "Map Projection",
+        "definition": "Method of representing the curved surface of the Earth on a flat map; common in SA schools is the Mercator projection"
+      },
+      {
+        "term": "Cartography",
+        "definition": "The science and art of making maps"
+      }
+    ],
+    "memory_hooks": [
+      {
+        "concept": "Scale",
+        "hook": "\"Scale equals the map’s tale; 1 cm = X km, just multiply the trail\""
+      },
+      {
+        "concept": "Population Density",
+        "hook": "\"People per square, divide the total by the area square\""
+      },
+      {
+        "concept": "Latitude km",
+        "hook": "\"Latitude’s 111, like a sunny 11‑7, per degree north‑south\""
+      },
+      {
+        "concept": "Longitude km",
+        "hook": "\"Longitude shrinks with cos, 111 × cos(lat) does the job\""
+      },
+      {
+        "concept": "Gradient",
+        "hook": "\"Rise over run, times a hundred, gives the slope’s percent‑hundred\""
+      },
+      {
+        "concept": "Time Zones",
+        "hook": "\"UTC plus offset, South Africa’s +2, that’s the time clue\""
+      }
+    ]
+  },
+  "history": {
+    "subject_name": "History",
+    "formulas": [
+      {
+        "name": "Chronology Rule",
+        "formula": "Arrange events from earliest to latest",
+        "use_when": "Constructing timelines"
+      },
+      {
+        "name": "Cause and Effect Rule",
+        "formula": "Identify cause(s) and resulting effect(s) for each event",
+        "use_when": "Analyzing historical developments"
+      },
+      {
+        "name": "Continuity and Change Rule",
+        "formula": "Assess what stayed the same and what changed over time",
+        "use_when": "Comparing periods"
+      },
+      {
+        "name": "Perspective Analysis Rule",
+        "formula": "Consider the viewpoint of different groups involved",
+        "use_when": "Evaluating sources"
+      },
+      {
+        "name": "Primary vs Secondary Source Rule",
+        "formula": "Primary source = created at time of event; Secondary = later interpretation",
+        "use_when": "Classifying evidence"
+      },
+      {
+        "name": "Geographic Determinism Rule",
+        "formula": "Link physical geography to settlement patterns",
+        "use_when": "Explaining why societies developed where they did"
+      },
+      {
+        "name": "Economic Motive Rule",
+        "formula": "Economic needs drive migration, trade, and conflict",
+        "use_when": "Studying movements such as the Great Trek or migrant labour"
+      },
+      {
+        "name": "Political Power Rule",
+        "formula": "Power structures shape laws, borders, and conflicts",
+        "use_when": "Examining apartheid, colonialism, or nation‑state formation"
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Apartheid",
+        "definition": "System of institutionalised racial segregation enforced by law in South Africa from 1948 to 1994"
+      },
+      {
+        "term": "Bantustan",
+        "definition": "Nominally independent homelands created for black South Africans under apartheid"
+      },
+      {
+        "term": "Great Trek",
+        "definition": "Mid‑1800s migration of Voortrekkers away from British Cape Colony into interior South Africa"
+      },
+      {
+        "term": "Boer War",
+        "definition": "1899‑1902 conflict between the British Empire and the South African Republic and Orange Free State"
+      },
+      {
+        "term": "Nelson Mandela",
+        "definition": "Anti‑apartheid leader, first black President of South Africa (1994‑1999)"
+      },
+      {
+        "term": "Umkhonto we Sizwe",
+        "definition": "Armed wing of the ANC, formed in 1961 to sabotage apartheid structures"
+      },
+      {
+        "term": "Sharpeville Massacre",
+        "definition": "1960 police shooting of protestors at a anti‑pass law rally, pivotal anti‑apartheid event"
+      },
+      {
+        "term": "Union of South Africa",
+        "definition": "1910 political union of British colonies that became the basis for the modern state"
+      },
+      {
+        "term": "Mfecane",
+        "definition": "Early 19th‑century period of widespread chaos and migration among southern African societies"
+      },
+      {
+        "term": "Voortrekker",
+        "definition": "Dutch‑speaking pioneers who participated in the Great Trek"
+      }
+    ],
+    "memory_hooks": [
+      {
+        "concept": "Apartheid",
+        "hook": "A‑PART‑HEID = A PART of racial HEID (head) ended 1994"
+      },
+      {
+        "concept": "Mfecane",
+        "hook": "M‑FECANE = Massive Fleeing, Chaos, And NElon (leaders) Everywhere"
+      },
+      {
+        "concept": "Boer War",
+        "hook": "B‑OER = British Oppose ER (the Boers) 1899‑1902"
+      },
+      {
+        "concept": "Nelson Mandela",
+        "hook": "N‑ELSON = Never Ever Let South Africa’s Oppression Nix"
+      }
+    ]
+  },
+  "maths_lit": {
+    "subject_name": "Mathematical Literacy",
+    "formulas": [
+      {
+        "name": "Percentage of a quantity",
+        "formula": "(part/whole)×100%",
+        "use_when": "Finding % of a number"
+      },
+      {
+        "name": "Percent change",
+        "formula": "(new‑old)/old×100%",
+        "use_when": "Calculating increase/decrease"
+      },
+      {
+        "name": "Profit or loss %",
+        "formula": "(profit or loss)/cost price×100%",
+        "use_when": "When selling price differs from cost"
+      },
+      {
+        "name": "Simple interest",
+        "formula": "I=P×r×t",
+        "use_when": "Interest on a loan or investment (r in %/100)"
+      },
+      {
+        "name": "Exchange rate conversion",
+        "formula": "Amount in ZAR=foreign amount×rate (ZAR/foreign)",
+        "use_when": "Converting foreign currency to South African Rand"
+      },
+      {
+        "name": "Budget balance",
+        "formula": "Income−expenses=balance",
+        "use_when": "Checking if spending fits income"
+      },
+      {
+        "name": "Average (mean)",
+        "formula": "Σvalues / n",
+        "use_when": "Finding typical value of data set"
+      },
+      {
+        "name": "Linear equation (slope‑intercept)",
+        "formula": "y=mx+b",
+        "use_when": "Graphing straight‑line relationships"
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Percentage",
+        "definition": "A way of expressing a number as part of 100, e.g., 25% of a class of 40 learners is 10"
+      },
+      {
+        "term": "Profit",
+        "definition": "Money earned after subtracting cost price from selling price"
+      },
+      {
+        "term": "Loss",
+        "definition": "Money lost when selling price is below cost price"
+      },
+      {
+        "term": "Interest",
+        "definition": "Cost of borrowing money or earnings on a deposit; banks in SA quote annual interest rates"
+      },
+      {
+        "term": "Exchange rate",
+        "definition": "Rate at which one currency can be exchanged for another, e.g., 1 USD ≈ 19 ZAR"
+      },
+      {
+        "term": "Budget",
+        "definition": "Plan that lists expected income and expenses, used by households and schools"
+      },
+      {
+        "term": "Ratio",
+        "definition": "Comparison of two quantities, written as a:b, such as student‑teacher ratio 30:1"
+      },
+      {
+        "term": "Proportion",
+        "definition": "Equality of two ratios, used to solve scaling problems"
+      },
+      {
+        "term": "Mean",
+        "definition": "Average of a set of numbers, found by adding them and dividing by count"
+      },
+      {
+        "term": "Median",
+        "definition": "Middle value when data are ordered; useful for income data in SA townships"
+      },
+      {
+        "term": "Mode",
+        "definition": "Most frequently occurring value in a data set"
+      },
+      {
+        "term": "Variable",
+        "definition": "Symbol (e.g., x) that represents an unknown number in an equation"
+      }
+    ],
+    "memory_hooks": [
+      {
+        "concept": "Percentage of a quantity",
+        "hook": "“Part over whole, then times a hundred, gives you the percent you wanted.”"
+      },
+      {
+        "concept": "Simple interest",
+        "hook": "“I = P × r × t – just multiply the three, no tricks to see.”"
+      },
+      {
+        "concept": "Profit %",
+        "hook": "“Profit over cost, then ×100, tells you how much you’ve won.”"
+      },
+      {
+        "concept": "Linear equation",
+        "hook": "“y equals mx plus b – slope, then intercept, easy as ABC.”"
+      }
+    ]
+  },
+  "english": {
+    "subject_name": "English",
+    "formulas": [
+      {
+        "name": "Subject‑Verb Agreement",
+        "formula": "Singular subject → singular verb; plural subject → plural verb",
+        "use_when": "When the subject and verb are in the same clause"
+      },
+      {
+        "name": "Punctuation – Comma Use",
+        "formula": "Use commas to separate items in a list, after introductory elements, and before coordinating conjunctions linking independent clauses",
+        "use_when": "When writing complex sentences or lists"
+      },
+      {
+        "name": "Capitalisation Rules",
+        "formula": "Capitalize the first word of a sentence, proper nouns, days, months, and the pronoun ‘I’",
+        "use_when": "In all written English, including SA place names like Pretoria or Cape Town"
+      },
+      {
+        "": {
+          "name": "Direct Speech Punctuation",
+          "formula": "Quote marks around spoken words; comma before opening quote if speech follows a tag, and after closing quote if tag follows",
+          "use_when": "When writing dialogue in narratives"
+        }
+      },
+      {
+        "name": "Spelling – i before e",
+        "formula": "i before e except after c, or when sounding like ‘a’ as in ‘neighbor’",
+        "use_when": "When spelling words like ‘believe’, ‘receive’, ‘height’"
+      },
+      {
+        "name": "Paragraph Structure",
+        "formula": "Topic sentence → supporting sentences → concluding sentence",
+        "use_when": "When composing essays or reports, e.g., a South African environmental report"
+      },
+      {
+        "name": "Narrative Arc",
+        "formula": "Exposition → Rising Action → Climax → Falling Action → Resolution",
+        "use_when": "When planning stories, such as a tale set in the Kruger National Park"
+      },
+      {
+        "name": "Adverb Placement",
+        "formula": "Place adverbs of manner, place, time after the verb or at the end of the clause",
+        "use_when": "When modifying actions, e.g., ‘She sang beautifully.’"
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Simile",
+        "definition": "A comparison using ‘like’ or ‘as’; e.g., ‘as bright as the South African sun’"
+      },
+      {
+        "term": "Metaphor",
+        "definition": "A direct comparison without ‘like’; e.g., ‘the classroom was a beehive’"
+      },
+      {
+        "term": "Alliteration",
+        "definition": "Repetition of initial consonant sounds; often used in poetry and slogans"
+      },
+      {
+        "term": "Personification",
+        "definition": "Giving human traits to non‑human things, such as ‘the wind whispered through the savanna’"
+      },
+      {
+        "term": "Onomatopoeia",
+        "definition": "Words that imitate sounds, like ‘buzz’ or ‘clack’"
+      },
+      {
+        "term": "Theme",
+        "definition": "The central idea or message of a text, e.g., unity in South Africa’s ‘Rainbow Nation’"
+      },
+      {
+        "term": "Plot",
+        "definition": "The sequence of events in a story, from beginning to end"
+      },
+      {
+        "term": "Narrator",
+        "definition": "The voice that tells the story; can be first‑person (I) or third‑person (he/she)"
+      }
+    ],
+    "memory_hooks": [
+      {
+        "concept": "Coordinating Conjunctions",
+        "hook": "FANBOYS – For, And, Nor, But, Or, Yet, So"
+      },
+      {
+        "concept": "i before e Rule",
+        "hook": "‘I before E, except after C, or when sounding like A (as in neighbor)’"
+      },
+      {
+        "concept": "Capital Letters",
+        "hook": "CAP – Country, Person, Place (e.g., Cape Town, Mandela)"
+      },
+      {
+        "concept": "Paragraph Structure",
+        "hook": "TSC – Topic, Support, Conclude"
+      }
+    ]
+  },
+  "life_orientation": {
+    "subject_name": "Life Orientation",
+    "formulas": [
+      {
+        "name": "SMART Goals",
+        "formula": "Specific,Measurable,Achievable,Relevant,Time-bound",
+        "use_when": "When setting personal or academic objectives"
+      },
+      {
+        "name": "5 Cs of Healthy Relationships",
+        "formula": "Communication,Consent,Commitment,Compromise,Respect",
+        "use_when": "Building or assessing friendships and romantic ties"
+      },
+      {
+        "name": "4 Stages of Conflict Resolution",
+        "formula": "Avoid,Accommodate,Compromise,Collaborate",
+        "use_when": "Managing disagreements in class or at home"
+      },
+      {
+        "name": "3 Pillars of Well‑being",
+        "formula": "Physical,Emotional,Social",
+        "use_when": "Evaluating overall health and balance"
+      },
+      {
+        "name": "5 Steps of Decision Making",
+        "formula": "Identify,Gather,Evaluate,Choose,Review",
+        "use_when": "Choosing between alternatives, e.g., after‑school activities"
+      },
+      {
+        "name": "7 Rights of Children (SA Constitution)",
+        "formula": "Survival,Protection,Development,Participation,Education,Health,Identity",
+        "use_when": "Advocating for child rights in community projects"
+      },
+      {
+        "name": "4 Learning Styles",
+        "formula": "Visual,Auditory,Read/Write,Kinesthetic",
+        "use_when": "Choosing study techniques that suit you"
+      }
+    ],
+    "glossary": [
+      {
+        "term": "Empathy",
+        "definition": "Understanding and sharing another's feelings; vital for inclusive classrooms in SA"
+      },
+      {
+        "term": "Resilience",
+        "definition": "Ability to bounce back from setbacks; linked to mental health programmes"
+      },
+      {
+        "term": "Bullying",
+        "definition": "Repeated aggressive behaviour; South African schools address it via anti‑bullying policies"
+      },
+      {
+        "term": "Substance Abuse",
+        "definition": "Misuse of alcohol or drugs; a key topic in LO health education"
+      },
+      {
+        "term": "HIV/AIDS",
+        "definition": "Human Immunodeficiency Virus; education focuses on prevention and stigma reduction in SA"
+      },
+      {
+        "term": "Constitution",
+        "definition": "South Africa's supreme law; includes rights that LO learners explore"
+      },
+      {
+        "term": "Vote",
+        "definition": "Citizen's right to choose leaders; taught in civic education for upcoming elections"
+      },
+      {
+        "term": "Gender Equality",
+        "definition": "Equal rights and opportunities for all genders; central to LO discussions"
+      },
+      {
+        "term": "Peer Pressure",
+        "definition": "Influence from friends to conform; addressed in decision‑making lessons"
+      },
+      {
+        "term": "Life Skills",
+        "definition": "Practical abilities like communication, budgeting and problem‑solving"
+      }
+    ],
+    "memory_hooks": [
+      {
+        "concept": "SMART Goals",
+        "hook": "S‑M‑A‑R‑T = Specific Mice Are Really Tiny"
+      },
+      {
+        "concept": "5 Cs of Healthy Relationships",
+        "hook": "C‑C‑C‑C‑C = Communication, Consent, Commitment, Compromise, Respect"
+      },
+      {
+        "concept": "4 Stages of Conflict",
+        "hook": "A‑A‑C‑C = Avoid, Accommodate, Compromise, Collaborate"
+      },
+      {
+        "concept": "3 Pillars of Well‑being",
+        "hook": "P‑E‑S = Physical, Emotional, Social"
+      },
+      {
+        "concept": "5 Steps Decision Making",
+        "hook": "I‑G‑E‑C‑R = Identify, Gather, Evaluate, Choose, Review"
+      }
+    ]
+  }
+}
