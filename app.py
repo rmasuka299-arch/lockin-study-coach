@@ -25,6 +25,9 @@ import streamlit as st
 import json  # Added to allow python to parse your local files
 from groq import Groq
 
+# --- Groq client configuration setup ---
+
+
 # 1. Load AI-generated notes if the file exists
 try:
     with open("ai_notes.json", "r", encoding="utf-8") as f:
@@ -4581,14 +4584,15 @@ CRITICAL REQUIREMENTS:
 - Use South African context: rands, local places, SA learners, DBE terminology
 - Memos must show how marks are awarded step-by-step
 - Return ONLY the JSON object, no markdown fences"""
-
     response = groq_client.chat.completions.create(
-        model="openai/gpt-oss-120b",
+        model="openai/gpt-oss-120b",  # ⚡ The official active production model string!
         messages=[{"role": "user", "content": prompt}],
-        response_format={"type": "json_object"},
-        temperature=0.8,
+        temperature=0.3
     )
+
     return json.loads(response.choices[0].message.content)
+
+
 def mark_full_paper(paper, user_answers, subject_name, grade, tone):
     """Stream marking feedback for the whole paper."""
 
@@ -5014,7 +5018,7 @@ def login_screen():
                     format_func=lambda x: {
                         "casual": "☕ ZA Casual Lekker",
                         "tiktok": "📱 TikTok Slang",
-                        "jjk": "⚔️ JJK Focus mode",
+                        "jjk": "⚔️ JJK jjk mode",
                         "formal": "🎓 Formal Academic"
                     }[x],
                     horizontal=True
@@ -5229,7 +5233,7 @@ def main():
             format_func=lambda x: {
                 "tiktok": "📱 TikTok Slang",
                 "casual": "ZA Casual Lekker",
-                "jjk": "🎮 Focus mode",   # 👈 renamed so it's not obvious
+                "jjk": "🎮 jjk mode",   # 👈 renamed so it's not obvious
                 "formal": "🦅 Formal Academic",
                 "geass": "🤴 Geass Mode"
             }[x],
@@ -5299,7 +5303,7 @@ def main():
                     code_clean = code_input.strip().lower()
                     if code_clean == SECRET_UNLOCK_CODE.lower():
                         st.session_state["anime_unlocked"] = True
-                        st.success("✅ Focus Mode unlocked!")
+                        st.success("✅ jjk mode unlocked!")
                         st.rerun()
                     elif code_clean == SECRET_UNLOCK_CODE_2.lower():
                         st.session_state["geass_unlocked"] = True
@@ -5309,7 +5313,7 @@ def main():
                         st.error("Invalid code.")
             else:
                 if st.session_state.get("anime_unlocked"):
-                    st.success("🎮 Focus Mode active.")
+                    st.success("🎮 jjk mode active.")
                 if st.session_state.get("geass_unlocked"):
                     st.success("♟️ Zero Mode active.")
                 if st.button("🔒 Lock", use_container_width=True, key="relock_btn"):
@@ -5394,13 +5398,24 @@ def main():
             st.caption("✍️ **Written Textbook Mathematical Notation:**")
             st.latex(q["math_expression"])
 
+               # ==================== OUTSIDE DIAGRAM CHECK ====================
+        # 🌟 CRITICAL BUG FIX: Ensure diff is initialized globally for ALL questions!
+        diff = st.session_state.get("difficulty_level", "Medium")
+
         if q.get("diagram"):
             svg_html = render_diagram_svg(q["diagram"], q.get("diagram_data", {}))
             if svg_html:
                 st.components.v1.html(svg_html, height=400, scrolling=False)
 
-                diff = st.session_state.get("difficulty_level", "Medium")
-
+        # The difficulty rendering logic remains safe here down below
+        if diff == "Easy":
+            # Auto-open hints for Easy mode
+            with st.expander(f"💡 Hint ({tone_mode.capitalize()}) — Auto-opened for Easy mode", expanded=True):
+                st.write(q["hints"].get(tone_mode, q["hints"]["casual"]))
+        elif diff == "Medium":
+            with st.expander(f"💡 Need a Hint? ({tone_mode.capitalize()} Mode)"):
+                st.write(q["hints"].get(tone_mode, q["hints"]["casual"]))
+ 
         if diff == "Easy":
             # Auto-open hints for Easy mode
             with st.expander(f"💡 Hint ({tone_mode.capitalize()}) — Auto-opened for Easy mode", expanded=True):
@@ -5580,14 +5595,20 @@ def main():
         st.caption("💡 **Pro tip:** Every image is a pure SVG generated live by Python. Adjust a slider, hit generate, and watch the math change.")
 
     # ==================== TAB 2: NOTES ====================
+        # ==================== TAB 2: NOTES ====================
+            # ==================== TAB 2: NOTES ====================
+        # ==================== TAB 2: NOTES ====================
+    # ==================== TAB 2: NOTES ====================
+        # ==================== TAB 2: NOTES ====================
     with tab_notes:
         st.subheader("📖 CAPS Study & Revision Notes")
         st.caption("Official CAPS summaries, definitions, formulas, and exam traps.")
+        
         if st.session_state.get("anime_unlocked", False):
             notes_tone_options = [
                 "📱 TikTok Slang Mode (Gen Z)",
                 "☕ ZA Casual Lekker",
-                "🎮 Focus mode",
+                "🎮 jjk mode",
                 "🎓 Formal Academic (DBE Standard)"
             ]
         else:
@@ -5613,63 +5634,80 @@ def main():
             notes_tone_key = "jjk"
         else:
             notes_tone_key = "formal" 
-        if "TikTok" in notes_tone_choice:
-            notes_tone_key = "tiktok"
-        elif "Casual" in notes_tone_choice:
-             notes_tone_key = "casual"
-        elif "Focus" in notes_tone_choice:
-             notes_tone_key = "jjk"
-        else:
-            notes_tone_key = "formal"
 
         notes_subject_id = subject_id
         notes_grade = grade
-                # ============ AI-GENERATED NOTES SECTION ============
-                        # ============ AI-GENERATED NOTES SECTION ============
-        subject_notes_all_tones = AI_GENERATED_NOTES.get(subject_id, {})
+        
+        # 🌟 TOPIC SYNC: Grab the active selection from your sidebar
+        active_sidebar_topic = st.session_state.get("sel_topic", topic)
+        st.info(f"📌 Showing notes for topic: **{active_sidebar_topic}**")
+
+        # Robust string matching verification helper
+        def is_topic_match(title_text, current_topic):
+            title_clean = str(title_text).lower()
+            topic_clean = str(current_topic).lower()
+            if topic_clean in title_clean or title_clean in topic_clean:
+                return True
+            ignore_words = {"of", "and", "the", "in", "with", "a", "or", "&", "geometry", "calculations", "signs", "shapes"}
+            title_words = set([w for w in title_clean.replace("(", " ").replace(")", " ").replace("-", " ").split() if w not in ignore_words])
+            topic_words = set([w for w in topic_clean.replace("(", " ").replace(")", " ").replace("-", " ").split() if w not in ignore_words])
+            return len(title_words.intersection(topic_words)) > 0
+
+        # ============ STEP 1: SCAN LOCAL DATA FILE POOL ============
+        # Dynamic key lookup to catch spaces/underscores safely
+        subject_notes_all_tones = {}
+        for json_key, json_data in AI_GENERATED_NOTES.items():
+            if json_key.lower().replace("_", "").replace(" ", "") == notes_subject_id.lower().replace("_", "").replace(" ", ""):
+                subject_notes_all_tones = json_data
+                break
+        if not subject_notes_all_tones:
+            subject_notes_all_tones = AI_GENERATED_NOTES.get(subject_id, {})
+
         ai_notes = subject_notes_all_tones.get(notes_tone_key, subject_notes_all_tones.get("formal"))
 
-        if ai_notes:
-            st.success("✨ AI-Generated Notes Loaded")
-            st.markdown(f"### 📖 {ai_notes.get('subject_name', subject_id.title())}")
-            st.caption(ai_notes.get("curriculum_overview", ""))
-
-                            # Personalization: Visual learners get chapters auto-expanded
+        ai_chapters_found = False
+        if ai_notes and isinstance(ai_notes, dict) and "chapters" in ai_notes:
             learning_style = user.get("learning_style", "Mixed")
-            auto_expand = "Visual" in learning_style or "Reading" in learning_style
-
+            
             for ch in ai_notes.get("chapters", []):
-                with st.expander(f"📚 {ch.get('title', 'Chapter')}", expanded=auto_expand):
+                ch_title = ch.get('title', '')
+                if is_topic_match(ch_title, active_sidebar_topic):
+                    ai_chapters_found = True
+                    st.success("📦 Loaded from local database file")
+                    st.markdown(f"## 📖 {ch_title}")
                     st.markdown(f"**Summary:** {ch.get('summary', '')}")
 
-                                        # === AUTO-DIAGRAM ===
-                    # Personalization: only show diagrams prominently for Visual/Mixed learners
-                    show_diagrams = "Reading" not in learning_style  # everyone except pure Reading
-
-                    if show_diagrams:
-                        diagram_type = topic_to_diagram(ch.get("title", ""), subject_id)
+                    # === AUTO-DIAGRAM ===
+                    if "Reading" not in learning_style:
+                        diagram_type = topic_to_diagram(ch_title, subject_id)
                         if diagram_type:
                             svg_html = render_diagram_svg(diagram_type, {})
                             if svg_html:
                                 st.components.v1.html(svg_html, height=420, scrolling=False)
-                    # === END DIAGRAM ===
+
                     if ch.get("definitions"):
                         st.markdown("#### 📖 Key Definitions")
                         for item in ch["definitions"]:
                             if isinstance(item, list) and len(item) == 2:
                                 st.markdown(f"- **{item[0]}**: {item[1]}")
+                            elif isinstance(item, str):
+                                st.markdown(f"- {item}")
 
                     if ch.get("formulas"):
                         st.markdown("#### 📐 Formulas")
                         for item in ch["formulas"]:
                             if isinstance(item, list) and len(item) == 3:
                                 st.markdown(f"- **{item[0]}**: `{item[1]}` — {item[2]}")
+                            elif isinstance(item, list) and len(item) == 2:
+                                st.markdown(f"- **{item[0]}**: `{item[1]}`")
+                            elif isinstance(item, str):
+                                st.markdown(f"- {item}")
 
                     if ch.get("worked_example"):
                         ex = ch["worked_example"]
                         st.markdown("#### 💡 Worked Example")
                         st.info(f"**Problem:** {ex.get('problem', '')}")
-                        for step in ex.get("steps", []):
+                        for step in ex.get('steps', []):
                             st.markdown(f"- {step}")
                         st.success(f"**Answer:** {ex.get('answer', '')}")
 
@@ -5685,84 +5723,118 @@ def main():
                             for t in ch["tips"]:
                                 st.markdown(f"- ✨ {t}")
 
-            st.divider()
-        else:
-            st.info("No AI notes for this subject yet. Run `generate_notes.py` to create them.")
-
-        # ============ EXISTING HARDCODED NOTES BELOW ============
-                # ============ EXISTING HARDCODED NOTES BELOW ============
-       
-        # === JJK champion MODE ===
+        # ============ STEP 2: STAGE JJK SPECIAL MODES ============
         if notes_tone_key == "jjk":
             jjk = get_jjk_notes_for_subject(notes_subject_id)
             if jjk and jjk.get("opening"):
-                st.subheader(f"⚔️ {SUBJECTS[notes_subject_id]['icon']} {SUBJECTS[notes_subject_id]['name']} — JJK CURSED NOTES")
-                st.markdown(f"### {jjk['opening']}")
-                st.divider()
-
-                for section in jjk.get("sections", []):
-                    st.markdown(f"### ⚔️ {section['title']}")
-                    st.markdown(section['body'])
-                    st.divider()
-
-                if jjk.get("final_word"):
-                    st.markdown(f"### 📖 {jjk['final_word']}")
-            else:
-                st.info(f"⚔️ JJK notes for {SUBJECTS[notes_subject_id]['name']} are being written. Check back soon, ronin.")
-        # === STANDARD CAPS NOTES ===
-        else:
-            subj_notes = CAPS_STUDY_NOTES.get(notes_subject_id, None)
-            if not subj_notes:
-                st.info(f"No revision notes available for {SUBJECTS[notes_subject_id]['name']} yet.")
-            else:
-                matching_chapters = [
-                    ch for ch in subj_notes.get("chapters", [])
-                    if notes_grade in ch.get("grades", [])
+                matching_jjk_sections = [
+                    sec for sec in jjk.get("sections", [])
+                    if is_topic_match(sec.get('title', ''), active_sidebar_topic)
                 ]
+                if matching_jjk_sections:
+                    st.subheader(f"⚔️ {SUBJECTS[notes_subject_id]['icon']} {SUBJECTS[notes_subject_id]['name']} — JJK CURSED NOTES")
+                    st.markdown(f"### {jjk['opening']}")
+                    st.divider()
+                    for section in matching_jjk_sections:
+                        st.markdown(f"### ⚔️ {section['title']}")
+                        st.markdown(section['body'])
+                        st.divider()
+                    if jjk.get("final_word"):
+                        st.markdown(f"### 📖 {jjk['final_word']}")
+                    ai_chapters_found = True
 
-                if not matching_chapters:
-                    st.warning(f"No notes for Grade {notes_grade}. Available grades:")
-                    for ch in subj_notes.get("chapters", []):
-                        st.markdown(f"- **{ch['title']}** (Grades {', '.join(str(g) for g in ch['grades'])})")
-                else:
-                    for ch in matching_chapters:
-                        with st.expander(f"📚 {ch['title']} (Grades {', '.join(str(g) for g in ch['grades'])})", expanded=True):
-                            tone_data = adapt_chapter_to_tone(ch['title'], ch['summary'], notes_tone_key, subj_notes['subject_name'])
-                            st.markdown(f"### {tone_data['hook']}")
-                            st.caption(tone_data['badge'])
-                            st.markdown(tone_data['summary'])
+        # ============ STEP 3: DYNAMIC REGENERAION FALLBACK BACKUP ============
+        # 🌟 THE LIFESAVER OVERRIDE: If local database files have missing slots, 
+        # it calls the active Groq engine to write perfect layout nodes live!
+                # ============ STEP 3: DYNAMIC REGENERATION FALLBACK BACKUP ============
+        if not ai_chapters_found:
+            st.warning("🔍 Topic summary template not found in local JSON storage.")
+            
+            if groq_client is None:
+                st.error("⚠️ Groq API connection is offline. Cannot generate live backup files.")
+            else:
+                if st.button(f"⚡ Generate Live Study Guide for {active_sidebar_topic}", type="primary", use_container_width=True):
+                    with st.spinner(f"🧠 Scanning active servers for {active_sidebar_topic}..."):
+                        try:
+                            # 🌟 AUTOMATED LIVE MODEL FINDER
+                            # Fetches the list of active models directly from Groq's servers
+                            try:
+                                server_models = [m.id for m in groq_client.models.list()]
+                            except Exception:
+                                server_models = []
+                            
+                            # Order of priority for the best models available
+                                                        # Order of priority for Groq's currently active production endpoints
+                            target_options = [
+                                "openai/gpt-oss-120b",        # ⚡ Groq's flagship high-speed model
+                                "openai/gpt-oss-20b",         # ✅ Fast secondary option
+                                "llama-3.3-70b-versatile",    # ⚙️ Meta production alternative
+                                "qwen/qwen3.8-27b"            # 🛡️ Emergency fallback option
+                            ]
+                            
+                            # Pick the first one that exists on the server, or default cleanly
+                            selected_model = "openai/gpt-oss-120b" 
+                            for model_id in target_options:
+                                if model_id in server_models:
+                                    selected_model = model_id
+                                    break
 
-                            if ch.get("definitions"):
-                                st.markdown("#### 📖 Key Definitions")
-                                for term, defn in ch["definitions"]:
-                                    st.markdown(f"- **{term}**: {defn}")
+                            tone_instructions = {
+                                "formal": "Use clear, structured, formal DBE-style academic vocabulary.",
+                                "casual": "Use natural South African student language (lekker, boet, sharp).",
+                                "tiktok": "Use funny, energetic Gen-Z expressions (fr fr, no cap, sheesh).",
+                                "jjk": "Write like a Special Grade sorcerer expanding a domain.",
+                            }
+                            selected_instruction = tone_instructions.get(notes_tone_key, tone_instructions["formal"])
+                            
+                            prompt = f"""
+                            You are an elite South African CAPS curriculum teacher.
+                            Write complete study notes for:
+                            SUBJECT: {SUBJECTS.get(notes_subject_id, {}).get('name', notes_subject_id)}
+                            GRADE: {notes_grade}
+                            TOPIC: {active_sidebar_topic}
+                            
+                            TONE INSTRUCTION: {selected_instruction}
+                            
+                            Provide clear conceptual summaries, precise definitions, a detailed worked example problem with steps, exam pitfalls to avoid, and revision tips. Format everything beautifully using standard clear Markdown syntax. Do NOT leave blank fill-in lines.
+                            """
+                            
+                                                       # Fire request using our auto-scanned valid model id
+                                                       # Fire request using our auto-scanned valid model id
+                            response = groq_client.chat.completions.create(
+                                model=selected_model,
+                                messages=[{"role": "user", "content": prompt}],
+                                temperature=0.3
+                            )
+                            
+                            # 🌟 THE ABSOLUTE PERMANENT FIX 🌟
+                            # Dynamically tests for standard objects, nested lists, or direct list formatting variants!
+                            if hasattr(response, 'choices') and len(response.choices) > 0:
+                                live_output = response.choices[0].message.content
+                            elif isinstance(response, list) and len(response) > 0:
+                                # Safe item extract: Targets the first message index item in the array list directly!
+                                if hasattr(response[0], 'message'):
+                                    live_output = response[0].message.content
+                                elif isinstance(response[0], dict) and 'message' in response[0]:
+                                    live_output = response[0]['message'].get('content', '')
+                                else:
+                                    live_output = str(response[0])
+                            elif isinstance(response, dict):
+                                if 'choices' in response and len(response['choices']) > 0:
+                                    live_output = response['choices'][0]['message'].get('content', '')
+                                else:
+                                    live_output = response.get('message', {}).get('content', str(response))
+                            else:
+                                live_output = str(response)
+ 
+                            st.markdown("---")
+                            st.success(f"✨ Custom Study Sheet Generated Successfully using {selected_model}!")
+                            st.markdown(live_output)
+                            
+                        except Exception as e:
+                            st.error(f"❌ Live generation failed: {e}")
 
-                            if ch.get("formulas"):
-                                st.markdown("#### 📐 Formulas & Frameworks")
-                                for f_name, f_eq, f_note in ch["formulas"]:
-                                    st.markdown(f"- **{f_name}**: `{f_eq}`")
-
-                            if ch.get("worked_example"):
-                                ex = ch["worked_example"]
-                                st.markdown("#### 💡 Worked Example")
-                                st.info(f"**Problem:** {ex['problem']}")
-                                for step in ex["steps"]:
-                                    st.markdown(f"- {step}")
-                                st.success(f"**Final Answer:** {ex['answer']}")
-
-                            col_p, col_t = st.columns(2)
-                            with col_p:
-                                if ch.get("pitfalls"):
-                                    st.markdown("#### ⚠️ Common Pitfalls")
-                                    for pit in ch["pitfalls"]:
-                                        st.markdown(f"- ❌ {pit}")
-                            with col_t:
-                                if ch.get("tips"):
-                                    st.markdown("#### 🎯 Exam Tips")
-                                    for tip in ch["tips"]:
-                                        st.markdown(f"- ✨ {tip}")
-
-    # ==================== TAB 4: FLASHCARDS ====================
+        # ==================== TAB 4: FLASHCARDS ====================
     with tab_flashcards:
         st.subheader("🃏 High-Yield CAPS Flashcards Deck")
         cards = CAPS_FLASHCARDS.get(subject_id, CAPS_FLASHCARDS["mathematics"])

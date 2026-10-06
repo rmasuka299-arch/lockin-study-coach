@@ -7,11 +7,23 @@ import json
 import time
 from groq import Groq
 
-# 🔑 Paste your Groq API key here
 import os
-from dotenv import load_dotenv
+import json
+from groq import Groq
+from dotenv import load_dotenv  # 🌟 Added to handle local environment configurations securely
+
+# Load the local secret key variables from your hidden .env file
 load_dotenv()
-client = Groq(api_key=os.getenv("GROQ_API_KEY"))
+
+# Extract the key cleanly using python's system library
+api_key = os.environ.get("GROQ_API_KEY")
+
+if not api_key:
+    print("⚠️ GROQ_API_KEY could not be found! Double check your .env file is formatted correctly.")
+    exit()
+
+client = Groq(api_key=api_key)
+
 
 # Subjects to generate notes for (matching your SUBJECTS dictionary keys)
 SUBJECTS_TO_GENERATE = [
